@@ -15,6 +15,11 @@ tells you, with evidence:
   results, sensory specs, casino psychology, law), with 12 red-line tests that flag
   manipulation such as near-misses, losses celebrated as wins or paid randomness.
 - **Fix:** a short, verified list of what's broken (P0/P1 flows, accessibility, speed).
+- **Recommendations in 4 tiers:** Must-do, Good to have, Useful (lower priority), and
+  **Black (informed choice)**: the persuasion top apps use (loss-framed streaks, guilt,
+  leagues, wagers, chance), explained with why some consider it unethical, the risk and how
+  to test it. Recommended only when it serves the user's own goal, is true, easy to turn
+  off and off for children; deceptive or illegal tricks are never recommended.
 
 Every recommendation is a buildable redesign with motion and haptic specs and web/native
 snippets, plus "borrow & adapt" ideas transplanted from other apps.

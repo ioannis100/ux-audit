@@ -18,8 +18,10 @@ needing to**. So this audit leads with:
 It stays **measured** (evidence for every claim: screenshots, timings, recordings),
 **honest** (no compliment sandwiches) and **verified** (an adversarial agent re-checks
 before the user sees anything). Clarity comes before juice (Walter: usable before
-pleasurable). Pull never becomes manipulation: the ethics gate makes dark patterns P1
-however well they convert.
+pleasurable). Deception never passes: the ethics gate makes deceptive or illegal patterns
+P1 however well they convert. Legal-but-contested persuasion (loss-framed streaks, guilt,
+leagues, chance) is not hidden either: it goes in a **Black** tier, explained, for the owner
+to choose (`references/black-ux.md`).
 
 ## Files
 
@@ -36,6 +38,7 @@ however well they convert.
 | `agents/mockup-maker.md` | **Optional.** Interactive before/after mock-ups of the top redesigns in the product's **own identity** (logo, fonts, palette, shapes), on real content, with every live feature kept |
 | `references/benchmark-apps.md` | **The playbook:** 10 laws of pull, motion tokens, rules by moment type, recipes by app type, ethical line |
 | `references/reward.md` | **Reward layer** ("dopamine pass"): what the evidence says about small rewards, the five ingredients, the intensity ladder, web/native specs, and red-line tests R1–R12 borrowed from casino research |
+| `references/black-ux.md` | **Black UX:** the persuasion top apps use (loss framing, guilt, leagues, wagers, chance, social pressure), why each is contested, the 5-point gate for recommending it, and what is never recommended |
 | `references/app-mechanics.md` · `mockup-craft.md` | **Ideation:** mechanics of 22 widely used apps + the transplant method · the mock-up craft bar: execution within the product's identity + a 13-item checklist |
 | `references/*.md` | Standards: usability, visual-design, emotional, motion (incl. the transition audit), accessibility-performance, content-and-forms, landing-pages, engagement-retention |
 | `scripts/extract-design.js` | In-page measurement (type, contrast, spacing, motion timings, targets, forms, fold). Self-check: `scripts/selftest.html` |
@@ -145,11 +148,10 @@ as one-liners.
    user cost (money/data → blocked → accessibility/dark patterns → friction).
 2. **Score** (below).
 3. Write `<audit>/report.md` (format below) and a one-page `<audit>/summary.md`.
-   `summary.md` opens with **Do these first**: 3–5 items across redesigns and fixes,
-   ranked by impact ÷ effort. Then: verdict, scorecard, top redesigns, borrow & adapt
-   top 5, pull plan headline, P0/P1 list. Check `wc -l report.md`: over ~350 lines,
-   move detail into `findings/` before you hand it over. Give the user the verdict and
-   "Do these first" in chat with links.
+   `summary.md` opens with the **Must-dos**, then the other three Recommendation tiers
+   (one line each), verdict, scorecard, pull plan headline, P0/P1 list. Check
+   `wc -l report.md`: over ~350 lines, move detail into `findings/` before you hand it over.
+   Give the user the verdict and the Must-dos in chat with links.
 4. **Mock-ups (only if the user opted in):** group the top redesigns by screen, and
    dispatch `mockup-maker` agents in parallel: one per screen, ≤ 3, with the Phase 2
    prompt plus "Screen: <name>. Build: <IDs>." Each one:
@@ -203,6 +205,19 @@ appendix one-liners (the rest: "see findings/"). A redesign that depends on a fi
    off as it is?". List assumptions and evidence sources.
 2. **Scorecard:** Overall /10, the five experience scores and the health line (all /10),
    deltas vs the last audit; if mock-ups exist, a "projected with mock-ups" column.
+2b. **Recommendations** (the action list, every item linked to its ID below), in 4 tiers:
+   - **Must-do:** P0/P1 fixes and the redesigns with the biggest effect on clarity, feel or
+     retention, ranked by impact ÷ effort.
+   - **Good to have:** the other redesigns, pull mechanisms and top borrow-&-adapt ideas.
+   - **Useful, lower priority:** P2/P3 polish and small motion or copy gains.
+   - **Black (informed choice):** opens by explaining what black UX is and why some consider
+     it unethical, then the persuasion top apps use that passes the gate in `black-ux.md` §2,
+     each with why it works, why it's black, the risk and how to test it; then the relevant
+     "never recommended" list (§4), for awareness.
+
+   Every recommendation states its **confidence**, **expected effect** and **how to test it**.
+   When a mature product deliberately does something the playbook disagrees with, recommend
+   a test, not removal (`black-ux.md` §5).
 
 **Part 1: Feel & pull** (the main course)
 

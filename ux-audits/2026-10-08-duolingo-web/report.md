@@ -38,6 +38,68 @@ quota exceeded).
 
 Heuristic expert scores, not measured usability. First audit of this product: no deltas.
 
+## 2b. Recommendations
+
+*Added 2026-10-09 with the skill's 4-tier format; where it differs from M-03 / M-05 below, this
+section reflects the newer rules (truthful persuasion is tested, not removed).*
+
+**Must-do**
+1. **Accessibility P1s** (focus ring, live region for right/wrong, readable XP and streak, dark-theme
+   button labels in light theme, pinch-zoom, named controls; Part 2). Confidence high (all verified) ·
+   effect: keyboard and screen-reader learners can finish a lesson; removes WCAG AA exposure · test:
+   axe + one VoiceOver/TalkBack session per journey.
+2. **First reward chain 9 taps → 4 beats, skippable, showing the words learned** (M-02). Confidence
+   medium · effect: more day-0 learners reach the path with the peak intact · test: A/B, chain
+   completion and D1 return.
+3. **Day-1 streak: keep the urgency, make it true** ("Practice tomorrow to keep your streak. Your 2
+   Streak Freezes are backup.") (M-03, B-01). Confidence medium · effect: same loss-aversion pull
+   without a false claim · test: A/B vs current copy, D1 return and notification opt-outs.
+
+**Good to have**
+4. Mark the correct card after a mistake (M-01). High · better recall of the missed item · test: review accuracy.
+5. Informational feedback; name the combo and add a short earcon at 5/10 in a row (M-04). Medium · D7 · A/B.
+6. Gems name what they buy, header count rolls (Revolut, 4c #1). Medium · freeze equip rate, D7 · A/B.
+7. Tomorrow card and one profile ask a day at the streak peak (P-01, P-02). Medium · D1 return, profile creation.
+
+**Useful, lower priority**
+8. Lesson entry anchored to the node (M-06); quit X pressed state; per-answer reduced motion (F-EXP-04).
+9. Label /learn tabs and the four top-bar numbers; one styled 404 that links back to learning.
+10. Landing LCP: hero image in the initial HTML, defer reCAPTCHA to the sign-up step (lab only).
+11. Onboarding 11 screens: likely an A/B winner for Duolingo, so test a 6-screen version rather than cut.
+
+**Black (informed choice)**
+
+Black UX is persuasion that works *through* a bias (loss aversion, guilt, social comparison, chance)
+rather than by making the product better. Some designers and regulators consider it unethical
+because the same lever that helps a learner keep a habit can pressure someone into obligation.
+Duolingo uses several of these deliberately. Each item below passes the skill's gate for adults (it
+serves the user's own goal, it's true, there's an easy out, a guardrail metric) and is listed so you
+can choose knowingly (`black-ux.md`).
+
+- **B-01 Loss-framed streak reminder, made accurate.** Duolingo's streak screens and pushes warn that
+  the streak will reset. *Works:* loss aversion; intact streaks raise later engagement (Silverman &
+  Barasch 2023) [PR]. *Black because:* obligation and anxiety, stronger in teens. *Risk:* EU DSA
+  guidelines want streaks off by default for minors. *Gate:* true count and freeze shown in the same
+  message, one reminder a day, quiet hours, off for minors. *Test:* D1 return vs notification disables.
+- **B-02 The sad-owl quit sheet, kept for adults.** *Works:* emotional attachment to Duo; the stated
+  loss is true. *Black because:* guilt on an exit; the decline is visually demoted. *Risk:* confirmshaming
+  guidance (FTC, Brignull), DSA Art. 25. *Gate:* true loss ✓, neutral "END SESSION" ✓, 2-tap exit ✓;
+  equal-height buttons and a neutral owl for minors. *Test:* lesson completion vs session-end ratings.
+- **B-03 Streak wager on web** (exists in Duolingo's apps: +14% D7 [S]). *Works:* precommitment + loss
+  aversion. *Black because:* a bet on your own behaviour. *Gate:* stake in earned gems only, never
+  bought; adults only. *Test:* D7 and wager-loss churn.
+- **B-04 Leagues unlocked and named on phone** ("2 more lessons to join Bronze"). *Works:* social
+  comparison, fear of demotion (+17% learning time [S]). *Black because:* stress for low performers.
+  *Gate:* small cohorts of similar level, opt-out, no public last place. *Test:* lessons/day vs league opt-outs.
+- **B-05 Free path chest with a chance-based reveal.** *Works:* uncertainty drives anticipation
+  (Fiorillo 2003) [PR]. *Black because:* the slot-machine mechanism. *Gate:* free and earned, odds
+  shown, no purchase inside the reveal, no near-miss animation. *Test:* D7 vs time-in-app past the daily goal.
+
+*Never recommended here, for awareness:* a countdown on the Super offer that isn't real (fake
+urgency, illegal under EU Omnibus/FTC rules); selling gems for random rewards (paid randomness,
+gambling in Belgium, banned for minors in Brazil); turning the free heart refill into a paywall push
+mid-lesson for children; guilt copy on cancelling Super (FTC v Amazon).
+
 # Part 1: Feel & pull
 
 ## 3. Make it feel like Duolingo (the app already is the north star)

@@ -134,6 +134,10 @@ win mapping and paywalls. Engagement ideas only count after the ethics gate belo
 
 ## Ethics gate: dark patterns (always flag, P1)
 
+Deceptive or illegal patterns below are findings. Truthful persuasion (loss-framed but
+accurate streaks, leagues, a mascot's voice, free chance rewards) is judged with
+`black-ux.md` §5 and can be recommended in the report's Black tier.
+
 Every pattern below is **P1** when confirmed. **Judgment items are P2**, outside the
 gate:
 - a coercive free tier;

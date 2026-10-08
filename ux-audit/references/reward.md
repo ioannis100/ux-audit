@@ -194,6 +194,9 @@ nothing at stake (a streak "will reset" while a freeze is equipped) is a P2 cont
 night pushes and visible like counts **off by default**; no reward loops for time spent
 (EU DSA Art. 28 guidelines 2025, ICO std 5, NY SAFE for Kids, CA SB 976) [REG].
 
+**Legal-but-contested persuasion** (truthful loss framing, guilt-tinged mascot voice, wagers,
+leagues, free chance rewards) is not a red line: see `black-ux.md` for when to recommend it.
+
 **Reflection test** (stronger than Eyal's self-test): would the user, seeing exactly how
 the mechanic works, still want it? (Allcott et al. 2022: ~31% of social-media use comes
 from self-control problems) [PR].

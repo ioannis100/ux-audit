@@ -155,8 +155,18 @@ Run the verification tests:
 - read the network log;
 - quote the exact copy.
 
-Each confirmed pattern is a **P1 finding** in the standard format, with the honest
-alternative that keeps the pull. Also audit any **paywall, trial, in-app currency** and
+Each confirmed **deceptive or illegal** pattern is a **P1 finding** in the standard format,
+with the honest alternative that keeps the pull. Truthful persuasion the product already uses
+(loss-framed streaks, a mascot's guilt, leagues) is judged with `black-ux.md` §5: not a
+finding when it passes the gate; P2 when inaccurate; a test, not removal, when it looks like a
+deliberate choice of a mature product.
+
+### 5b. Black recommendations
+From `black-ux.md` §3, pick the techniques that would move this product's retention **and**
+pass the §2 gate for its users (the user's own goal, true, easy out, not for the vulnerable,
+guardrail metric). Adapt each to the product (screen, copy, spec) and write it in the §6
+format, plus the §4 "never" items relevant to this product. Leave the list empty rather than
+force one through the gate. Also audit any **paywall, trial, in-app currency** and
 the **timing of asks** (rating, share, referral, upgrade) against `engagement-retention.md`
 → Paywalls and Win mapping.
 
@@ -202,6 +212,9 @@ spec, metric, ethics) · the share-worthy moment.
 ## Borrow & adapt
 Per named app: | mechanic | as-is fits? why | our version (screen, what users see, spec, metric, effort) | don't copy |
 Top 5 ideas (impact × ease), each linked to any M-xx/P-xx it builds on.
+
+## Black recommendations
+The `black-ux.md` §6 block: intro, B-01…, then the relevant "never recommended" lines.
 
 ## Emotional journey
 ## F-EXP-01 [P1] … (ethics-gate findings and any defect you hit, in the contract format)

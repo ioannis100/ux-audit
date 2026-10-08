@@ -1,13 +1,27 @@
 # Duolingo web: summary (calibration run, 2026-10-08)
 
-## Do these first
-1. **Accessibility basics** (P1 × 6, all S–M): visible `:focus-visible` ring; a `role="status"` live
-   region for right/wrong; readable XP and streak; dark-theme button labels (#131f24) in light theme;
-   allow pinch-zoom; name the quit X, back arrow and hearts.
-2. **Cut the first reward chain from 9 taps to 4 beats**, skippable, showing the 6 words learned (M-02).
-3. **Day-1 streak: say "your 2 free Streak Freezes have you covered"** instead of "Watch out!" (M-03).
-4. **Honest quit sheet:** neutral owl, two equal buttons (M-05).
-5. **Gems name what they buy** ("505 = 2 Streak Freezes · Equip") with a rolling header count (Revolut).
+## Recommendations
+**Must-do**
+1. **Accessibility P1s:** `:focus-visible` ring; a `role="status"` live region for right/wrong;
+   readable XP and streak; dark-theme button labels (#131f24) in light theme; allow pinch-zoom; name
+   the quit X, back arrow and hearts.
+2. **First reward chain 9 taps → 4 beats**, skippable, showing the 6 words learned (M-02).
+3. **Day-1 streak: keep the urgency, make it true:** "Practice tomorrow to keep your streak. Your 2
+   Streak Freezes are backup." (M-03 / B-01).
+
+**Good to have:** mark the correct card after a mistake (M-01) · informational feedback and a named,
+sounded combo (M-04) · gems name what they buy with a rolling count · a tomorrow card and one profile
+ask a day.
+
+**Useful, lower priority:** lesson entry anchored to the node · labelled tabs and top-bar numbers ·
+one styled 404 · landing LCP · test a shorter onboarding.
+
+**Black (informed choice):** persuasion that works through loss aversion, guilt, comparison or
+chance; some consider it unethical, Duolingo uses it on purpose. Passing the gate for adults: accurate
+loss-framed streak reminders (B-01), the sad-owl quit sheet kept for adults with equal buttons and a
+neutral owl for minors (B-02), a streak wager in earned gems (B-03), leagues named earlier on phone
+(B-04), a free chance-based path chest with odds shown (B-05). Never: fake countdowns, paid
+randomness, paywall pushes to children, guilt on cancelling. Details: report §2b.
 
 ## Verdict
 In-lesson feel is benchmark-grade (colour 27–29 ms, sound 14–15 ms after CHECK, 0 blank frames in 73
