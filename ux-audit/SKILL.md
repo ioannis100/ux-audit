@@ -1,6 +1,6 @@
 ---
 name: ux-audit
-description: "Multi-agent experience audit that makes an app or website feel like the best products people use every day (Duolingo, Revolut, Apple, Instagram, Clash Royale, Wolt…) and gives users a reason to come back without needing anything. Agents actually drive the product, find where users don't know what to do, judge how every tap, scroll, transition, wait and success feels against named benchmark apps, and deliver buildable redesigns with motion/haptic specs and web/native snippets, a pull plan (habits, rituals, rewards — with an ethics gate against manipulation), plus a short verified list of what's broken (flows, accessibility, speed). Use when someone asks to audit, review, roast or improve the UX/UI of an app, site, flow or screen; says it 'feels off', 'looks generic', 'isn't sticky', 'users don't come back', 'doesn't feel premium'; wants it more delightful, addictive, engaging or 'like Duolingo/Apple/Revolut'; asks about animations, transitions, micro-interactions, onboarding, retention or emotional design; or is preparing a launch. Works on live URLs, local dev servers, simulators, source code and screenshots."
+description: "Multi-agent experience audit that makes an app or website feel like the best products people use every day (Duolingo, Revolut, Apple, Instagram, Clash Royale, Wolt…) and gives users a reason to come back without needing anything. Agents actually drive the product, measure whether every action pays the user back (an evidence-based reward layer: small wins, progress, anticipation — with casino-derived red-line tests), find where users don't know what to do, judge how every tap, scroll, transition, wait and success feels against named benchmark apps, and deliver buildable redesigns with motion/haptic specs and web/native snippets, a pull plan (habits, rituals, rewards — with an ethics gate against manipulation), plus a short verified list of what's broken (flows, accessibility, speed). Use when someone asks to audit, review, roast or improve the UX/UI of an app, site, flow or screen; says it 'feels off', 'looks generic', 'isn't sticky', 'users don't come back', 'doesn't feel premium'; wants it more delightful, addictive, engaging or 'like Duolingo/Apple/Revolut'; asks about animations, transitions, micro-interactions, onboarding, retention or emotional design; or is preparing a launch. Works on live URLs, local dev servers, simulators, source code and screenshots."
 ---
 
 # UX audit: feel, pull, fix
@@ -35,6 +35,7 @@ however well they convert.
 | `agents/verifier.md` | Adversarial re-check |
 | `agents/mockup-maker.md` | **Optional.** Interactive before/after mock-ups of the top redesigns in the product's **own identity** (logo, fonts, palette, shapes), on real content, with every live feature kept |
 | `references/benchmark-apps.md` | **The playbook:** 10 laws of pull, motion tokens, rules by moment type, recipes by app type, ethical line |
+| `references/reward.md` | **Reward layer** ("dopamine pass"): what the evidence says about small rewards, the five ingredients, the intensity ladder, web/native specs, and red-line tests R1–R12 borrowed from casino research |
 | `references/app-mechanics.md` · `mockup-craft.md` | **Ideation:** mechanics of 22 widely used apps + the transplant method · the mock-up craft bar: execution within the product's identity + a 13-item checklist |
 | `references/*.md` | Standards: usability, visual-design, emotional, motion (incl. the transition audit), accessibility-performance, content-and-forms, landing-pages, engagement-retention |
 | `scripts/extract-design.js` | In-page measurement (type, contrast, spacing, motion timings, targets, forms, fold). Self-check: `scripts/selftest.html` |
@@ -174,7 +175,7 @@ Every score is **/10** and names its benchmark and evidence IDs. Anchors:
 | | 0 | 5 | 10 |
 |---|---|---|---|
 | **Clarity** | users stall or misread the main action | understandable after a second look | the next step is obvious at every moment |
-| **Feel** | no feedback, hard cuts, janky | works, generic, motion inconsistent | every key moment acknowledged < 100 ms, source-anchored transitions, springs, calm restraint on frequent actions (Apple/Revolut level) |
+| **Feel** | no feedback, hard cuts, janky | works, generic, motion inconsistent | every key moment acknowledged < 100 ms, each action paid back at its reward tier, source-anchored transitions, springs, calm restraint on frequent actions (Apple/Revolut level) |
 | **Pull** | no reason to return | a reminder exists but nothing is waiting | a real ritual, progress or own-data reason to open with no task (Duolingo/Domino's level) |
 | **Trust** | doubts at money or data steps | basic reassurance | every high-stakes step previews the outcome and confirms calmly |
 | **Craft** | broken or amateur | clean but template | distinctive, systematic, you'd cite it (visual-craft's Direction /15 feeds this) |
@@ -218,6 +219,9 @@ appendix one-liners (the rest: "see findings/"). A redesign that depends on a fi
    mechanics → fits as-is? → our version → don't copy. Then the top 5 ideas, scored
    impact × ease. Invented names are marked as examples. The long version goes in
    `<audit>/borrow-from-apps.md` (format: `app-mechanics.md` §2).
+4d. **Reward layer:** reward density (beats per core-loop run, longest dead stretch),
+   the top 3 missing micro-rewards with specs, and red-line results R1–R12
+   (`reward.md`). Say "effects", never "dopamine hits".
 5. **Clarity map:** every place users don't know what to do, one line each, with
    screenshot paths.
 6. **Pull plan:** hook trace with the missing link; 3–5 mechanisms fitted to the

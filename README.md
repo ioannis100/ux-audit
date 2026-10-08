@@ -9,6 +9,11 @@ tells you, with evidence:
   people love (Duolingo, Revolut, Apple, Instagram, Wolt, Uber Eats, Clash Royale…).
 - **Pull:** what would make people open it again without needing anything, behind an
   ethics gate (habits that serve the user, no dark patterns).
+- **Reward layer ("dopamine pass"):** whether every action pays the user back the way
+  Duolingo or Revolut do: feedback speed, sound and haptics in sync, visible progress, the
+  next reward named, rewards sized to the moment. Built on research (neuroscience, real app
+  results, sensory specs, casino psychology, law), with 12 red-line tests that flag
+  manipulation such as near-misses, losses celebrated as wins or paid randomness.
 - **Fix:** a short, verified list of what's broken (P0/P1 flows, accessibility, speed).
 
 Every recommendation is a buildable redesign with motion and haptic specs and web/native
@@ -75,7 +80,12 @@ recommends; it never changes your code unless you ask.
   (standards and benchmark playbooks), `scripts/` (measurement, motion capture, native
   device helpers, mock-up checks; most have `--selftest`).
 - `research/`: the research the standards are built from (papers, books, teardowns of
-  ~25 apps).
+  ~25 apps, and `research/dopamine/` behind the reward layer).
+- `ux-audits/2026-10-08-duolingo-web/`: a calibration run of the current skill on
+  Duolingo web (guest only): the report, summary, every agent's findings and the verifiers'
+  verdicts. Overall 7.1/10, with measured feedback timings and 6 verified accessibility
+  issues. Screenshots and recordings stayed local, so evidence paths in it point to files
+  not in this repo.
 - `ux-audits/2026-10-08-userinyerface/`: an early, partial test run on
   [userinyerface.com](https://userinyerface.com), a deliberately terrible UI, made with an
   older version of the skill. It shows the evidence trail, not the current report format.

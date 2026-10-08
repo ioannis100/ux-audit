@@ -15,6 +15,9 @@ other metric.
 2. **Semantics** (DOM / accessibility tree): real buttons and links vs clickable divs,
    labels on inputs, alt text, one h1 and a sane heading outline, landmarks, aria-live
    on async updates, accessible names containing the visible label.
+   Before you claim something isn't exposed, read the **full** tree: snapshots filter
+   "uninteresting" nodes (puppeteer `page.accessibility.snapshot({ interestingOnly: false })`, or
+   `read_page` filter `all`); a progress bar once went missing that way.
    Then **walk one core journey through the accessibility tree** (`read_page` filter
    `all` with your tabId / DevTools / Playwright snapshot) as a screen-reader user
    would: findable by headings and landmarks alone, reading order = task order,

@@ -15,7 +15,7 @@ that. You answer four questions, moment by moment, with evidence and exact redes
 moment playbook, app-type recipes, ethical line), `references/motion.md`,
 `references/emotional.md` (ethics gate, peak-end, journey map),
 `references/engagement-retention.md` (hook trace, habit-zone gate, reward moments,
-paywalls), `references/app-mechanics.md` (step 4b). Skim the matching
+paywalls), `references/app-mechanics.md` (step 4b), `references/reward.md` (step 2c). Skim the matching
 `research/teardowns/*.md` file when you need detail on a specific app.
 
 ## Do
@@ -75,6 +75,9 @@ Then fill in the matrix:
 `From → to | trigger | first change | settled | hard cut | blank | anchored to source |
 easing | interruptible | reduced motion | score /10 | benchmark §`
 
+- **Deep states** (several screens in, signed in): record on your live page with
+  `recordOnPage(page, { name, action, out })` exported by `capture-motion.mjs`, instead of a fresh
+  context per capture.
 - **Anchored:** read it from the strip.
 - **Interruptible:** capture `[open, wait 100, close]` as one action.
 - **Score:** against `benchmark-apps.md` §2 (tokens) and the matching §3 moment.
@@ -91,6 +94,20 @@ reduced-motion column from a second recording with the system setting on.
 
 Save the matrix as `<audit>/evidence/<role>/transition-matrix.md` and give its headline
 (hard cuts, blank gaps, worst transition) in the Moment map.
+
+### 2c. Reward pass: does every action pay back?
+Use `references/reward.md`. From the recordings of 2/2b (no new walk needed):
+- Measure with `reward.md` §8 (sound/haptic logger, attribution rule, colour-aware capture).
+- For every **repeated action** in the core loop and every **result moment**, check the
+  five ingredients (§2): acknowledgement time (measured, not guessed), channels in sync,
+  visible progress, the next reward named, an earned surprise. Note the tier it has and
+  the tier it should have (§3), and whether it survives the 100th use.
+- **Reward density:** rewarded beats per core-loop run and the longest dead stretch.
+  Record the benchmark app's run the same way where reachable; otherwise write "not
+  recorded", never a number from memory.
+- **Red-line tests R1–R12** (§7) on every celebration, reveal, points balance, streak and
+  money action. Each is pass / fail / n/a with evidence; a fail goes to step 5.
+- The top 3 missing micro-rewards become M-xx redesigns with the §4 spec.
 
 ### 3. Redesign the 5–10 moments that matter most
 Choose by journey importance × gap size, not by how easy they are. Moments where the user
@@ -175,6 +192,9 @@ Headline: <n hard cuts, n blank gaps, worst 3 transitions>. Full matrix: evidenc
 - Why it works: <mechanism>
 - Never: <the line not to cross>
 
+## Reward layer
+The reward map from step 2c, in the `reward.md` §10 format.
+
 ## Pull plan
 Hook trace · habit-zone verdict · mechanisms P-01..P-05 (screen, mechanism, benchmark,
 spec, metric, ethics) · the share-worthy moment.
@@ -192,6 +212,7 @@ app's timing: say "Duolingo-style; start at X [H]".
 
 **Brutal questions to answer in your summary:**
 - Which moment would a user describe to a friend, if any?
+- Where does the core loop go longest without paying the user back?
 - Where do they not know what to do?
 - What would make them open it tomorrow?
 - Which 3 changes would most change how it feels?

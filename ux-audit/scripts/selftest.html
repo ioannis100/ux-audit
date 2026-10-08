@@ -14,7 +14,13 @@
   .caps { text-transform: uppercase; }
   p.tight { line-height: 1.1; max-width: none; }
   .card { border: 1px solid #ccc; padding: 8px; }   /* one bounded region in the fold */
-  .blue { color: #1a73e8; }                          /* one non-neutral hue in the fold */
+  .blue { color: #1a73e8; }                          /* blue (210) + the green test buttons (90) = two hues in the fold */
+  .layered, .pseudo { position: relative; display: inline-block; width: 160px; height: 40px; border: 0; background: transparent; }
+  .layered .fill { position: absolute; inset: 0; background: #58cc02; }   /* fill on a child layer */
+  .layered .lbl, .pseudo { color: #fff; }                                 /* white on #58cc02 = 2.09:1: must fail */
+  .layered .lbl { position: relative; }
+  .pseudo::before { content: ''; position: absolute; inset: 0; background: #58cc02; z-index: -1; }
+  .pseudo { z-index: 0; }
 </style>
 <div class="card">boxed card <span class="blue">blue text</span></div>
 <div aria-hidden="true" style="border-radius:7px;box-shadow:0 3px 9px #000;font-size:33px">decorative mock-up label</div>
@@ -30,6 +36,8 @@
 <input name="email" type="text">
 <img src="x.png" width="10" height="10">
 <p class="tight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<div class="layered"><span class="fill"></span><span class="lbl">CHECK</span></div>
+<div class="pseudo">CONTINUE</div>
 <pre id="out"></pre>
 <script>
 fetch('extract-design.js').then(r => r.text()).then(src => eval(src)).then(r => {
@@ -38,6 +46,8 @@ fetch('extract-design.js').then(r => r.text()).then(src => eval(src)).then(r => 
   const failEls = r.color.contrastExamples.map(e => e.el);
   ok(failEls.includes('p.lowc'), 'low contrast detected');
   ok(!failEls.includes('p.ok'), 'good contrast not flagged');
+  ok(r.color.contrastExamples.some(e => e.el === 'span.lbl' && e.ratio < 2.2), 'fill on a child layer');
+  ok(r.color.contrastExamples.some(e => e.el === 'div.pseudo' && e.ratio < 2.2), 'fill on ::before');
   ok(r.typography.tinyTextUnder12px.some(t => t.el === 'span.tiny'), 'tiny text');
   ok(r.spacing.offGrid4.some(([v]) => +v === 13), 'off-grid spacing');
   ok(r.motion.over500ms.some(m => m.el === 'div.slow'), 'slow animation');
@@ -51,7 +61,7 @@ fetch('extract-design.js').then(r => r.text()).then(src => eval(src)).then(r => 
   ok(r.semantics.imagesMissingAlt.length === 1, 'missing alt');
   ok(r.typography.paragraphs.outOfRangeLineHeight.some(p => p.el === 'p.tight'), 'tight line-height');
   ok(!r.typography.sizesPx.some(([v]) => +v === 33) && !r.spacing.radii.some(([v]) => v === '7px'), 'decorative excluded from tokens');
-  ok(r.fold && r.fold.distinctTextSizes >= 2 && r.fold.boundedRegions >= 1 && r.fold.distinctHues === 1 && r.fold.hues[0] === 210, 'fold complexity');
+  ok(r.fold && r.fold.distinctTextSizes >= 2 && r.fold.boundedRegions >= 1 && r.fold.distinctHues === 2 && r.fold.hues.join() === '90,210', 'fold complexity');
   document.title = fails.length ? 'FAIL' : 'PASS';
   document.getElementById('out').textContent = (fails.length ? 'FAILED: ' + fails.join(', ') + '\n\n' : 'PASS\n\n') + JSON.stringify(r, null, 2);
 }).catch(e => { document.title = 'FAIL'; document.getElementById('out').textContent = e.stack; });

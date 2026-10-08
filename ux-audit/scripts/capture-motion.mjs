@@ -5,6 +5,8 @@
 //   node <skill>/scripts/capture-motion.mjs <url> "<css selector>"|"js:<code>" [name] [--reduced] [--out dir]
 //   node <skill>/scripts/capture-motion.mjs spec.json          # several captures, see below
 //   node <skill>/scripts/capture-motion.mjs --selftest         # checks the analysis on synthetic frames
+//   import { recordOnPage } from "<skill>/scripts/capture-motion.mjs"  # record on a live page (deep states)
+// Change detection compares colour, not just brightness (a light-green-on-white state counts).
 //
 // spec.json: { "out": "evidence/motion", "viewport": {"width":390,"height":844}, "ua": "...",
 //   "cpu": 1, "alsoReduced": false, "captures": [ { "name": "home-to-menu", "url": "https://…",
@@ -28,6 +30,7 @@
 import { createRequire } from "node:module";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { analyze, selftest, longFrames, filmstripPicks, composeFilmstrip, W, CELL } from "./lib/motion-analysis.mjs";
 
 const IPHONE = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1";
@@ -85,6 +88,15 @@ async function capture(browser, spec, c, reduced, out) {
   for (const s of c.setup || []) await run(page, s);
   const actions = [].concat(c.action);
   const pre = actions[0].click || actions[0].clickText ? await locate(page, actions[0]) : null;
+  const r = await recordActions(page, { name, actions, pre, record: c.record, out, browser, onStop: () => ctx.close(),
+    meta: { url: c.url, action: c.action, reducedMotion: reduced, cpu: spec.cpu || 1 } });
+  return r;
+}
+
+// Record actions on a page that is already where it needs to be. Used by capture() and recordOnPage().
+async function recordActions(page, { name, actions, pre, record, out, browser, meta, onStop = async () => {} }) {
+  const vp = page.viewport() || { width: 390, height: 844 };
+  const cdp = await page.createCDPSession();
   await sleep(400);
   const shots = [];
   cdp.on("Page.screencastFrame", (f) => { shots.push({ t: f.metadata.timestamp * 1000, data: f.data }); cdp.send("Page.screencastFrameAck", { sessionId: f.sessionId }).catch(() => {}); });
@@ -93,28 +105,28 @@ async function capture(browser, spec, c, reduced, out) {
   await page.evaluate(() => { __mo.raf = []; __mo.anims = []; }).catch(() => {});
   const t0 = Date.now();
   for (const [i, s] of actions.entries()) await run(page, s, i === 0 ? pre : null);
-  await sleep(c.record || 2500);
+  await sleep(record || 2500);
   await cdp.send("Page.stopScreencast").catch(() => {});
+  await cdp.detach().catch(() => {});
   const mo = (await page.evaluate(() => window.__mo).catch(() => null)) || { raf: [], anims: [] };
   const finalUrl = page.url();
-  await ctx.close();
+  await onStop();
   if (shots.length < 2) return { name, error: "fewer than 2 screencast frames" };
-
-  // decode on a blank page: canvas → grayscale, downscaled 3x
+  // decode on a blank page: canvas → grayscale + colour, downscaled 3x
   const dec = await browser.newPage();
   const lums = await dec.evaluate(async (urls, W) => {
     window.__imgs = []; const out = [], c = document.createElement("canvas"), x = c.getContext("2d", { willReadFrequently: true });
     for (const u of urls) {
       const img = new Image(); img.src = "data:image/jpeg;base64," + u; await img.decode(); __imgs.push(img);
       const h = Math.round((img.height * W) / img.width); c.width = W; c.height = h; x.drawImage(img, 0, 0, W, h);
-      const d = x.getImageData(0, 0, W, h).data; let s = "";
-      for (let i = 0; i < d.length; i += 4) s += String.fromCharCode((d[i] * 0.299 + d[i + 1] * 0.587 + d[i + 2] * 0.114) | 0);
-      out.push(btoa(s));
+      const d = x.getImageData(0, 0, W, h).data; let s = "", rgb = "";
+      for (let i = 0; i < d.length; i += 4) { s += String.fromCharCode((d[i] * 0.299 + d[i + 1] * 0.587 + d[i + 2] * 0.114) | 0); rgb += String.fromCharCode(d[i], d[i + 1], d[i + 2]); }
+      out.push([btoa(s), btoa(rgb)]);
     }
     return out;
   }, shots.map((s) => s.data), W);
   if (process.env.FRAMES) { const d = path.join(out, `${name}-frames`); fs.mkdirSync(d, { recursive: true }); shots.forEach((s) => fs.writeFileSync(path.join(d, `${String(round(s.t - t0)).padStart(5, "0")}.jpg`), Buffer.from(s.data, "base64"))); }
-  const frames = shots.map((s, i) => ({ t: s.t, lum: new Uint8Array(Buffer.from(lums[i], "base64")) }));
+  const frames = shots.map((s, i) => ({ t: s.t, lum: new Uint8Array(Buffer.from(lums[i][0], "base64")), rgb: new Uint8Array(Buffer.from(lums[i][1], "base64")) }));
   const a = analyze(frames, t0);
 
   const { picks, labels, end } = filmstripPicks(frames, a, t0);
@@ -131,7 +143,7 @@ async function capture(browser, spec, c, reduced, out) {
 
   const { baseIndex, ...rest } = a;
   const result = {
-    name, url: c.url, finalUrl, action: c.action, reducedMotion: reduced, cpu: spec.cpu || 1, framesCaptured: shots.length,
+    name, ...meta, finalUrl, framesCaptured: shots.length,
     ...rest, longFrames: longFrames(mo.raf.filter((t) => t >= t0 && t <= t0 + end)),
     animations: mo.anims.filter((x) => x.at >= t0 - 50).map(({ at, ...x }) => ({ startMs: round(at - t0), ...x })).slice(0, 40),
     filmstrip: `${name}-filmstrip.png`,
@@ -140,29 +152,45 @@ async function capture(browser, spec, c, reduced, out) {
   return result;
 }
 
-// ---------- CLI ----------
-const argv = process.argv.slice(2);
-if (argv[0] === "--selftest") { selftest(); process.exit(0); }
-const flag = (f) => { const i = argv.indexOf(f); return i < 0 ? null : argv.splice(i, f === "--out" ? 2 : 1)[f === "--out" ? 1 : 0]; };
-const outArg = flag("--out"), reducedArg = flag("--reduced") !== null;
-let spec;
-if (argv[0]?.endsWith(".json")) spec = JSON.parse(fs.readFileSync(argv[0], "utf8"));
-else if (argv[1]) {
-  const action = argv[1].startsWith("js:") ? { js: argv[1].slice(3) } : { click: argv[1] };
-  spec = { captures: [{ name: argv[2] || "capture", url: argv[0], action }], alsoReduced: reducedArg };
-} else { console.error("usage: see the header of capture-motion.mjs"); process.exit(1); }
-const out = path.resolve(outArg || spec.out || "motion");
-fs.mkdirSync(out, { recursive: true });
-const puppeteer = createRequire(path.join(process.cwd(), "/"))("puppeteer-core");
-const browser = await puppeteer.launch({ headless: true, executablePath: process.env.CHROME || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-  args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
-const only = process.env.ONLY ? new RegExp(process.env.ONLY) : null;
-for (const c of spec.captures.filter((c) => !only || only.test(c.name))) {
-  for (const reduced of spec.alsoReduced ? [false, true] : [reducedArg]) {
-    try {
-      const r = await capture(browser, spec, c, reduced, out);
-      console.log(r.error ? `${r.name}: ${r.error}` : `${r.name}: first ${r.firstChangeMs}ms · settled ${r.settledMs}ms · hardCut ${r.hardCut}${r.cuts.length ? " @" + r.cuts.map((c) => c.atMs).join(",") : ""} · blank ${r.blankMs}ms · segments ${r.segments.map((s) => `${s.startMs}-${s.endMs}${s.cut ? "CUT" : ""} ${s.easing} ${s.fps ?? "-"}fps`).join(" | ")} · long frames ${r.longFrames.count} · anims ${r.animations.length}`);
-    } catch (e) { console.log(`${c.name}${reduced ? "-reduced" : ""}: FAILED ${e.message}`); }
-  }
+// For deep states (a lesson 9 screens in, a signed-in screen): record on your own live page instead of
+// a fresh context per capture. The page keeps its state; nothing is reloaded.
+//   import { recordOnPage } from "<skill>/scripts/capture-motion.mjs";
+//   const r = await recordOnPage(page, { name: "check-correct", action: { click: "[data-test=player-next]" }, out: "evidence/<role>/motion" });
+export async function recordOnPage(page, { name = "capture", action, record = 2500, out = "motion" }) {
+  fs.mkdirSync(out, { recursive: true });
+  if (!(await page.evaluate(() => !!window.__mo))) await page.evaluate(LOGGER);
+  const actions = [].concat(action);
+  const pre = actions[0].click || actions[0].clickText ? await locate(page, actions[0]) : null;
+  const reducedMotion = await page.evaluate(() => matchMedia("(prefers-reduced-motion: reduce)").matches);
+  return recordActions(page, { name, actions, pre, record, out: path.resolve(out), browser: page.browser(), meta: { url: page.url(), action, reducedMotion, cpu: null } });
 }
-await browser.close();
+
+// ---------- CLI ----------
+const isMain = process.argv[1] && fs.realpathSync(process.argv[1]) === fs.realpathSync(fileURLToPath(import.meta.url));
+if (isMain) {
+  const argv = process.argv.slice(2);
+  if (argv[0] === "--selftest") { selftest(); process.exit(0); }
+  const flag = (f) => { const i = argv.indexOf(f); return i < 0 ? null : argv.splice(i, f === "--out" ? 2 : 1)[f === "--out" ? 1 : 0]; };
+  const outArg = flag("--out"), reducedArg = flag("--reduced") !== null;
+  let spec;
+  if (argv[0]?.endsWith(".json")) spec = JSON.parse(fs.readFileSync(argv[0], "utf8"));
+  else if (argv[1]) {
+    const action = argv[1].startsWith("js:") ? { js: argv[1].slice(3) } : { click: argv[1] };
+    spec = { captures: [{ name: argv[2] || "capture", url: argv[0], action }], alsoReduced: reducedArg };
+  } else { console.error("usage: see the header of capture-motion.mjs"); process.exit(1); }
+  const out = path.resolve(outArg || spec.out || "motion");
+  fs.mkdirSync(out, { recursive: true });
+  const puppeteer = createRequire(path.join(process.cwd(), "/"))("puppeteer-core");
+  const browser = await puppeteer.launch({ headless: true, executablePath: process.env.CHROME || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
+  const only = process.env.ONLY ? new RegExp(process.env.ONLY) : null;
+  for (const c of spec.captures.filter((c) => !only || only.test(c.name))) {
+    for (const reduced of spec.alsoReduced ? [false, true] : [reducedArg]) {
+      try {
+        const r = await capture(browser, spec, c, reduced, out);
+        console.log(r.error ? `${r.name}: ${r.error}` : `${r.name}: first ${r.firstChangeMs}ms · settled ${r.settledMs}ms · hardCut ${r.hardCut}${r.cuts.length ? " @" + r.cuts.map((c) => c.atMs).join(",") : ""} · blank ${r.blankMs}ms · segments ${r.segments.map((s) => `${s.startMs}-${s.endMs}${s.cut ? "CUT" : ""} ${s.easing} ${s.fps ?? "-"}fps`).join(" | ")} · long frames ${r.longFrames.count} · anims ${r.animations.length}`);
+      } catch (e) { console.log(`${c.name}${reduced ? "-reduced" : ""}: FAILED ${e.message}`); }
+    }
+  }
+  await browser.close();
+}

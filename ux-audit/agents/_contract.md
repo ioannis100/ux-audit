@@ -54,6 +54,7 @@ simulator or emulator, or a real-mobile pass, also read `agents/_contract-native
   const ctx = await browser.createBrowserContext();   // fresh storage = true first visit
   const page = await ctx.newPage();
   await page.setViewport({ width: 390, height: 844, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
+  await page.emulateMediaFeatures([{ name: "prefers-color-scheme", value: "light" }]); // never inherit the Mac's theme
   await page.goto(url, { waitUntil: "load", timeout: 25000 }).catch(() => {}); // some sites never go network-idle
   await new Promise((r) => setTimeout(r, 2500));
   ```
@@ -65,6 +66,11 @@ simulator or emulator, or a real-mobile pass, also read `agents/_contract-native
   timers run for real. Use a fresh context per scenario; `page.evaluate(src)` runs
   `extract-design.js` there too. Confirm a finding observed in the built-in tab here
   before rating it above P3 if it depends on motion or scroll.
+- **Theme:** headless Chrome and the built-in browser inherit the machine's light/dark setting, so a
+  product that follows the system theme silently renders dark on a dark-mode Mac. Force the theme
+  before the first navigation (snippet above; built-in browser: `resize_window` with `colorScheme`),
+  audit **light first** (what most people see), check dark separately when the product has one, and
+  name the theme next to every screenshot and contrast number.
 - **The Browser pane can be hidden by the user mid-run**; built-in screenshots then
   fail ("not compositing frames"). Take the screenshots you need early, fall back to
   `read_page` / `javascript_tool` for facts, and to `page.screenshot()` in visible

@@ -17,11 +17,15 @@ to *disprove* each finding you're given, not to agree with it.
      target. ~1:1 "contrast" is usually hidden or animating text. A slow response on a
      cold dev server isn't a production problem.)
    - Is it reproducible a second time?
+   - "Not exposed / not announced": check the full accessibility tree (`interestingOnly: false`).
+   - Timings: was the change detected by colour, not brightness alone? Was a sound credited to the
+     action that caused it (`reward.md` §8)? Which theme was the screen in?
    - Is the severity honest — would a real user pay that cost, that often?
    - Is it actually a duplicate of another finding (same root cause)?
    - Is the fix correct, specific, and not worse than the problem?
    - Dark-pattern findings: run the tests in `emotional.md` → Ethics gate (reload the
-     countdown, open a second session, read the network log). No test run = UNCERTAIN.
+     countdown, open a second session, read the network log). No test run = UNCERTAIN. Reward red lines: re-run
+     the matching R-test in `reward.md` §7.
    - **Redesigned moments (`M-xx`)**: verify only the **"Now"** claim, i.e. the timings,
      hard cut, missing feedback or clarity gap. The redesign is a recommendation; don't
      judge taste. Only reject it if the "Never" line or an ethics check is violated by

@@ -156,7 +156,8 @@ If not, it's manipulation. Flag any of these (Brignull / deceptive.design, FTC, 
 - **Cookie walls** without an equally prominent "Reject all".
 - **Currency obfuscation ("anti-calculator")** — variable per-item coin prices, awkward
   bundle ratios, no running spend total, prices rising the deeper you go.
-- **Obligation and shame mechanics** — streaks with no pause or exit, banked progress
+- **Obligation and shame mechanics** (an emotional appeal on an exit is P2 when the stated loss is
+  true, the decline is neutral and leaving takes ≤ 2 taps; see `reward.md` §7) — streaks with no pause or exit, banked progress
   destroyed on a missed day ("visually disappointing" loss), guilt pushes, red-number
   shaming, public status that makes quitting a public admission.
 - **Hidden outcome manipulation** — rigging results (e.g. keeping users near a 50% win
@@ -173,6 +174,10 @@ If not, it's manipulation. Flag any of these (Brignull / deceptive.design, FTC, 
 - **Pressured selling** — pricier option preselected or pushed on the path.
 - **Fake progress** — endowed progress or progress bars not backed by real completed
   steps. Loss-framed dismiss copy ("I'll risk it") is confirmshaming.
+
+- **Reward manipulation** — near-misses, losses celebrated as wins, celebrating
+  spending, paid randomness, removed stopping cues, credits hiding money, speed-ups on
+  money: run the R1–R12 tests in `reward.md` §7.
 
 **Verify, don't assume**: reload — does the countdown reset? Compare two sessions — do
 stock and viewer counts change honestly? Check the network log for urgency/social-proof

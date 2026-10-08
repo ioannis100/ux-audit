@@ -180,6 +180,7 @@ Each rule: **do** · like · because · spec · web / native · never.
   focus). **Like:** Instagram's early upload. **Never:** charge before the explicit commit.
 
 ### 3.10 Success
+Reward sizing, specs and red-line tests for every moment below: `reward.md`.
 - **Money or transaction success:** a calm checkmark drawn over ~300–400 ms [H] with a
   success haptic at the end of the stroke, the order number, ETA and the first stage
   already ticked (endowed progress). **Like:** Apple Pay, Domino's "placed". **Web:** SVG

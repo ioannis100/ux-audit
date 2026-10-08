@@ -128,6 +128,8 @@ the owner explicitly asked for in Phase 0. It never applies to the default mock-
 - **Animate transform, opacity, clip-path, filter and shadow**, not width, height or top.
   Interruptible and never blocking: people can act mid-animation [IMP animate; AD motion
   "let people cancel motion"].
+- **Reward beats** follow the tier ladder and specs in `reward.md` §3–4: routine actions
+  tier 0–1, earned steps tier 2, completion tier 3, money calm.
 - **Reduced motion** means fewer, gentler movements, not none. Swap spatial movement for a
   crossfade and keep state changes legible [IMP animate; AD motion "make motion optional"].
 

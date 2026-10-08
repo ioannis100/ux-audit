@@ -2,8 +2,8 @@
 // Playwright: `await page.evaluate(fs.readFileSync(path, 'utf8'))`.
 // Evaluates to a Promise of a JSON report of measured design facts for the
 // current page at the current viewport. Run once per key screen and viewport.
-// ponytail: contrast walks ancestor background-color only — text over images or
-// gradients is reported as `unknownBg`, verify those visually.
+// ponytail: contrast reads the solid colours painted under the text (hit-test stack, ::before
+// fills, ancestors) — text over images or gradients is reported as `unknownBg`, verify those visually.
 (async () => {
   const MAX = 6; // examples kept per finding
   if (!innerWidth || !innerHeight) return { error: 'Viewport is 0x0 (hidden tab or headless without size). Set a viewport, reload, rerun.' };
@@ -43,8 +43,33 @@
     const [x, y] = [lum(a), lum(b)].sort((m, n) => n - m);
     return (x + 0.05) / (y + 0.05);
   };
+  // What is painted under the text: walk the hit-test stack at the text's centre (catches fills on
+  // a child or sibling layer and on ::before), else fall back to the ancestor chain (off-screen text).
+  const pseudoFill = (n) => {
+    const p = getComputedStyle(n, '::before');
+    if (p.content === 'none' || p.backgroundImage !== 'none') return null;
+    const c = parse(p.backgroundColor), b = n.getBoundingClientRect();
+    return c && c.a > 0 && parseFloat(p.width) >= 0.8 * b.width && parseFloat(p.height) >= 0.8 * b.height ? c : null;
+  };
+  const stackOf = (el) => {
+    const b = el.getBoundingClientRect(), x = b.left + b.width / 2, y = b.top + b.height / 2;
+    if (!b.width || x < 0 || y < 0 || x >= innerWidth || y >= innerHeight) return null;
+    const st = document.elementsFromPoint(x, y), i = st.indexOf(el);
+    return i < 0 ? null : st.slice(i);
+  };
   const bgOf = (el) => {
-    const layers = [];
+    const layers = [], stack = stackOf(el);
+    if (stack) {
+      for (const n of stack) {
+        const s = getComputedStyle(n);
+        if (s.backgroundImage !== 'none') return null; // image/gradient: unknown
+        for (const c of [pseudoFill(n), parse(s.backgroundColor)]) if (c && c.a > 0) { layers.push(c); if (c.a >= 1) break; }
+        if (layers.at(-1)?.a >= 1) break;
+      }
+      let base = { r: 255, g: 255, b: 255, a: 1 };
+      for (const l of layers.reverse()) base = blend(l, base);
+      return base;
+    }
     for (let n = el; n; n = n.parentElement) {
       const s = getComputedStyle(n);
       if (s.backgroundImage !== 'none') return null; // image/gradient: unknown

@@ -65,7 +65,7 @@ export async function analyzeVideo(video, { name = path.basename(video).replace(
   const imgs = ppms(p1.out);
   if (imgs.length !== times.length) throw new Error(`frame/timestamp mismatch: ${imgs.length} frames, ${times.length} timestamps`);
   if (imgs.length < 2) throw new Error("fewer than 2 frames in the window");
-  const frames = imgs.map((im, i) => ({ t: times[i], lum: lumOf(im.rgb) }));
+  const frames = imgs.map((im, i) => ({ t: times[i], lum: lumOf(im.rgb), rgb: im.rgb }));
   const sourceFps = +(/Stream #\d+:\d+.*Video:.*?([\d.]+) fps/.exec(p1.err)?.[1] ?? NaN) || null;
 
   const t0s = marks.length ? marks.map((s) => s * 1000) : [frames[0].t];
