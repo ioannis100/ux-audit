@@ -1,0 +1,377 @@
+{
+  "page": {
+    "url": "https://userinyerface.com/game.html",
+    "title": "User Inyerface - A worst-practice UI experiment",
+    "viewport": "1440x900",
+    "horizontalOverflow": false,
+    "colorScheme": "dark"
+  },
+  "typography": {
+    "families": [
+      [
+        "sans-serif",
+        22
+      ]
+    ],
+    "sizesPx": [
+      [
+        "13",
+        6
+      ],
+      [
+        "14.4",
+        6
+      ],
+      [
+        "14",
+        2
+      ],
+      [
+        "16",
+        2
+      ],
+      [
+        "32",
+        2
+      ],
+      [
+        "18",
+        1
+      ],
+      [
+        "24",
+        1
+      ],
+      [
+        "12.8",
+        1
+      ],
+      [
+        "11.2",
+        1
+      ]
+    ],
+    "distinctSizes": 9,
+    "weights": [
+      [
+        "400",
+        17
+      ],
+      [
+        "700",
+        5
+      ]
+    ],
+    "distinctTextColors": 4,
+    "tinyTextUnder12px": [
+      {
+        "el": "span.discrete",
+        "size": 11.2,
+        "text": "to bottom"
+      }
+    ],
+    "paragraphs": {
+      "sampled": 0,
+      "lineHeights": [],
+      "charsPerLine": {
+        "min": null,
+        "max": null,
+        "samples": []
+      },
+      "outOfRangeLineHeight": []
+    },
+    "uppercaseWithoutTracking": [],
+    "fontsLoaded": [
+      "icomoon 400"
+    ],
+    "fontDisplay": [
+      [
+        "auto(block)",
+        1
+      ]
+    ]
+  },
+  "color": {
+    "contrastChecked": 22,
+    "contrastFailures": 11,
+    "contrastExamples": [
+      {
+        "el": "a.button--secondary",
+        "ratio": 1.94,
+        "need": 4.5,
+        "size": 14.4,
+        "color": "rgb(181, 187, 192)",
+        "bg": "rgb(255, 255, 255)",
+        "text": "Next"
+      },
+      {
+        "el": "a.button--secondary.u-right",
+        "ratio": 1.94,
+        "need": 4.5,
+        "size": 14.4,
+        "color": "rgb(181, 187, 192)",
+        "bg": "rgb(255, 255, 255)",
+        "text": "Reset"
+      },
+      {
+        "el": "div.timer.timer--gray",
+        "ratio": 1.94,
+        "need": 3,
+        "size": 32,
+        "color": "rgb(181, 187, 192)",
+        "bg": "rgb(255, 255, 255)",
+        "text": "00:00:01"
+      },
+      {
+        "el": "span.modal__close-copyright",
+        "ratio": 1.94,
+        "need": 4.5,
+        "size": 14,
+        "color": "rgb(181, 187, 192)",
+        "bg": "rgb(255, 255, 255)",
+        "text": "©lose 2026"
+      },
+      {
+        "el": "span",
+        "ratio": 1.94,
+        "need": 4.5,
+        "size": 14,
+        "color": "rgb(181, 187, 192)",
+        "bg": "rgb(255, 255, 255)",
+        "text": "©lose"
+      },
+      {
+        "el": "button.button.button--solid",
+        "ratio": 2.26,
+        "need": 4.5,
+        "size": 16,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(41, 197, 102)",
+        "text": "Lock"
+      }
+    ],
+    "unknownBackground": [],
+    "hasDarkModeCSS": false
+  },
+  "spacing": {
+    "distinctValues": 12,
+    "top": [
+      [
+        "24",
+        18
+      ],
+      [
+        "40",
+        12
+      ],
+      [
+        "32",
+        10
+      ],
+      [
+        "10",
+        7
+      ],
+      [
+        "8",
+        5
+      ],
+      [
+        "48",
+        3
+      ],
+      [
+        "64",
+        2
+      ],
+      [
+        "80",
+        2
+      ],
+      [
+        "130",
+        2
+      ],
+      [
+        "480",
+        2
+      ],
+      [
+        "552",
+        2
+      ],
+      [
+        "16",
+        1
+      ]
+    ],
+    "offGrid4": [
+      [
+        "10",
+        7
+      ],
+      [
+        "130",
+        2
+      ]
+    ],
+    "radii": [
+      [
+        "4px",
+        10
+      ],
+      [
+        "8px",
+        5
+      ],
+      [
+        "24px",
+        4
+      ]
+    ],
+    "shadowLevels": 2
+  },
+  "interaction": {
+    "interactiveCount": 12,
+    "targetsUnder24px": {
+      "count": 0,
+      "examples": []
+    },
+    "targetsUnder44px": {
+      "count": 7,
+      "examples": [
+        {
+          "el": "input.input.input--blue",
+          "w": 372,
+          "h": 40,
+          "text": "Choose Password"
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 124,
+          "h": 40,
+          "text": "Your email"
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 124,
+          "h": 40,
+          "text": "Domain"
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 186,
+          "h": 40,
+          "text": "Cancel"
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 140,
+          "h": 40,
+          "text": "Lock"
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 24,
+          "h": 24,
+          "text": ""
+        }
+      ]
+    },
+    "nonSemanticClickables": []
+  },
+  "fold": {
+    "distinctHues": 2,
+    "hues": [
+      150,
+      210
+    ],
+    "distinctTextSizes": 9,
+    "boundedRegions": 18,
+    "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+  },
+  "copy": {
+    "labels": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "Cancel",
+      "Lock",
+      "Send to bottom"
+    ],
+    "genericLabels": []
+  },
+  "forms": {
+    "inputs": 4,
+    "unlabeled": [
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Choose Password"
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Your email"
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Domain"
+      },
+      {
+        "el": "textarea.help-form__text-area",
+        "placeholder": null
+      }
+    ],
+    "wrongTypeOrInputmode": [
+      {
+        "el": "input.input.input--blue",
+        "type": "text",
+        "name": ""
+      }
+    ],
+    "personalFieldsWithoutAutocomplete": 0
+  },
+  "semantics": {
+    "imagesMissingAlt": [],
+    "h1Count": 0,
+    "headingLevelSkips": 0
+  },
+  "motion": {
+    "durationsMs": [
+      [
+        "200",
+        9
+      ],
+      [
+        "250",
+        1
+      ]
+    ],
+    "easings": [
+      [
+        "ease-out",
+        9
+      ],
+      [
+        "ease",
+        1
+      ]
+    ],
+    "over500ms": [],
+    "linearOnMovement": [],
+    "hasReducedMotionCSS": false
+  },
+  "focus": {
+    "focusOutlineRemovedRules": 0,
+    "focusVisibleRules": 0,
+    "unreadableCrossOriginSheets": 2
+  },
+  "performance": {
+    "ttfbMs": 53,
+    "domContentLoadedMs": 66,
+    "loadMs": 69,
+    "lcpMs": null,
+    "cls": 0,
+    "note": "lab, this load only; use PageSpeed/CrUX for field data"
+  }
+}

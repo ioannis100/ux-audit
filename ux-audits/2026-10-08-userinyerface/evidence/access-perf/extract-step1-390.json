@@ -1,0 +1,369 @@
+{
+  "page": {
+    "url": "https://userinyerface.com/game.html",
+    "title": "User Inyerface - A worst-practice UI experiment",
+    "viewport": "453x979",
+    "horizontalOverflow": false,
+    "colorScheme": "dark"
+  },
+  "typography": {
+    "families": [
+      [
+        "sans-serif",
+        20
+      ]
+    ],
+    "sizesPx": [
+      [
+        "13",
+        6
+      ],
+      [
+        "14.4",
+        6
+      ],
+      [
+        "16",
+        2
+      ],
+      [
+        "24",
+        2
+      ],
+      [
+        "18",
+        1
+      ],
+      [
+        "32",
+        1
+      ],
+      [
+        "12.8",
+        1
+      ],
+      [
+        "11.2",
+        1
+      ]
+    ],
+    "distinctSizes": 8,
+    "weights": [
+      [
+        "400",
+        17
+      ],
+      [
+        "700",
+        3
+      ]
+    ],
+    "distinctTextColors": 5,
+    "tinyTextUnder12px": [
+      {
+        "el": "span.discrete",
+        "size": 11.2,
+        "text": "to bottom"
+      }
+    ],
+    "paragraphs": {
+      "sampled": 0,
+      "lineHeights": [],
+      "charsPerLine": {
+        "min": null,
+        "max": null,
+        "samples": []
+      },
+      "outOfRangeLineHeight": []
+    },
+    "uppercaseWithoutTracking": [],
+    "fontsLoaded": [
+      "icomoon 400"
+    ],
+    "fontDisplay": [
+      [
+        "auto(block)",
+        1
+      ]
+    ]
+  },
+  "color": {
+    "contrastChecked": 20,
+    "contrastFailures": 8,
+    "contrastExamples": [
+      {
+        "el": "a.button--secondary",
+        "ratio": 1.94,
+        "need": 4.5,
+        "size": 14.4,
+        "color": "rgb(181, 187, 192)",
+        "bg": "rgb(255, 255, 255)",
+        "text": "Next"
+      },
+      {
+        "el": "a.button--secondary.u-right",
+        "ratio": 1.94,
+        "need": 4.5,
+        "size": 14.4,
+        "color": "rgb(181, 187, 192)",
+        "bg": "rgb(255, 255, 255)",
+        "text": "Reset"
+      },
+      {
+        "el": "div.password-check__password-rule",
+        "ratio": 2.71,
+        "need": 4.5,
+        "size": 13,
+        "color": "rgb(41, 197, 102)",
+        "bg": "rgb(12, 88, 218)",
+        "text": "Your password requires at least 10 characters."
+      },
+      {
+        "el": "div.password-check__password-rule",
+        "ratio": 2.71,
+        "need": 4.5,
+        "size": 13,
+        "color": "rgb(41, 197, 102)",
+        "bg": "rgb(12, 88, 218)",
+        "text": "Your password should have at least 1 Capital letter."
+      },
+      {
+        "el": "div.password-check__password-rule",
+        "ratio": 2.71,
+        "need": 4.5,
+        "size": 13,
+        "color": "rgb(41, 197, 102)",
+        "bg": "rgb(12, 88, 218)",
+        "text": "Your password must have at least 1 Numeral."
+      },
+      {
+        "el": "div.password-check__password-rule",
+        "ratio": 2.71,
+        "need": 4.5,
+        "size": 13,
+        "color": "rgb(41, 197, 102)",
+        "bg": "rgb(12, 88, 218)",
+        "text": "Your password needs at least 1 letter of your email."
+      }
+    ],
+    "unknownBackground": [],
+    "hasDarkModeCSS": false
+  },
+  "spacing": {
+    "distinctValues": 10,
+    "top": [
+      [
+        "24",
+        19
+      ],
+      [
+        "40",
+        12
+      ],
+      [
+        "32",
+        10
+      ],
+      [
+        "10",
+        7
+      ],
+      [
+        "8",
+        5
+      ],
+      [
+        "48",
+        3
+      ],
+      [
+        "27",
+        2
+      ],
+      [
+        "64",
+        2
+      ],
+      [
+        "16",
+        1
+      ],
+      [
+        "20",
+        1
+      ]
+    ],
+    "offGrid4": [
+      [
+        "10",
+        7
+      ],
+      [
+        "27",
+        2
+      ]
+    ],
+    "radii": [
+      [
+        "4px",
+        10
+      ],
+      [
+        "24px",
+        4
+      ],
+      [
+        "8px",
+        4
+      ]
+    ],
+    "shadowLevels": 2
+  },
+  "interaction": {
+    "interactiveCount": 13,
+    "targetsUnder24px": {
+      "count": 0,
+      "examples": []
+    },
+    "targetsUnder44px": {
+      "count": 7,
+      "examples": [
+        {
+          "el": "button.button.button--solid",
+          "w": 140,
+          "h": 40,
+          "text": "Not really, no"
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 372,
+          "h": 40,
+          "text": "Choose Password"
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 124,
+          "h": 40,
+          "text": "Your email"
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 124,
+          "h": 40,
+          "text": "Domain"
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 186,
+          "h": 40,
+          "text": "Cancel"
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 24,
+          "h": 24,
+          "text": ""
+        }
+      ]
+    },
+    "nonSemanticClickables": []
+  },
+  "fold": {
+    "distinctHues": 3,
+    "hues": [
+      0,
+      150,
+      210
+    ],
+    "distinctTextSizes": 7,
+    "boundedRegions": 17,
+    "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+  },
+  "copy": {
+    "labels": [
+      "Not really, no",
+      "Yes",
+      "1",
+      "2",
+      "3",
+      "4",
+      "Cancel",
+      "Send to bottom"
+    ],
+    "genericLabels": [
+      "Yes"
+    ]
+  },
+  "forms": {
+    "inputs": 4,
+    "unlabeled": [
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Choose Password"
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Your email"
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Domain"
+      },
+      {
+        "el": "textarea.help-form__text-area",
+        "placeholder": null
+      }
+    ],
+    "wrongTypeOrInputmode": [
+      {
+        "el": "input.input.input--blue",
+        "type": "text",
+        "name": ""
+      }
+    ],
+    "personalFieldsWithoutAutocomplete": 0
+  },
+  "semantics": {
+    "imagesMissingAlt": [],
+    "h1Count": 0,
+    "headingLevelSkips": 0
+  },
+  "motion": {
+    "durationsMs": [
+      [
+        "200",
+        9
+      ],
+      [
+        "250",
+        1
+      ]
+    ],
+    "easings": [
+      [
+        "ease-out",
+        9
+      ],
+      [
+        "ease",
+        1
+      ]
+    ],
+    "over500ms": [],
+    "linearOnMovement": [],
+    "hasReducedMotionCSS": false
+  },
+  "focus": {
+    "focusOutlineRemovedRules": 0,
+    "focusVisibleRules": 0,
+    "unreadableCrossOriginSheets": 2
+  },
+  "performance": {
+    "ttfbMs": 372,
+    "domContentLoadedMs": 855,
+    "loadMs": 1127,
+    "lcpMs": null,
+    "cls": 0,
+    "note": "lab, this load only; use PageSpeed/CrUX for field data"
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "390": {
+    "indicator": "3 / 4",
+    "initialData": {
+      "age": 0,
+      "gender": false,
+      "firstname": null,
+      "title": null,
+      "surname": null,
+      "street": null,
+      "number": 1,
+      "box": 1
+    },
+    "initialUI": {
+      "inputs": [
+        "Placeholder...",
+        "Placeholder...",
+        "Placeholder...",
+        "Placeholder...",
+        "Placeholder..."
+      ],
+      "labels": [
+        "First name",
+        "Zip",
+        "Title",
+        "City",
+        "Surname",
+        "Country",
+        "Street",
+        "Box",
+        "Number",
+        "Birthdate",
+        "Age",
+        "Gender"
+      ],
+      "gender": [
+        "Male*",
+        "Female"
+      ],
+      "age": "0",
+      "scrollW": 390
+    },
+    "emptyNext": {
+      "name": "j4-empty-next-390",
+      "mutationsIn300ms": 5,
+      "ms": 453
+    },
+    "emptyNextModal": "Please fill in all fields correctly: Invalid first name OK",
+    "errorSequence": [
+      {
+        "after": "firstname",
+        "modal": "Please fill in all fields correctly: No title selected OK",
+        "step": 2
+      },
+      {
+        "after": "title Mr",
+        "modal": "Please fill in all fields correctly: Invalid last name OK",
+        "step": 2
+      },
+      {
+        "after": "surname",
+        "modal": "Please fill in all fields correctly: Invalid street OK",
+        "step": 2
+      },
+      {
+        "after": "street",
+        "modal": "Please fill in all fields correctly: Invalid zip/postal code OK",
+        "step": 2
+      },
+      {
+        "after": "zip",
+        "modal": "Please fill in all fields correctly: Invalid city OK",
+        "step": 2
+      },
+      {
+        "after": "city",
+        "modal": "Please fill in all fields correctly: No country selected OK",
+        "step": 2
+      },
+      {
+        "after": "country (item 20)",
+        "modal": "Please fill in all fields correctly: No valid date selected OK",
+        "step": 2
+      },
+      {
+        "after": "birthdate 1 / January / 1990",
+        "modal": "Please fill in all fields correctly: Age and birth date don't match OK",
+        "step": 2
+      },
+      {
+        "after": "age 36 (drag)",
+        "modal": "Please fill in all fields correctly: Age and birth date don't match OK",
+        "step": 2
+      }
+    ],
+    "ageDrag": {
+      "sliderWidth": 230,
+      "yearsPerPx": 0.87,
+      "shown": "37",
+      "stored": 37
+    },
+    "dataAfterFill": {
+      "age": 37,
+      "gender": false,
+      "firstname": "Test",
+      "title": "Mr",
+      "surname": "User",
+      "street": "Test street 1",
+      "number": 1,
+      "box": 1,
+      "zip": "1000",
+      "city": "Testville",
+      "country": {
+        "name": "Belgium",
+        "code": "BE"
+      },
+      "birthdate": {
+        "day": 1,
+        "month": 0,
+        "year": 1990
+      }
+    },
+    "ui": {
+      "countryShown": [
+        "Belgium"
+      ],
+      "countryItemsText": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "countryCount": 236,
+      "monthOrder": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "yearFirstLast": [
+        "",
+        "",
+        127,
+        -1
+      ],
+      "titleItems": [
+        "",
+        ""
+      ]
+    },
+    "mrMale": {
+      "after": "age 36 (drag)",
+      "modal": "Please fill in all fields correctly: Age and birth date don't match OK",
+      "step": 2
+    },
+    "genderAfterFemaleTap": [
+      "Male",
+      "Female*"
+    ],
+    "dataBeforeFinal": {
+      "age": 37,
+      "gender": true,
+      "firstname": "Test",
+      "title": "Mr",
+      "surname": "User",
+      "street": "Test street 1",
+      "number": 1,
+      "box": 1,
+      "zip": "1000",
+      "city": "Testville",
+      "country": {
+        "name": "Belgium",
+        "code": "BE"
+      },
+      "birthdate": {
+        "day": 1,
+        "month": 0,
+        "year": 1990
+      }
+    },
+    "nextTopBeforeFinal": "self",
+    "mrFemaleDoubleNext": {
+      "modal": "Please fill in all fields correctly: Age and birth date don't match OK",
+      "step": 2,
+      "indicator": "3 / 4",
+      "stepCompleteLogs": 0
+    }
+  },
+  "1440": {
+    "indicator": "3 / 4",
+    "initialData": {
+      "age": 0,
+      "gender": false,
+      "firstname": null,
+      "title": null,
+      "surname": null,
+      "street": null,
+      "number": 1,
+      "box": 1
+    },
+    "initialUI": {
+      "inputs": [
+        "Placeholder...",
+        "Placeholder...",
+        "Placeholder...",
+        "Placeholder...",
+        "Placeholder..."
+      ],
+      "labels": [
+        "First name",
+        "Zip",
+        "Title",
+        "City",
+        "Surname",
+        "Country",
+        "Street",
+        "Box",
+        "Number",
+        "Birthdate",
+        "Age",
+        "Gender"
+      ],
+      "gender": [
+        "Male*",
+        "Female"
+      ],
+      "age": "0",
+      "scrollW": 1440
+    },
+    "emptyNext": {
+      "name": "j4-empty-next-1440",
+      "mutationsIn300ms": 0,
+      "ms": 341
+    },
+    "emptyNextModal": null,
+    "errorSequence": [
+      {
+        "after": "firstname",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "title Mr",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "surname",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "street",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "zip",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "city",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "country (item 20)",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "birthdate 1 / January / 1990",
+        "modal": null,
+        "step": 2
+      },
+      {
+        "after": "age 36 (drag)",
+        "modal": null,
+        "step": 2
+      }
+    ],
+    "ageDrag": {
+      "sliderWidth": 420,
+      "yearsPerPx": 0.476,
+      "shown": "36",
+      "stored": 36
+    },
+    "dataAfterFill": {
+      "age": 36,
+      "gender": false,
+      "firstname": "Test",
+      "title": "Mr",
+      "surname": "User",
+      "street": "Test street 1",
+      "number": 1,
+      "box": 1,
+      "zip": "1000",
+      "city": "Testville",
+      "country": {
+        "name": "Belgium",
+        "code": "BE"
+      },
+      "birthdate": {
+        "day": 1,
+        "month": 0,
+        "year": -1
+      }
+    },
+    "ui": {
+      "countryShown": [
+        "Belgium"
+      ],
+      "countryItemsText": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "countryCount": 236,
+      "monthOrder": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "yearFirstLast": [
+        "1900",
+        "2026",
+        127,
+        90
+      ],
+      "titleItems": [
+        "",
+        ""
+      ]
+    },
+    "mrMale": {
+      "after": "age 36 (drag)",
+      "modal": null,
+      "step": 2
+    },
+    "genderAfterFemaleTap": [
+      "Male*",
+      "Female"
+    ],
+    "dataBeforeFinal": {
+      "age": 36,
+      "gender": false,
+      "firstname": "Test",
+      "title": "Mr",
+      "surname": "User",
+      "street": "Test street 1",
+      "number": 1,
+      "box": 1,
+      "zip": "1000",
+      "city": "Testville",
+      "country": {
+        "name": "Belgium",
+        "code": "BE"
+      },
+      "birthdate": {
+        "day": 1,
+        "month": 0,
+        "year": -1
+      }
+    },
+    "nextTopBeforeFinal": "help-form__container",
+    "mrFemaleDoubleNext": {
+      "modal": null,
+      "step": 2,
+      "indicator": "3 / 4",
+      "stepCompleteLogs": 0
+    }
+  },
+  "edge-390": {
+    "firstNameVariants": {
+      "P": {
+        "shown": "Placeholder...",
+        "stored": "P",
+        "modal": "Please fill in all fields correctly: No title selected OK"
+      },
+      "Pl": {
+        "shown": "Placeholder...",
+        "stored": "Pl",
+        "modal": "Please fill in all fields correctly: No title selected OK"
+      },
+      "Placeholder": {
+        "shown": "Placeholder...",
+        "stored": "Placeholder",
+        "modal": "Please fill in all fields correctly: Invalid first name OK"
+      },
+      "  Test  ": {
+        "shown": "  Test  ",
+        "stored": "  Test  ",
+        "modal": "Please fill in all fields correctly: No title selected OK"
+      },
+      "O'Brien-Łukasz": {
+        "shown": "O'Brien-Łukasz",
+        "stored": "O'Brien-Łukasz",
+        "modal": "Please fill in all fields correctly: No title selected OK"
+      },
+      "😀": {
+        "shown": "😀",
+        "stored": "😀",
+        "modal": "Please fill in all fields correctly: No title selected OK"
+      },
+      "x*120": {
+        "shown": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "stored": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "modal": "Please fill in all fields correctly: No title selected OK"
+      }
+    },
+    "typeThenNextImmediately": {
+      "modal": "Please fill in all fields correctly: No title selected OK",
+      "stored": "Test"
+    },
+    "zip": {
+      "1": "1",
+      "B-1000": "B-1000",
+      " 1000 ": " 1000 ",
+      "SW1A 1AA": "SW1A 1AA"
+    },
+    "boxAfter3Down": 1,
+    "cancel": {
+      "confirmModal": true,
+      "text": "Are you sure you want to cancel? Yes Cancel "
+    }
+  },
+  "edge-1440": {
+    "firstNameVariants": {
+      "P": {
+        "shown": "Placeholder...",
+        "stored": "P",
+        "modal": null
+      },
+      "Pl": {
+        "shown": "Placeholder...",
+        "stored": "Pl",
+        "modal": null
+      },
+      "Placeholder": {
+        "shown": "Placeholder...",
+        "stored": "Placeholder",
+        "modal": null
+      },
+      "  Test  ": {
+        "shown": "  Test  ",
+        "stored": "  Test  ",
+        "modal": null
+      },
+      "O'Brien-Łukasz": {
+        "shown": "O'Brien-Łukasz",
+        "stored": "O'Brien-Łukasz",
+        "modal": null
+      },
+      "😀": {
+        "shown": "😀",
+        "stored": "😀",
+        "modal": null
+      },
+      "x*120": {
+        "shown": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "stored": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "modal": null
+      }
+    },
+    "typeThenNextImmediately": {
+      "modal": null,
+      "stored": "Test"
+    },
+    "zip": {
+      "1": "1",
+      "B-1000": "B-1000",
+      " 1000 ": " 1000 ",
+      "SW1A 1AA": "SW1A 1AA"
+    },
+    "boxAfter3Down": 1,
+    "cancel": {
+      "confirmModal": false,
+      "text": ""
+    }
+  }
+}

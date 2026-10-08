@@ -1,0 +1,39 @@
+22:01:59 pips t0: card page index 0 / highlighted pip index 1
+22:02:00 pips t1: card page index 0 / highlighted pip index 2
+22:02:01 pips t2: card page index 0 / highlighted pip index 0
+22:02:02 pips t3: card page index 0 / highlighted pip index 1
+22:02:03 [1440] step1 click Next (empty): A.button--secondary
+22:02:04 shot step1-error-1440
+22:02:04 [1440] click T&C: SPAN.login-form__terms-conditions-underline
+22:02:06 shot modal-terms-1440
+22:02:06 [1440] T&C has no visible close; hidden via state
+22:02:06 [1440] click Cancel: DIV.align__cell button-container__primary
+22:02:07 shot modal-confirm-1440
+22:02:07 [1440] cookies click "Not really, no": BUTTON.button button--solid button--transparent
+22:02:08 [1440] cookiesIsActive after: false
+22:02:08 shot cookie-dismissed-1440
+22:02:08 [1440] help toggle: true
+22:02:10 shot help-toggled-1440
+22:02:11 [1440] step3 Next (empty): BUTTON.button button--stroked button--white
+22:02:12 shot step3-error-1440
+22:02:13 [1440] step4 Validate (none): BUTTON.button button--solid button--blue
+22:02:14 shot step4-error-1440
+22:02:15 shot end-1440
+22:02:19 390 wider-than-viewport elements: DIV.login-form__container-copy-2 r=452 w=436 minW=0px | DIV.login-form__container-copy-1 r=444 w=436 minW=0px | DIV.login-form r=436 w=436 minW=0px | DIV.login-form__container r=436 w=436 minW=0px | DIV.align align--fluid r=428 w=388 minW=0px
+22:02:19 [390] step1 click Next (empty): A.button--secondary
+22:02:21 shot step1-error-390
+22:02:21 [390] click T&C: SPAN.login-form__terms-conditions-underline
+22:02:22 shot modal-terms-390
+22:02:22 [390] T&C has no visible close; hidden via state
+22:02:23 [390] click Cancel: DIV.align__cell button-container__primary
+22:02:24 shot modal-confirm-390
+22:02:24 [390] cookies click "Not really, no": BUTTON.button button--solid button--transparent
+22:02:25 [390] cookiesIsActive after: false
+22:02:25 shot cookie-dismissed-390
+22:02:25 [390] help toggle: true
+22:02:26 shot help-toggled-390
+22:02:27 [390] step3 Next (empty): BUTTON.button button--stroked button--white
+22:02:28 shot step3-error-390
+22:02:29 [390] step4 Validate (none): BUTTON.button button--solid button--blue
+22:02:30 shot step4-error-390
+22:02:32 shot end-390

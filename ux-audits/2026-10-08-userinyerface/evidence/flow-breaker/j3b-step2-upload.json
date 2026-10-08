@@ -1,0 +1,124 @@
+{
+  "390": {
+    "overlapAtMaxScroll": {
+      "scrollY": 113,
+      "helpTop": 720,
+      "helpBottom": 948,
+      "vvH": 844,
+      "coveredInterests": [
+        "Purple",
+        "Cotton",
+        "Dry-wall",
+        "Mullets",
+        "Cinnamon",
+        "Unselect all"
+      ],
+      "next": {
+        "y": 840,
+        "covered": "help-form__container"
+      },
+      "cancel": {
+        "y": 840,
+        "covered": "help-form__text-area"
+      }
+    },
+    "overlapAfterSendToBottom": {
+      "scrollY": 113,
+      "helpTop": 780,
+      "helpBottom": 948,
+      "vvH": 844,
+      "coveredInterests": [],
+      "next": {
+        "y": 840,
+        "covered": "help-form__container"
+      },
+      "cancel": {
+        "y": 840,
+        "covered": "help-form__text-area"
+      }
+    },
+    "uploadMs": 33,
+    "afterUpload": {
+      "hasAvatar": true,
+      "mime": "data:image/png;base64,",
+      "shown": true,
+      "count": 3
+    },
+    "afterReopenCancel": {
+      "avatarDataKept": true,
+      "avatarShown": false
+    },
+    "nextTop": "help-form__container",
+    "doubleNext": {
+      "stepAfter": 1,
+      "stepCompleteLogs": 0,
+      "mutationsIn300ms": 1
+    },
+    "singleValidNext": {
+      "name": "j3b-valid-next-390",
+      "mutationsIn300ms": 0,
+      "ms": 439,
+      "stepAfter": 1,
+      "scrollYAfter": 113
+    },
+    "reenterStep2": {
+      "hasAvatar": true,
+      "count": 16
+    },
+    "cancelOnStep2": {
+      "step": 1,
+      "confirmModal": false,
+      "step1Email": null
+    }
+  },
+  "1440": {
+    "overlapAtMaxScroll": {
+      "scrollY": 161,
+      "helpTop": 672,
+      "helpBottom": 900,
+      "vvH": 900,
+      "coveredInterests": [],
+      "next": {
+        "y": 792,
+        "covered": false
+      },
+      "cancel": {
+        "y": 792,
+        "covered": false
+      }
+    },
+    "uploadMs": 8,
+    "afterUpload": {
+      "hasAvatar": true,
+      "mime": "data:image/png;base64,",
+      "shown": true,
+      "count": 3
+    },
+    "afterReopenCancel": {
+      "avatarDataKept": true,
+      "avatarShown": false
+    },
+    "nextTop": "self",
+    "doubleNext": {
+      "stepAfter": 2,
+      "stepCompleteLogs": 1,
+      "mutationsIn300ms": 6
+    },
+    "singleValidNext": {
+      "name": "j3b-valid-next-1440",
+      "mutationsIn300ms": 6,
+      "ms": 798,
+      "stepAfter": 2,
+      "scrollYAfter": 161
+    },
+    "reenterStep2": {
+      "hasAvatar": false,
+      "count": 19
+    },
+    "cancelOnStep2": {
+      "step": 0,
+      "confirmModal": false,
+      "step1Email": "Your email"
+    }
+  }
+}

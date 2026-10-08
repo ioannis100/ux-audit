@@ -1,0 +1,86 @@
+[
+  {
+    "cls": "login-form__container-copy-2",
+    "tag": "DIV",
+    "right": 452,
+    "w": 436,
+    "minW": "0px"
+  },
+  {
+    "cls": "login-form__container-copy-1",
+    "tag": "DIV",
+    "right": 444,
+    "w": 436,
+    "minW": "0px"
+  },
+  {
+    "cls": "login-form",
+    "tag": "DIV",
+    "right": 436,
+    "w": 436,
+    "minW": "0px"
+  },
+  {
+    "cls": "login-form__container",
+    "tag": "DIV",
+    "right": 436,
+    "w": 436,
+    "minW": "0px"
+  },
+  {
+    "cls": "align align--fluid",
+    "tag": "DIV",
+    "right": 428,
+    "w": 388,
+    "minW": "0px"
+  },
+  {
+    "cls": "align__cell",
+    "tag": "DIV",
+    "right": 428,
+    "w": 300,
+    "minW": "0px"
+  },
+  {
+    "cls": "align align--gutter-md u-right",
+    "tag": "DIV",
+    "right": 428,
+    "w": 300,
+    "minW": "0px"
+  },
+  {
+    "cls": "align__cell",
+    "tag": "DIV",
+    "right": 428,
+    "w": 140,
+    "minW": "0px"
+  },
+  {
+    "cls": "cookies__button button button--solid button--white",
+    "tag": "BUTTON",
+    "right": 428,
+    "w": 140,
+    "minW": "140px"
+  },
+  {
+    "cls": "",
+    "tag": "FORM",
+    "right": 404,
+    "w": 372,
+    "minW": "0px"
+  },
+  {
+    "cls": "login-form__section login-form__fields",
+    "tag": "DIV",
+    "right": 404,
+    "w": 372,
+    "minW": "0px"
+  },
+  {
+    "cls": "page-indicator",
+    "tag": "DIV",
+    "right": 404,
+    "w": 372,
+    "minW": "0px"
+  }
+]

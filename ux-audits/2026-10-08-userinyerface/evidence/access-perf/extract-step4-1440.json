@@ -1,0 +1,277 @@
+{
+  "page": {
+    "url": "https://userinyerface.com/game.html",
+    "title": "User Inyerface - A worst-practice UI experiment",
+    "viewport": "1440x900",
+    "horizontalOverflow": false,
+    "colorScheme": "dark"
+  },
+  "typography": {
+    "families": [
+      [
+        "sans-serif",
+        12
+      ]
+    ],
+    "sizesPx": [
+      [
+        "16",
+        4
+      ],
+      [
+        "24",
+        2
+      ],
+      [
+        "18",
+        1
+      ],
+      [
+        "23",
+        1
+      ],
+      [
+        "25",
+        1
+      ],
+      [
+        "32",
+        1
+      ],
+      [
+        "12.8",
+        1
+      ],
+      [
+        "11.2",
+        1
+      ]
+    ],
+    "distinctSizes": 8,
+    "weights": [
+      [
+        "400",
+        7
+      ],
+      [
+        "700",
+        5
+      ]
+    ],
+    "distinctTextColors": 3,
+    "tinyTextUnder12px": [
+      {
+        "el": "span.discrete",
+        "size": 11.2,
+        "text": "to bottom"
+      }
+    ],
+    "paragraphs": {
+      "sampled": 0,
+      "lineHeights": [],
+      "charsPerLine": {
+        "min": null,
+        "max": null,
+        "samples": []
+      },
+      "outOfRangeLineHeight": []
+    },
+    "uppercaseWithoutTracking": [],
+    "fontsLoaded": [
+      "icomoon 400"
+    ],
+    "fontDisplay": [
+      [
+        "auto(block)",
+        1
+      ]
+    ]
+  },
+  "color": {
+    "contrastChecked": 12,
+    "contrastFailures": 1,
+    "contrastExamples": [
+      {
+        "el": "button.button.button--solid",
+        "ratio": 4,
+        "need": 4.5,
+        "size": 16,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255, 0, 0)",
+        "text": "Not really, no"
+      }
+    ],
+    "unknownBackground": [],
+    "hasDarkModeCSS": false
+  },
+  "spacing": {
+    "distinctValues": 10,
+    "top": [
+      [
+        "4",
+        112
+      ],
+      [
+        "24",
+        30
+      ],
+      [
+        "16",
+        10
+      ],
+      [
+        "40",
+        10
+      ],
+      [
+        "8",
+        4
+      ],
+      [
+        "32",
+        4
+      ],
+      [
+        "48",
+        3
+      ],
+      [
+        "64",
+        2
+      ],
+      [
+        "552",
+        2
+      ],
+      [
+        "20",
+        1
+      ]
+    ],
+    "offGrid4": [],
+    "radii": [
+      [
+        "4px",
+        21
+      ],
+      [
+        "24px",
+        4
+      ],
+      [
+        "8px",
+        2
+      ]
+    ],
+    "shadowLevels": 1
+  },
+  "interaction": {
+    "interactiveCount": 10,
+    "targetsUnder24px": {
+      "count": 0,
+      "examples": []
+    },
+    "targetsUnder44px": {
+      "count": 4,
+      "examples": [
+        {
+          "el": "button.button.button--solid",
+          "w": 143,
+          "h": 40,
+          "text": "Not really, no"
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 140,
+          "h": 40,
+          "text": "Validate"
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 24,
+          "h": 24,
+          "text": ""
+        },
+        {
+          "el": "button.button.button--solid",
+          "w": 97,
+          "h": 40,
+          "text": "Send to bottom"
+        }
+      ]
+    },
+    "nonSemanticClickables": []
+  },
+  "fold": {
+    "distinctHues": 3,
+    "hues": [
+      0,
+      150,
+      210
+    ],
+    "distinctTextSizes": 8,
+    "boundedRegions": 11,
+    "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+  },
+  "copy": {
+    "labels": [
+      "Not really, no",
+      "Yes",
+      "1",
+      "2",
+      "3",
+      "4",
+      "Validate",
+      "Send to bottom"
+    ],
+    "genericLabels": [
+      "Yes"
+    ]
+  },
+  "forms": {
+    "inputs": 1,
+    "unlabeled": [
+      {
+        "el": "textarea.help-form__text-area",
+        "placeholder": null
+      }
+    ],
+    "wrongTypeOrInputmode": [],
+    "personalFieldsWithoutAutocomplete": 0
+  },
+  "semantics": {
+    "imagesMissingAlt": [],
+    "h1Count": 0,
+    "headingLevelSkips": 0
+  },
+  "motion": {
+    "durationsMs": [
+      [
+        "200",
+        9
+      ]
+    ],
+    "easings": [
+      [
+        "ease-out",
+        9
+      ]
+    ],
+    "over500ms": [],
+    "linearOnMovement": [],
+    "hasReducedMotionCSS": false
+  },
+  "focus": {
+    "focusOutlineRemovedRules": 0,
+    "focusVisibleRules": 0,
+    "unreadableCrossOriginSheets": 2
+  },
+  "performance": {
+    "ttfbMs": 277,
+    "domContentLoadedMs": 957,
+    "loadMs": 1270,
+    "lcpMs": null,
+    "cls": 0,
+    "note": "lab, this load only; use PageSpeed/CrUX for field data"
+  }
+}

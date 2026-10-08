@@ -1,0 +1,165 @@
+{
+  "step1": {
+    "innerWidth": 453,
+    "scale": 0.861,
+    "visualViewportScale": 1,
+    "checkboxLabel": {
+      "n": 1,
+      "w": 18,
+      "h": 16,
+      "effW": 15.5,
+      "effH": 13.8,
+      "labelTextInside": false
+    },
+    "dropdownItem": {
+      "n": 11,
+      "w": 78,
+      "h": 36,
+      "effW": 67.2,
+      "effH": 31
+    },
+    "helpClose": {
+      "w": 24,
+      "h": 24,
+      "effW": 20.7,
+      "effH": 20.7
+    },
+    "tcLink": {
+      "w": 124.7,
+      "h": 16,
+      "effW": 107.4,
+      "effH": 13.8
+    },
+    "bodyFontPx": "16px",
+    "effBodyFontPx": 13.8
+  },
+  "step1ErrorClasses": [
+    "Choose Password:input input--blue input--blue:rgb(12, 88, 218)",
+    "Your email:input input--blue input--blue:rgb(12, 88, 218)",
+    "Domain:input input--blue input--blue:rgb(12, 88, 218)"
+  ],
+  "step2": {
+    "innerWidth": 438,
+    "scale": 0.89,
+    "visualViewportScale": 1,
+    "checkboxLabel": {
+      "n": 21,
+      "w": 15,
+      "h": 16,
+      "effW": 13.4,
+      "effH": 14.2,
+      "labelTextInside": false
+    },
+    "helpClose": {
+      "w": 24,
+      "h": 24,
+      "effW": 21.4,
+      "effH": 21.4
+    },
+    "uploadLink": {
+      "w": 42,
+      "h": 16,
+      "effW": 37.4,
+      "effH": 14.2
+    },
+    "bodyFontPx": "16px",
+    "effBodyFontPx": 14.2
+  },
+  "step3": {
+    "innerWidth": 429,
+    "scale": 0.909,
+    "visualViewportScale": 1,
+    "dropdownItem": {
+      "n": 172,
+      "w": 228,
+      "h": 38,
+      "effW": 207.3,
+      "effH": 34.5
+    },
+    "toggle": {
+      "w": 115,
+      "h": 40,
+      "effW": 104.5,
+      "effH": 36.4
+    },
+    "sliderHandle": {
+      "w": 48,
+      "h": 48,
+      "effW": 43.6,
+      "effH": 43.6
+    },
+    "stepper": {
+      "w": 20,
+      "h": 19,
+      "effW": 18.2,
+      "effH": 17.3
+    },
+    "helpClose": {
+      "w": 24,
+      "h": 24,
+      "effW": 21.8,
+      "effH": 21.8
+    },
+    "bodyFontPx": "16px",
+    "effBodyFontPx": 14.5
+  },
+  "step4": {
+    "innerWidth": 429,
+    "scale": 0.909,
+    "visualViewportScale": 1,
+    "checkboxLabel": {
+      "n": 16,
+      "w": 18,
+      "h": 18,
+      "effW": 16.4,
+      "effH": 16.4,
+      "labelTextInside": false
+    },
+    "helpClose": {
+      "w": 24,
+      "h": 24,
+      "effW": 21.8,
+      "effH": 21.8
+    },
+    "bodyFontPx": "16px",
+    "effBodyFontPx": 14.5
+  },
+  "timerModalContrast": [
+    {
+      "el": "div.timer.timer--gray",
+      "ratio": 1.94,
+      "need": 3,
+      "size": 32,
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgb(255, 255, 255)",
+      "text": "00:00:01"
+    },
+    {
+      "el": "span.modal__close-copyright",
+      "ratio": 1.94,
+      "need": 4.5,
+      "size": 14,
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgb(255, 255, 255)",
+      "text": "©lose 2026"
+    },
+    {
+      "el": "span",
+      "ratio": 1.94,
+      "need": 4.5,
+      "size": 14,
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgb(255, 255, 255)",
+      "text": "©lose"
+    },
+    {
+      "el": "button.button.button--solid",
+      "ratio": 2.26,
+      "need": 4.5,
+      "size": 16,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)",
+      "text": "Lock"
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "step1Typed": [
+    {
+      "ph": "Choose Password",
+      "value": "Choose Password",
+      "color": "rgb(181, 187, 192)",
+      "cls": "input input--blue input--gray"
+    },
+    {
+      "ph": "Your email",
+      "value": "Your email",
+      "color": "rgb(181, 187, 192)",
+      "cls": "input input--blue input--gray"
+    },
+    {
+      "ph": "Domain",
+      "value": "Domainexample",
+      "color": "rgb(181, 187, 192)",
+      "cls": "input input--blue input--gray"
+    },
+    {
+      "ph": "",
+      "value": "on",
+      "color": "rgb(0, 0, 0)",
+      "cls": ""
+    }
+  ],
+  "confirm": {
+    "confirm": true,
+    "modals": [
+      "Are you sure you want to cancel? Yes Cancel "
+    ]
+  },
+  "confirmButtons": [
+    {
+      "text": "Yes",
+      "cls": "button button--solid button--red",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(255, 0, 0)",
+      "font": "16px",
+      "w": 140,
+      "h": 40
+    },
+    {
+      "text": "Cancel",
+      "cls": "button button--solid button--green",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)",
+      "font": "16px",
+      "w": 140,
+      "h": 40
+    },
+    {
+      "text": "",
+      "cls": "modal__fullscreen",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "16px",
+      "w": 16,
+      "h": 16
+    }
+  ],
+  "captcha": [
+    {
+      "instr": "Select all light pictures",
+      "res": [
+        {
+          "url": "light/light3.jpg",
+          "nat": "1024x683",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light14.jpg",
+          "nat": "275x183",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light6.jpg",
+          "nat": "960x640",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light9.jpg",
+          "nat": "275x183",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light16.jpg",
+          "nat": "960x720",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light8.jpg",
+          "nat": "1246x934",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light7.jpg",
+          "nat": "960x720",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light0.jpg",
+          "nat": "960x720",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light13.jpg",
+          "nat": "275x183",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light12.jpg",
+          "nat": "960x678",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light17.jpg",
+          "nat": "940x627",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light5.jpg",
+          "nat": "275x183",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light1.jpg",
+          "nat": "1000x667",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light15.jpg",
+          "nat": "940x627",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light10.jpg",
+          "nat": "259x194",
+          "box": "184x92"
+        },
+        {
+          "url": "light/light4.jpg",
+          "nat": "1024x723",
+          "box": "184x92"
+        }
+      ]
+    },
+    {
+      "instr": "Select all checks",
+      "res": [
+        {
+          "url": "checks/check3.jpg",
+          "nat": "555x370",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check20.png",
+          "nat": "240x240",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check10.jpg",
+          "nat": "275x183",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check4.jpg",
+          "nat": "266x190",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check2.jpg",
+          "nat": "303x166",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check9.jpg",
+          "nat": "1200x800",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check0.png",
+          "nat": "2000x2000",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check16.png",
+          "nat": "900x408",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check15.jpg",
+          "nat": "1600x633",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check12.jpg",
+          "nat": "225x225",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check14.png",
+          "nat": "675x720",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check5.jpg",
+          "nat": "1200x839",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check6.jpg",
+          "nat": "225x225",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check19.jpg",
+          "nat": "720x720",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check7.jpg",
+          "nat": "362x139",
+          "box": "184x92"
+        },
+        {
+          "url": "checks/check13.jpg",
+          "nat": "1920x1919",
+          "box": "184x92"
+        }
+      ]
+    },
+    {
+      "instr": "Select all pictures with glasses",
+      "res": [
+        {
+          "url": "glasses/glasses8.jpg",
+          "nat": "960x639",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses10.jpg",
+          "nat": "3000x2400",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses4.jpg",
+          "nat": "800x794",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses7.jpg",
+          "nat": "433x300",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses5.jpg",
+          "nat": "275x183",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses16.jpg",
+          "nat": "940x627",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses1.jpg",
+          "nat": "1024x768",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses6.jpg",
+          "nat": "1024x1024",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses15.jpg",
+          "nat": "3500x2497",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses13.jpg",
+          "nat": "960x640",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses11.jpg",
+          "nat": "275x183",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses3.jpg",
+          "nat": "960x640",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses14.jpg",
+          "nat": "640x402",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses12.jpg",
+          "nat": "1500x1000",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses2.jpg",
+          "nat": "960x640",
+          "box": "184x92"
+        },
+        {
+          "url": "glasses/glasses9.jpg",
+          "nat": "960x627",
+          "box": "184x92"
+        }
+      ]
+    }
+  ]
+}

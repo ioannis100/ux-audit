@@ -1,0 +1,248 @@
+{
+  "focusVisibleMatches": {
+    "cancel": true,
+    "next2": true
+  },
+  "tcModal": {
+    "role": null,
+    "ariaModal": null,
+    "focusInside": false,
+    "active": "BODY",
+    "textOverflow": "hidden",
+    "contentTabIndex": -1,
+    "acceptBtn": {
+      "parentCls": "terms-and-conditions__accept-button-container disabled",
+      "opacity": "0.5",
+      "pointer": "auto",
+      "visibility": "visible"
+    },
+    "tabSeq": [
+      "A:[insert email here]",
+      "BUTTON:Accept",
+      "BUTTON:button button--solid butt",
+      "TEXTAREA:help-form__text-area",
+      "BUTTON:Send\nto bottom",
+      "BODY:This site uses cookies, i",
+      "BUTTON:Not really, no",
+      "BUTTON:Yes",
+      "BUTTON:1",
+      "BUTTON:2",
+      "BUTTON:3",
+      "BUTTON:4"
+    ],
+    "keyboardScrollMovedPx": 0,
+    "escapeCloses": false
+  },
+  "reflow": {
+    "320": {
+      "step1": {
+        "innerWidth": 452,
+        "clientWidth": 320,
+        "scrollWidth": 452,
+        "hScroll": true,
+        "offenders": [
+          "DIV.align [40..428]",
+          "DIV.align__cell [128..428]",
+          "DIV.align [128..428]",
+          "DIV.align__cell [288..428]",
+          "BUTTON.cookies__button [288..428]",
+          "UL.pagination [0..336]",
+          "LI.pagination__item [288..336]",
+          "BUTTON.pagination__button [288..336]"
+        ]
+      },
+      "step2": {
+        "innerWidth": 438,
+        "clientWidth": 320,
+        "scrollWidth": 438,
+        "hScroll": true,
+        "offenders": [
+          "DIV.align [40..428]",
+          "DIV.align__cell [128..428]",
+          "DIV.align [128..428]",
+          "DIV.align__cell [288..428]",
+          "BUTTON.cookies__button [288..428]",
+          "UL.pagination [0..336]",
+          "LI.pagination__item [288..336]",
+          "BUTTON.pagination__button [288..336]"
+        ]
+      },
+      "step3": {
+        "innerWidth": 428,
+        "clientWidth": 320,
+        "scrollWidth": 428,
+        "hScroll": true,
+        "offenders": [
+          "DIV.align [40..428]",
+          "DIV.align__cell [128..428]",
+          "DIV.align [128..428]",
+          "DIV.align__cell [288..428]",
+          "BUTTON.cookies__button [288..428]",
+          "UL.pagination [0..336]",
+          "LI.pagination__item [288..336]",
+          "BUTTON.pagination__button [288..336]"
+        ]
+      },
+      "step4": {
+        "innerWidth": 428,
+        "clientWidth": 320,
+        "scrollWidth": 428,
+        "hScroll": true,
+        "offenders": [
+          "DIV.align [40..428]",
+          "DIV.align__cell [128..428]",
+          "DIV.align [128..428]",
+          "DIV.align__cell [288..428]",
+          "BUTTON.cookies__button [288..428]",
+          "UL.pagination [0..336]",
+          "LI.pagination__item [288..336]",
+          "BUTTON.pagination__button [288..336]"
+        ]
+      }
+    },
+    "zoom200": {
+      "step1": {
+        "innerWidth": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "hScroll": false,
+        "offenders": []
+      },
+      "step2": {
+        "innerWidth": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "hScroll": false,
+        "offenders": []
+      },
+      "step3": {
+        "innerWidth": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "hScroll": false,
+        "offenders": []
+      },
+      "step4": {
+        "innerWidth": 720,
+        "clientWidth": 720,
+        "scrollWidth": 720,
+        "hScroll": false,
+        "offenders": []
+      }
+    }
+  },
+  "textSpacing": [
+    {
+      "t": "Not really, no",
+      "clipX": false,
+      "clipY": true
+    },
+    {
+      "t": "Your email",
+      "clipX": true,
+      "clipY": false
+    },
+    {
+      "t": "Send\nto bottom",
+      "clipX": false,
+      "clipY": true
+    }
+  ],
+  "reducedMotion": {
+    "step1": {
+      "rm": true,
+      "anims": [],
+      "animCount": 0,
+      "timer": "00:00:03"
+    },
+    "step2": {
+      "rm": true,
+      "anims": [
+        "background-color@pagination__button",
+        "color@pagination__button",
+        "background-color@pagination__button is-active",
+        "color@pagination__button is-active",
+        "spinner@spinner__element",
+        "spinner@spinner__element",
+        "spinner@spinner__element",
+        "spinner@spinner__element",
+        "spinner@spinner__element",
+        "spinner@spinner__element",
+        "spinner@spinner__element",
+        "spinner@spinner__element"
+      ],
+      "animCount": 16,
+      "timer": "00:00:04"
+    },
+    "helpCollapse": {
+      "transition": "height 14s ease-out",
+      "h": 220.59375
+    },
+    "helpCollapseAfter5s": 109.203125
+  },
+  "ttf": {
+    "step1-Next(empty)": {
+      "mut": 20,
+      "paint": 53.60000014305115
+    },
+    "step1-T&C-checkbox": {
+      "mut": 897,
+      "paint": 897.5999999046326
+    },
+    "cookie-Yes": {
+      "mut": 392.59999990463257,
+      "paint": 393.09999990463257
+    },
+    "pagination-2": {
+      "mut": 889.6999998092651,
+      "paint": 890.2999999523163
+    },
+    "cookie-Not-really-no": {
+      "mut": 25,
+      "paint": 58.30000019073486
+    },
+    "step2-interest-checkbox": {
+      "mut": 876.6000001430511,
+      "paint": 898.2000000476837
+    },
+    "step2-Next(incomplete)": {
+      "mut": 27.800000190734863,
+      "paint": 61.30000019073486
+    },
+    "step3-Next(empty)": {
+      "mut": 768,
+      "paint": 768.8000001907349
+    }
+  },
+  "step2Errors": {
+    "text": "Please upload a picture Please choose 3 interests.",
+    "live": false,
+    "role": null,
+    "active": "BUTTON:Next"
+  },
+  "step3Errors": null,
+  "slow": [
+    {
+      "t": 1500,
+      "err": "Error: Execution context was destroyed, most likely because "
+    },
+    {
+      "t": 4000,
+      "app": true,
+      "cloak": true,
+      "textLen": 0
+    },
+    {
+      "t": 8000,
+      "app": true,
+      "cloak": true,
+      "textLen": 0
+    },
+    {
+      "t": 14000,
+      "app": true,
+      "cloak": true,
+      "textLen": 0
+    }
+  ]
+}

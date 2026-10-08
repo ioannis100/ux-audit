@@ -1,0 +1,634 @@
+{
+ "390": {
+  "initial": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 19,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "layout": {
+   "uploadLink": [
+    268,
+    552,
+    42,
+    16
+   ],
+   "downloadBtn": [
+    223,
+    589,
+    154,
+    32
+   ],
+   "next": [
+    0,
+    953,
+    214,
+    40
+   ],
+   "cancel": [
+    234,
+    953,
+    204,
+    40
+   ],
+   "checkbox": [
+    40,
+    733,
+    15,
+    15
+   ],
+   "scrollW": 438,
+   "nextStyle": [
+    "rgba(0, 0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(255, 255, 255)"
+   ],
+   "cancelStyle": [
+    "rgb(41, 197, 102)",
+    "rgb(255, 255, 255)"
+   ],
+   "downloadStyle": [
+    "rgb(12, 88, 218)",
+    "rgb(255, 255, 255)"
+   ],
+   "uploadStyle": [
+    "rgb(127, 140, 141)",
+    "none",
+    "auto"
+   ]
+  },
+  "nextDefaults": {
+   "name": "j3-next-defaults-390",
+   "mutationsIn300ms": 0,
+   "ms": 504
+  },
+  "afterNextDefaults": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 19,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "labelTapTogglesPonies": false,
+  "unselectAllTop": "help-form__container",
+  "afterUnselectAll": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 19,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "afterSelectAll": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 19,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "with4": {
+   "step": 1,
+   "checkedVisible": [
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 15,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "with3NoAvatar": {
+   "step": 1,
+   "checkedVisible": [
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 16,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "downloadRequests": [],
+  "afterDownload": {
+   "step": 1,
+   "checkedVisible": [
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 16,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "fileChooserAccept": "single",
+  "uploadMs": 5068,
+  "afterUpload": {
+   "step": 1,
+   "checkedVisible": [
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 16,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "afterReopenAndCancelDialog": {
+   "step": 1,
+   "checkedVisible": [
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 16,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all",
+   "avatarVisible": false
+  },
+  "validNext": {
+   "name": "j3-valid-next-390",
+   "mutationsIn300ms": 3,
+   "ms": 504
+  },
+  "afterValidNext": {
+   "step": 1,
+   "checkedVisible": [
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 16,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "console": []
+ },
+ "1440": {
+  "initial": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 19,
+   "hasAvatar": false,
+   "errors": [],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "layout": {
+   "uploadLink": [
+    769,
+    552,
+    42,
+    16
+   ],
+   "downloadBtn": [
+    724,
+    589,
+    154,
+    32
+   ],
+   "next": [
+    501,
+    953,
+    214,
+    40
+   ],
+   "cancel": [
+    735,
+    953,
+    204,
+    40
+   ],
+   "checkbox": [
+    541,
+    733,
+    15,
+    15
+   ],
+   "scrollW": 1440,
+   "nextStyle": [
+    "rgba(0, 0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(255, 255, 255)"
+   ],
+   "cancelStyle": [
+    "rgb(41, 197, 102)",
+    "rgb(255, 255, 255)"
+   ],
+   "downloadStyle": [
+    "rgb(12, 88, 218)",
+    "rgb(255, 255, 255)"
+   ],
+   "uploadStyle": [
+    "rgb(127, 140, 141)",
+    "none",
+    "auto"
+   ]
+  },
+  "nextDefaults": {
+   "name": "j3-next-defaults-1440",
+   "mutationsIn300ms": 5,
+   "ms": 405
+  },
+  "afterNextDefaults": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 19,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture",
+    "Please choose 3 interests."
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "labelTapTogglesPonies": false,
+  "unselectAllTop": "self",
+  "afterUnselectAll": {
+   "step": 1,
+   "checkedVisible": [],
+   "counted": 0,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture",
+    "Please choose 3 interests."
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "afterSelectAll": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails",
+    "Balls",
+    "Post-its",
+    "Faucets",
+    "Enveloppes",
+    "Cables",
+    "Questions",
+    "Squares",
+    "Purple",
+    "Cotton",
+    "Dry-wall",
+    "Closets",
+    "Tires",
+    "Windows",
+    "Select all",
+    "Mullets",
+    "Cinnamon",
+    "Unselect all"
+   ],
+   "counted": 19,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture",
+    "Please choose 3 interests."
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "with4": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough",
+    "Snails"
+   ],
+   "counted": 4,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture",
+    "Please choose 3 interests."
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "with3NoAvatar": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough"
+   ],
+   "counted": 3,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture"
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "downloadRequests": [],
+  "afterDownload": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough"
+   ],
+   "counted": 3,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture"
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "fileChooserAccept": "single",
+  "uploadMs": 5010,
+  "afterUpload": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough"
+   ],
+   "counted": 3,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture"
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "afterReopenAndCancelDialog": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough"
+   ],
+   "counted": 3,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture"
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all",
+   "avatarVisible": false
+  },
+  "validNext": {
+   "name": "j3-valid-next-1440",
+   "mutationsIn300ms": 0,
+   "ms": 405
+  },
+  "afterValidNext": {
+   "step": 1,
+   "checkedVisible": [
+    "Ponies",
+    "Polo",
+    "Dough"
+   ],
+   "counted": 3,
+   "hasAvatar": false,
+   "errors": [
+    "Please upload a picture"
+   ],
+   "order": "Ponies, Polo, Dough, Snails, Balls, Post-its, Faucets, Enveloppes, Cables, Questions, Squares, Purple, Cotton, Dry-wall, Closets, Tires, Windows, Select all, Mullets, Cinnamon, Unselect all"
+  },
+  "console": []
+ },
+ "doubleNext-390": {
+  "stepAfter": 1,
+  "stepCompleteLogs": 0,
+  "elementNowUnderPointer": "How can we help?\nHel"
+ },
+ "cancel-390": {
+  "step": 1,
+  "confirmModal": false
+ },
+ "doubleNext-1440": {
+  "stepAfter": 1,
+  "stepCompleteLogs": 0,
+  "elementNowUnderPointer": "2 / 4\n\t\nThis is me\n\n"
+ },
+ "cancel-1440": {
+  "step": 0,
+  "confirmModal": false
+ }
+}

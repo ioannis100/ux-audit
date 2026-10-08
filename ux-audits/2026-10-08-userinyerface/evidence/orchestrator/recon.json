@@ -1,0 +1,335 @@
+{
+  "home": {
+    "label": "home",
+    "url": "https://userinyerface.com/",
+    "title": "User Inyerface - A worst-practice UI experiment",
+    "text": "Hi and welcome to User Inyerface, a challenging exploration of user interactions and design patterns. To play the game, simply fill in the form as fast and accurate as possible. NO Please click HERE to GO to the next page",
+    "els": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "cls": "start__button",
+        "text": "NO"
+      },
+      {
+        "tag": "A",
+        "type": null,
+        "cls": "start__link",
+        "text": "HERE"
+      },
+      {
+        "tag": "DIV",
+        "type": null,
+        "cls": "bagaar-link",
+        "text": ""
+      },
+      {
+        "tag": "IMG",
+        "type": null,
+        "cls": "bagaar-link__image",
+        "text": ""
+      }
+    ],
+    "comps": [
+      {
+        "name": "anon",
+        "data": []
+      },
+      {
+        "name": "ui-logo",
+        "data": []
+      }
+    ],
+    "rootData": "{}"
+  },
+  "clickedHere": "A start__link",
+  "game": {
+    "label": "game",
+    "url": "https://userinyerface.com/game.html",
+    "title": "User Inyerface - A worst-practice UI experiment",
+    "text": "00:00:01 1 2 3 4 1 / 4 @ other I do not accept the Terms & Conditions Next Cancel Reset Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character. How can we help? Help Send to bottom",
+    "els": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "cls": "pagination__button is-active",
+        "text": "1"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "cls": "pagination__button",
+        "text": "2"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "cls": "pagination__button",
+        "text": "3"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "cls": "pagination__button",
+        "text": "4"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "cls": "input input--blue input--gray",
+        "text": "Choose Password"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "cls": "input input--blue input--gray",
+        "text": "Your email"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "cls": "input input--blue input--gray",
+        "text": "Domain"
+      },
+      {
+        "tag": "SPAN",
+        "type": null,
+        "cls": "checkbox",
+        "text": ""
+      },
+      {
+        "tag": "LABEL",
+        "type": null,
+        "cls": "checkbox__label",
+        "text": ""
+      },
+      {
+        "tag": "SPAN",
+        "type": null,
+        "cls": "checkbox__box",
+        "text": ""
+      },
+      {
+        "tag": "SPAN",
+        "type": null,
+        "cls": "icon icon-check checkbox__check",
+        "text": ""
+      },
+      {
+        "tag": "A",
+        "type": null,
+        "cls": "login-form__terms-conditions",
+        "text": "I do not accept the Terms & Conditions"
+      },
+      {
+        "tag": "DIV",
+        "type": null,
+        "cls": "align__cell button-container__secondary",
+        "text": "Next"
+      },
+      {
+        "tag": "A",
+        "type": null,
+        "cls": "button--secondary",
+        "text": "Next"
+      },
+      {
+        "tag": "DIV",
+        "type": null,
+        "cls": "align__cell button-container__primary",
+        "text": "Cancel"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "cls": "button button--solid button--blue button--fluid",
+        "text": "Cancel"
+      },
+      {
+        "tag": "DIV",
+        "type": null,
+        "cls": "align__cell button-container__secondary",
+        "text": "Reset"
+      },
+      {
+        "tag": "A",
+        "type": null,
+        "cls": "button--secondary u-right",
+        "text": "Reset"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "cls": "button button--solid button--blue help-form__close",
+        "text": ""
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "cls": "help-form__text-area",
+        "text": ""
+      },
+      {
+        "tag": "A",
+        "type": null,
+        "cls": "help-form__help-button",
+        "text": "Help"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "cls": "button button--solid button--blue help-form__send-",
+        "text": "Send to bottom"
+      },
+      {
+        "tag": "DIV",
+        "type": null,
+        "cls": "bagaar-link",
+        "text": ""
+      },
+      {
+        "tag": "IMG",
+        "type": null,
+        "cls": "bagaar-link__image",
+        "text": ""
+      }
+    ],
+    "comps": [
+      {
+        "name": "anon",
+        "data": []
+      },
+      {
+        "name": "ui-game",
+        "data": [
+          "activePageIndex",
+          "maxPages",
+          "currentPageIndex",
+          "gameFinished",
+          "confirmModalIsActive",
+          "cookiesIsActive",
+          "cookiesWasActive",
+          "pages",
+          "timerModalIsActive",
+          "termsAndConditionsVisible",
+          "personalDetailsPageErrors"
+        ]
+      },
+      {
+        "name": "ui-logo",
+        "data": []
+      },
+      {
+        "name": "ui-timer",
+        "data": [
+          "className",
+          "hours",
+          "minutes",
+          "seconds"
+        ]
+      },
+      {
+        "name": "ui-pagination",
+        "data": [
+          "className"
+        ]
+      },
+      {
+        "name": "ui-login-form-with-password-check",
+        "data": [
+          "loginData",
+          "correctCount"
+        ]
+      },
+      {
+        "name": "ui-login-form",
+        "data": [
+          "selectedEmailExtensionIndex",
+          "emailExtensions",
+          "emailError",
+          "passwordError",
+          "termsAndConditionsError",
+          "loginData"
+        ]
+      },
+      {
+        "name": "ui-page-indicator",
+        "data": []
+      },
+      {
+        "name": "ui-input",
+        "data": [
+          "className",
+          "internal"
+        ]
+      },
+      {
+        "name": "ui-input",
+        "data": [
+          "className",
+          "internal"
+        ]
+      },
+      {
+        "name": "ui-input",
+        "data": [
+          "className",
+          "internal"
+        ]
+      },
+      {
+        "name": "ui-dropdown",
+        "data": [
+          "selectedIndex",
+          "opened",
+          "editable"
+        ]
+      },
+      {
+        "name": "ui-checkbox",
+        "data": [
+          "className",
+          "internalValue"
+        ]
+      },
+      {
+        "name": "ui-button",
+        "data": []
+      },
+      {
+        "name": "ui-password-check",
+        "data": [
+          "passwordCorrect",
+          "rules"
+        ]
+      }
+    ],
+    "rootData": "{}"
+  },
+  "requests": [
+    "GET https://userinyerface.com/",
+    "GET https://fonts.googleapis.com/css?family=Poppins:900",
+    "GET https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i",
+    "GET https://userinyerface.com/app.css",
+    "GET https://userinyerface.com/images/verhaert-digital-logo.svg",
+    "GET https://userinyerface.com/app.js",
+    "GET https://www.google-analytics.com/analytics.js",
+    "GET https://userinyerface.com/images/userinyerface-logo.svg",
+    "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=991627126&t=pageview&_s=1&dl=https%3A",
+    "GET https://userinyerface.com/favicon.ico",
+    "GET https://www.googletagmanager.com/gtag/js?id=G-WV3V8CDC4C&cx=c&_slc=1",
+    "POST https://region1.google-analytics.com/g/collect?v=2&tid=G-WV3V8CDC4C&gtm=45je6a60v9112305701za20gxf1&",
+    "GET https://userinyerface.com/game.html",
+    "GET https://fonts.googleapis.com/css?family=Poppins:900",
+    "GET https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i",
+    "GET https://userinyerface.com/app.css",
+    "GET https://userinyerface.com/images/verhaert-digital-logo.svg",
+    "GET https://userinyerface.com/app.js",
+    "GET https://www.google-analytics.com/analytics.js",
+    "GET https://userinyerface.com/images/userinyerface-logo.svg",
+    "GET https://userinyerface.com/fonts/icomoon/icomoon.ttf?bfoq5r",
+    "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=765161504&t=pageview&_s=1&dl=https%3A",
+    "GET https://userinyerface.com/favicon.ico",
+    "GET https://www.googletagmanager.com/gtag/js?id=G-WV3V8CDC4C&cx=c&_slc=1"
+  ]
+}

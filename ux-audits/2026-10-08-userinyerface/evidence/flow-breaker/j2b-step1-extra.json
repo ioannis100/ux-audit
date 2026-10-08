@@ -1,0 +1,276 @@
+{
+  "390": {
+    "naive": {
+      "emailName": "Your etestmail",
+      "emailDomain": "Domaiexampln",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": true,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your etestmail",
+        "Domaiexamplen"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "inputType": [
+      {
+        "ph": "Choose Password",
+        "type": "text",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": -1,
+        "label": 0,
+        "aria": null
+      },
+      {
+        "ph": "Your email",
+        "type": "text",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": -1,
+        "label": 0,
+        "aria": null
+      },
+      {
+        "ph": "Domain",
+        "type": "text",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": -1,
+        "label": 0,
+        "aria": null
+      },
+      {
+        "ph": "",
+        "type": "checkbox",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": 0,
+        "label": 1,
+        "aria": null
+      }
+    ],
+    "afterEnter": {
+      "emailName": "Your etestmail",
+      "emailDomain": "Domaiexamplen",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": true,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your etestmail",
+        "Domaiexamplen"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "beforeReset": {
+      "emailName": "Your etestmail",
+      "emailDomain": "Domaiexamplen",
+      "emailExt": "",
+      "dontAccept": false,
+      "boxChecked": false,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your etestmail",
+        "Domaiexamplen"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "afterReset": {
+      "emailName": "",
+      "emailDomain": "",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": false,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your email",
+        "Domain"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "afterResetNext": {
+      "emailName": "",
+      "emailDomain": "",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": false,
+      "tcError": true,
+      "tcErrorText": "Please do NOT forget to accept our terms and conditions",
+      "vals": [
+        "Your email",
+        "Domain"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "afterResetTickAgain": {
+      "emailName": "",
+      "emailDomain": "",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": true,
+      "tcError": true,
+      "tcErrorText": "Please do NOT forget to accept our terms and conditions",
+      "vals": [
+        "Your email",
+        "Domain"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "extList": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  "1440": {
+    "naive": {
+      "emailName": "Your etestmail",
+      "emailDomain": "Domaiexamplen",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": true,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your etestmail",
+        "Domaiexamplen"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "inputType": [
+      {
+        "ph": "Choose Password",
+        "type": "text",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": -1,
+        "label": 0,
+        "aria": null
+      },
+      {
+        "ph": "Your email",
+        "type": "text",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": -1,
+        "label": 0,
+        "aria": null
+      },
+      {
+        "ph": "Domain",
+        "type": "text",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": -1,
+        "label": 0,
+        "aria": null
+      },
+      {
+        "ph": "",
+        "type": "checkbox",
+        "autocomplete": "",
+        "inputmode": "",
+        "tabIndex": 0,
+        "label": 1,
+        "aria": null
+      }
+    ],
+    "afterEnter": {
+      "emailName": "Your etestmail",
+      "emailDomain": "Domaiexamplen",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": true,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your etestmail",
+        "Domaiexamplen"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "beforeReset": {
+      "emailName": "Your etestmail",
+      "emailDomain": "Domaiexamplen",
+      "emailExt": "",
+      "dontAccept": false,
+      "boxChecked": false,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your etestmail",
+        "Domaiexamplen"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "afterReset": {
+      "emailName": "",
+      "emailDomain": "",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": false,
+      "tcError": false,
+      "tcErrorText": null,
+      "vals": [
+        "Your email",
+        "Domain"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "afterResetNext": {
+      "emailName": "",
+      "emailDomain": "",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": false,
+      "tcError": true,
+      "tcErrorText": "Please do NOT forget to accept our terms and conditions",
+      "vals": [
+        "Your email",
+        "Domain"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "afterResetTickAgain": {
+      "emailName": "",
+      "emailDomain": "",
+      "emailExt": "",
+      "dontAccept": true,
+      "boxChecked": true,
+      "tcError": true,
+      "tcErrorText": "Please do NOT forget to accept our terms and conditions",
+      "vals": [
+        "Your email",
+        "Domain"
+      ],
+      "url": "https://userinyerface.com/game.html"
+    },
+    "extList": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}

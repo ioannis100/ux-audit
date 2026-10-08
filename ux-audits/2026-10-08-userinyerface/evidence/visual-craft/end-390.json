@@ -1,0 +1,212 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/game.html",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "498x1078",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          7
+        ]
+      ],
+      "sizesPx": [
+        [
+          "16",
+          2
+        ],
+        [
+          "32",
+          2
+        ],
+        [
+          "23",
+          1
+        ],
+        [
+          "24",
+          1
+        ],
+        [
+          "25",
+          1
+        ]
+      ],
+      "distinctSizes": 5,
+      "weights": [
+        [
+          "700",
+          4
+        ],
+        [
+          "400",
+          3
+        ]
+      ],
+      "distinctTextColors": 3,
+      "tinyTextUnder12px": [],
+      "paragraphs": {
+        "sampled": 0,
+        "lineHeights": [],
+        "charsPerLine": {
+          "min": null,
+          "max": null,
+          "samples": []
+        },
+        "outOfRangeLineHeight": []
+      },
+      "uppercaseWithoutTracking": [
+        {
+          "el": "h1.end-screen__title",
+          "text": "YOU ARE AWESOME!"
+        }
+      ],
+      "fontsLoaded": [
+        "icomoon 400"
+      ],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 7,
+      "contrastFailures": 2,
+      "contrastExamples": [
+        {
+          "el": "h1.end-screen__title",
+          "ratio": 2.71,
+          "need": 3,
+          "size": 32,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "YOU ARE AWESOME!"
+        },
+        {
+          "el": "h2.end-screen__subtitle",
+          "ratio": 2.71,
+          "need": 3,
+          "size": 24,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "A true interface legend."
+        }
+      ],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 6,
+      "top": [
+        [
+          "4",
+          112
+        ],
+        [
+          "24",
+          19
+        ],
+        [
+          "16",
+          10
+        ],
+        [
+          "40",
+          5
+        ],
+        [
+          "32",
+          2
+        ],
+        [
+          "64",
+          2
+        ]
+      ],
+      "offGrid4": [],
+      "radii": [
+        [
+          "4px",
+          17
+        ],
+        [
+          "8px",
+          1
+        ]
+      ],
+      "shadowLevels": 0
+    },
+    "interaction": {
+      "interactiveCount": 1,
+      "targetsUnder24px": {
+        "count": 0,
+        "examples": []
+      },
+      "targetsUnder44px": {
+        "count": 1,
+        "examples": [
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Validate"
+          }
+        ]
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 1,
+      "hues": [
+        210
+      ],
+      "distinctTextSizes": 4,
+      "boundedRegions": 1,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "Validate"
+      ],
+      "genericLabels": []
+    },
+    "forms": {
+      "inputs": 0,
+      "unlabeled": [],
+      "wrongTypeOrInputmode": [],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 1,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [],
+      "easings": [],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 539,
+      "domContentLoadedMs": 1007,
+      "loadMs": 1335,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "modal": []
+}

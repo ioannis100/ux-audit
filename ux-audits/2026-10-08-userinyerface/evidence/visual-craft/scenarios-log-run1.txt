@@ -1,0 +1,43 @@
+21:59:22 pips t0: card page index 0 / highlighted pip index 1
+21:59:23 pips t1: card page index 0 / highlighted pip index 2
+21:59:24 pips t2: card page index 0 / highlighted pip index 0
+21:59:25 pips t3: card page index 0 / highlighted pip index 1
+21:59:26 [1440] step1 click Next (empty): A.button--secondary
+21:59:27 shot step1-error-1440
+21:59:27 [1440] click T&C: SPAN.login-form__terms-conditions-underline
+21:59:29 shot modal-terms-1440
+21:59:29 [1440] close T&C: false
+21:59:29 [1440] click Cancel: DIV.align__cell button-container__primary
+21:59:30 shot modal-confirm-1440
+21:59:30 [1440] cookies click "Not really, no": BUTTON.button button--solid button--transparent
+21:59:31 [1440] cookiesIsActive after: false
+21:59:31 shot cookie-dismissed-1440
+21:59:31 [1440] help toggle: true
+21:59:33 shot help-toggled-1440
+21:59:34 [1440] step3 Next (empty): BUTTON.button button--stroked button--white
+21:59:35 shot step3-error-1440
+21:59:36 [1440] step4 Validate (none): BUTTON.button button--solid button--blue
+21:59:37 shot step4-error-1440
+22:00:19 [1440] timer modal active=true after waiting 42s more
+22:00:19 shot modal-timer-1440
+22:00:21 shot end-1440
+22:00:25 390 wider-than-viewport elements: DIV.login-form__container-copy-2 r=452 w=436 minW=0px | DIV.login-form__container-copy-1 r=444 w=436 minW=0px | DIV.login-form r=436 w=436 minW=0px | DIV.login-form__container r=436 w=436 minW=0px | DIV.align align--fluid r=428 w=388 minW=0px
+22:00:25 [390] step1 click Next (empty): A.button--secondary
+22:00:26 shot step1-error-390
+22:00:26 [390] click T&C: SPAN.login-form__terms-conditions-underline
+22:00:28 shot modal-terms-390
+22:00:28 [390] close T&C: false
+22:00:29 [390] click Cancel: DIV.align__cell button-container__primary
+22:00:30 shot modal-confirm-390
+22:00:30 [390] cookies click "Not really, no": BUTTON.button button--solid button--transparent
+22:00:31 [390] cookiesIsActive after: false
+22:00:31 shot cookie-dismissed-390
+22:00:31 [390] help toggle: true
+22:00:32 shot help-toggled-390
+22:00:33 [390] step3 Next (empty): BUTTON.button button--stroked button--white
+22:00:34 shot step3-error-390
+22:00:35 [390] step4 Validate (none): BUTTON.button button--solid button--blue
+22:00:37 shot step4-error-390
+22:01:24 [390] timer modal active=true after waiting 47s more
+22:01:24 shot modal-timer-390
+22:01:26 shot end-390

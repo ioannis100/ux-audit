@@ -1,0 +1,869 @@
+[
+  {
+    "t": "1.9",
+    "a": "load",
+    "r": {
+      "loadMs": 1848
+    }
+  },
+  {
+    "t": "1.9",
+    "a": "cookies-at-load-before-any-click",
+    "r": [
+      ".userinyerface.com:_ga",
+      ".userinyerface.com:_gid",
+      ".userinyerface.com:_gat"
+    ]
+  },
+  {
+    "t": "4.5",
+    "a": "banner",
+    "r": {
+      "cookiesIsActive": true,
+      "timer": "00:00:03"
+    }
+  },
+  {
+    "t": "8.7",
+    "a": "pagination samples (activePageIndex, currentPageIndex, card indicator, highlighted pip) every 250ms",
+    "r": [
+      [
+        2,
+        0,
+        "1 / 4",
+        "3"
+      ],
+      [
+        2,
+        0,
+        "1 / 4",
+        "3"
+      ],
+      [
+        2,
+        0,
+        "1 / 4",
+        "3"
+      ],
+      [
+        3,
+        0,
+        "1 / 4",
+        "4"
+      ],
+      [
+        3,
+        0,
+        "1 / 4",
+        "4"
+      ],
+      [
+        3,
+        0,
+        "1 / 4",
+        "4"
+      ],
+      [
+        3,
+        0,
+        "1 / 4",
+        "4"
+      ],
+      [
+        0,
+        0,
+        "1 / 4",
+        "1"
+      ],
+      [
+        0,
+        0,
+        "1 / 4",
+        "1"
+      ],
+      [
+        0,
+        0,
+        "1 / 4",
+        "1"
+      ],
+      [
+        0,
+        0,
+        "1 / 4",
+        "1"
+      ],
+      [
+        1,
+        0,
+        "1 / 4",
+        "2"
+      ],
+      [
+        1,
+        0,
+        "1 / 4",
+        "2"
+      ],
+      [
+        1,
+        0,
+        "1 / 4",
+        "2"
+      ],
+      [
+        1,
+        0,
+        "1 / 4",
+        "2"
+      ],
+      [
+        2,
+        0,
+        "1 / 4",
+        "3"
+      ]
+    ]
+  },
+  {
+    "t": "8.7",
+    "a": "T&C checkbox initial",
+    "r": {
+      "checked": true,
+      "label": "I do not accept the Terms & Conditions"
+    }
+  },
+  {
+    "t": "11.0",
+    "a": "states cookie",
+    "r": {
+      "no": {
+        "default": {
+          "w": 143,
+          "h": 40,
+          "x": 1097,
+          "y": 58,
+          "text": "Not really, no",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "16px",
+          "fontWeight": "400"
+        },
+        "hover": {
+          "w": 143,
+          "h": 40,
+          "x": 1097,
+          "y": 58,
+          "text": "Not really, no",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "16px",
+          "fontWeight": "400"
+        },
+        "pressed": {
+          "w": 143,
+          "h": 40,
+          "x": 1097,
+          "y": 58,
+          "text": "Not really, no",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "16px",
+          "fontWeight": "400"
+        },
+        "focus": {
+          "w": 143,
+          "h": 40,
+          "x": 1097,
+          "y": 58,
+          "text": "Not really, no",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 255, 255)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "16px",
+          "fontWeight": "400"
+        },
+        "focusIsActive": true,
+        "diff": {
+          "hover": [],
+          "pressed": [],
+          "focus": []
+        }
+      },
+      "yes": {
+        "default": {
+          "w": 140,
+          "h": 48,
+          "x": 1260,
+          "y": 54,
+          "text": "Yes",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(255, 255, 255)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "24px",
+          "fontWeight": "400"
+        },
+        "hover": {
+          "w": 140,
+          "h": 48,
+          "x": 1260,
+          "y": 54,
+          "text": "Yes",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(255, 255, 255)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "24px",
+          "fontWeight": "400"
+        },
+        "pressed": {
+          "w": 140,
+          "h": 48,
+          "x": 1260,
+          "y": 54,
+          "text": "Yes",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(255, 255, 255)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "24px",
+          "fontWeight": "400"
+        },
+        "focus": {
+          "w": 140,
+          "h": 48,
+          "x": 1260,
+          "y": 54,
+          "text": "Yes",
+          "tag": "BUTTON",
+          "disabledAttr": false,
+          "tabIndex": 0,
+          "color": "rgb(255, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgb(255, 255, 255)",
+          "borderWidth": "1px",
+          "outlineStyle": "none",
+          "outlineWidth": "0px",
+          "boxShadow": "none",
+          "transform": "none",
+          "cursor": "default",
+          "opacity": "1",
+          "textDecorationLine": "none",
+          "fontSize": "24px",
+          "fontWeight": "400"
+        },
+        "focusIsActive": true,
+        "diff": {
+          "hover": [],
+          "pressed": [],
+          "focus": []
+        }
+      }
+    }
+  },
+  {
+    "t": "11.9",
+    "a": "after click 'Yes' (it IS a problem)",
+    "r": {
+      "cookiesIsActive": true
+    }
+  },
+  {
+    "t": "12.7",
+    "a": "after click 'Not really, no'",
+    "r": {
+      "state": {
+        "cookiesIsActive": false
+      },
+      "cookies": [
+        ".userinyerface.com:_ga",
+        ".userinyerface.com:_gid",
+        ".userinyerface.com:_gat",
+        ".userinyerface.com:_ga_WV3V8CDC4C"
+      ]
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff cookieNo",
+    "r": {
+      "size": "143x40",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": true
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff cookieYes",
+    "r": {
+      "size": "140x48",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(255, 0, 0)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": true
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff next",
+    "r": {
+      "size": "30x16",
+      "tag": "A",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(181, 187, 192)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": false
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff cancel",
+    "r": {
+      "size": "186x40",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgb(12, 88, 218)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": true
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff reset",
+    "r": {
+      "size": "38x16",
+      "tag": "A",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(181, 187, 192)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": false
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff tcBox",
+    "r": {
+      "size": "18x18",
+      "tag": "SPAN",
+      "cursor": "default",
+      "tabIndex": -1,
+      "bg": "rgb(52, 152, 219)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": false
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff tcInput",
+    "r": {
+      "size": "0x0",
+      "tag": "INPUT",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": false
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff emailInput",
+    "r": {
+      "size": "124x40",
+      "tag": "INPUT",
+      "cursor": "text",
+      "tabIndex": -1,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(181, 187, 192)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": true
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff extDropdown",
+    "r": {
+      "size": "80x38",
+      "tag": "DIV",
+      "cursor": "auto",
+      "tabIndex": -1,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": false
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff pip",
+    "r": {
+      "size": "48x48",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgb(41, 197, 102)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": true
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff helpSendBottom",
+    "r": {
+      "size": "97x40",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgb(12, 88, 218)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": true
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff helpLink",
+    "r": {
+      "size": "26x15",
+      "tag": "A",
+      "cursor": "pointer",
+      "tabIndex": 0,
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": false
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "state-diff helpUp",
+    "r": {
+      "size": "24x24",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "tabIndex": 0,
+      "bg": "rgb(12, 88, 218)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": [],
+      "focusIsActive": true
+    }
+  },
+  {
+    "t": "25.4",
+    "a": "Tab x14 sequence",
+    "r": [
+      "BUTTON.pagination__button \"1\" outline:none/0px shadow:none",
+      "BUTTON.pagination__button \"2\" outline:none/0px shadow:none",
+      "BUTTON.pagination__button \"3\" outline:none/0px shadow:none",
+      "BUTTON.pagination__button is-active \"4\" outline:none/0px shadow:none",
+      "BUTTON.button button--solid button--b \"Cancel\" outline:none/0px shadow:none",
+      "BUTTON.button button--solid button--b \"\" outline:none/0px shadow:none",
+      "TEXTAREA.help-form__text-area \"\" outline:none/0px shadow:none",
+      "BUTTON.button button--solid button--b \"Send\nto bottom\" outline:none/0px shadow:none",
+      "BODY. \"00:00:24\n1\t2\t3\t4\n1 /\" outline:none/3px shadow:none",
+      "BUTTON.pagination__button \"1\" outline:none/0px shadow:none",
+      "BUTTON.pagination__button \"2\" outline:none/0px shadow:none",
+      "BUTTON.pagination__button \"3\" outline:none/0px shadow:none",
+      "BUTTON.pagination__button is-active \"4\" outline:none/0px shadow:none",
+      "BUTTON.button button--solid button--b \"Cancel\" outline:none/0px shadow:none"
+    ]
+  },
+  {
+    "t": "26.2",
+    "a": "email-ext dropdown open, height/opacity every 80ms",
+    "r": [
+      "1px op0.00",
+      "52px op0.35",
+      "120px op0.80",
+      "145px op0.97",
+      "150px op1.00",
+      "150px op1.00",
+      "150px op1.00",
+      "150px op1.00"
+    ]
+  },
+  {
+    "t": "27.5",
+    "a": "Next with all empty: errors",
+    "r": {
+      "tcError": "Please do NOT forget to accept our terms and conditions",
+      "inputBorders": [
+        "rgb(12, 88, 218)",
+        "rgb(12, 88, 218)",
+        "rgb(12, 88, 218)",
+        "rgb(0, 0, 0)"
+      ],
+      "rules": [
+        [
+          "Your password requires at least 10 characters.",
+          "rgb(41, 197, 102)"
+        ],
+        [
+          "Your password should have at least 1 Capital letter.",
+          "rgb(41, 197, 102)"
+        ],
+        [
+          "Your password must have at least 1 Numeral.",
+          "rgb(41, 197, 102)"
+        ],
+        [
+          "Your password needs at least 1 letter of your email.",
+          "rgb(41, 197, 102)"
+        ],
+        [
+          "Your password can have at least 1 cyrillic character.",
+          "rgb(41, 197, 102)"
+        ]
+      ],
+      "step": "1 / 4"
+    }
+  },
+  {
+    "t": "28.0",
+    "a": "after clicking checkbox box",
+    "r": {
+      "checked": false,
+      "err": "Please do NOT forget to accept our terms and conditions"
+    }
+  },
+  {
+    "t": "29.2",
+    "a": "click on label text 'I do not accept the Terms & Conditions'",
+    "r": {
+      "termsVisible": true,
+      "checked": true
+    }
+  },
+  {
+    "t": "29.2",
+    "a": "T&C modal",
+    "r": {
+      "title": "Please read our terms and conditions",
+      "scrollH": 2459,
+      "clientH": 300,
+      "acceptCls": "terms-and-conditions__accept-button-container disabled",
+      "acceptOpacity": "0.5",
+      "closeVisible": false,
+      "cheat": "ALT to scroll faster is cheating and not allowed."
+    }
+  },
+  {
+    "t": "30.2",
+    "a": "after Escape, backdrop click, Accept click before scrolling",
+    "r": {
+      "termsVisible": true
+    }
+  },
+  {
+    "t": "31.7",
+    "a": "20 wheel ticks of deltaY 100 -> scrollTop px",
+    "r": {
+      "before": 0,
+      "after": 40
+    }
+  },
+  {
+    "t": "31.7",
+    "a": "ticks needed to reach bottom at measured rate",
+    "r": {
+      "scrollable": 2159,
+      "perTick": 2,
+      "ticks": 1080
+    }
+  },
+  {
+    "t": "56.6",
+    "a": "after alt+wheel x400",
+    "r": {
+      "top": 2159,
+      "max": 2159,
+      "acceptCls": "terms-and-conditions__accept-button-container"
+    }
+  },
+  {
+    "t": "57.1",
+    "a": "after Accept",
+    "r": {
+      "termsVisible": false,
+      "tcCheckboxStillChecked_meaningNotAccepted": true
+    }
+  },
+  {
+    "t": "57.7",
+    "a": "confirm modal",
+    "r": {
+      "text": "Are you sure you want to cancel? Yes Cancel ",
+      "btns": [
+        "A \"Yes\" bg:rgb(255, 0, 0) href:/index.html",
+        "BUTTON \"Cancel\" bg:rgb(41, 197, 102) href:null"
+      ]
+    }
+  },
+  {
+    "t": "57.9",
+    "a": "Escape on confirm modal",
+    "r": true
+  },
+  {
+    "t": "58.3",
+    "a": "click modal 'Cancel'",
+    "r": {
+      "confirm": false,
+      "step": 0
+    }
+  },
+  {
+    "t": "59.0",
+    "a": "Help link twice",
+    "r": {
+      "q1": "Please wait, there are 499 people in line.",
+      "q2": "Please wait, there are 500 people in line."
+    }
+  },
+  {
+    "t": "62.4",
+    "a": "timer modal",
+    "r": {
+      "text": "Hurry up, time is ticking! 00:01:01 Lock ©lose 2026 ",
+      "btn": [
+        "Lock bg:rgb(41, 197, 102)"
+      ],
+      "close": {
+        "text": "©lose 2026",
+        "color": "rgb(181, 187, 192)",
+        "size": "14px",
+        "cursor": "auto"
+      }
+    }
+  },
+  {
+    "t": "121.5",
+    "a": "help widget after 'Send to bottom' (sampled 1/s), reopenAt(s)",
+    "r": {
+      "reopenAt": 50.503,
+      "hs": [
+        "0s h228 00:00:57",
+        "1s h204 hidden 00:00:58",
+        "2s h180 hidden 00:00:59",
+        "3s h157 hidden 00:01:00 TIMER-MODAL",
+        "4s h128 hidden 00:01:02 TIMER-MODAL",
+        "5s h108 hidden 00:01:03 TIMER-MODAL",
+        "6s h90 hidden 00:01:04 TIMER-MODAL",
+        "7s h73 hidden 00:01:05 TIMER-MODAL",
+        "8s h57 hidden 00:01:06 TIMER-MODAL",
+        "9s h43 hidden 00:01:07 TIMER-MODAL",
+        "10s h32 hidden 00:01:08 TIMER-MODAL",
+        "11s h22 hidden 00:01:09 TIMER-MODAL",
+        "12s h15 hidden 00:01:10 TIMER-MODAL",
+        "13s h11 hidden 00:01:11 TIMER-MODAL",
+        "14s h10 hidden 00:01:12 TIMER-MODAL",
+        "15s h10 hidden 00:01:13 TIMER-MODAL",
+        "16s h10 hidden 00:01:14 TIMER-MODAL",
+        "17s h10 hidden 00:01:15 TIMER-MODAL",
+        "18s h10 hidden 00:01:16 TIMER-MODAL",
+        "19s h10 hidden 00:01:17 TIMER-MODAL",
+        "20s h10 hidden 00:01:18 TIMER-MODAL",
+        "21s h10 hidden 00:01:19 TIMER-MODAL",
+        "22s h10 hidden 00:01:20 TIMER-MODAL",
+        "23s h10 hidden 00:01:21 TIMER-MODAL",
+        "24s h10 hidden 00:01:22 TIMER-MODAL",
+        "25s h10 hidden 00:01:23 TIMER-MODAL",
+        "26s h10 hidden 00:01:24 TIMER-MODAL",
+        "27s h10 hidden 00:01:25 TIMER-MODAL",
+        "28s h10 hidden 00:01:26 TIMER-MODAL",
+        "29s h10 hidden 00:01:27 TIMER-MODAL",
+        "30s h10 hidden 00:01:28 TIMER-MODAL",
+        "31s h10 hidden 00:01:29 TIMER-MODAL",
+        "32s h10 hidden 00:01:30 TIMER-MODAL",
+        "33s h10 hidden 00:01:31 TIMER-MODAL",
+        "34s h10 hidden 00:01:32 TIMER-MODAL",
+        "35s h10 hidden 00:01:33 TIMER-MODAL",
+        "36s h10 hidden 00:01:34 TIMER-MODAL",
+        "37s h10 hidden 00:01:35 TIMER-MODAL",
+        "38s h10 hidden 00:01:36 TIMER-MODAL",
+        "39s h10 hidden 00:01:37 TIMER-MODAL",
+        "40s h10 hidden 00:01:38 TIMER-MODAL",
+        "41s h10 hidden 00:01:39 TIMER-MODAL",
+        "42s h10 hidden 00:01:40 TIMER-MODAL",
+        "43s h10 hidden 00:01:41 TIMER-MODAL",
+        "44s h10 hidden 00:01:42 TIMER-MODAL",
+        "45s h10 hidden 00:01:43 TIMER-MODAL",
+        "46s h10 hidden 00:01:44 TIMER-MODAL",
+        "47s h10 hidden 00:01:45 TIMER-MODAL",
+        "48s h10 hidden 00:01:46 TIMER-MODAL",
+        "50s h10 hidden 00:01:47 TIMER-MODAL",
+        "51s h228 00:01:48 TIMER-MODAL",
+        "52s h228 00:01:49 TIMER-MODAL",
+        "53s h228 00:01:50 TIMER-MODAL",
+        "54s h228 00:01:51 TIMER-MODAL",
+        "55s h228 00:01:52 TIMER-MODAL",
+        "56s h228 00:01:53 TIMER-MODAL",
+        "57s h228 00:01:54 TIMER-MODAL",
+        "58s h228 00:01:55 TIMER-MODAL",
+        "59s h228 00:01:56 TIMER-MODAL",
+        "60s h228 00:01:57 TIMER-MODAL",
+        "61s h228 00:01:58 TIMER-MODAL",
+        "62s h228 00:01:59 TIMER-MODAL"
+      ]
+    }
+  },
+  {
+    "t": "121.9",
+    "a": "after Lock",
+    "r": {
+      "close": false,
+      "btn": [
+        "Unlock"
+      ]
+    }
+  },
+  {
+    "t": "122.4",
+    "a": "Escape on timer modal",
+    "r": true
+  },
+  {
+    "t": "122.8",
+    "a": "after ©lose click",
+    "r": {
+      "modal": false,
+      "timer": "00:02:01"
+    }
+  },
+  {
+    "t": "122.8",
+    "a": "total requests",
+    "r": {
+      "n": 15,
+      "hosts": [
+        "userinyerface.com",
+        "fonts.googleapis.com",
+        "www.google-analytics.com",
+        "www.googletagmanager.com",
+        "region1.google-analytics.com",
+        "fonts.gstatic.com"
+      ]
+    }
+  }
+]

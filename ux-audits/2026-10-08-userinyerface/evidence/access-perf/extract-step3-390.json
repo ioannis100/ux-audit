@@ -1,0 +1,381 @@
+{
+  "page": {
+    "url": "https://userinyerface.com/game.html",
+    "title": "User Inyerface - A worst-practice UI experiment",
+    "viewport": "429x927",
+    "horizontalOverflow": false,
+    "colorScheme": "dark"
+  },
+  "typography": {
+    "families": [
+      [
+        "sans-serif",
+        31
+      ]
+    ],
+    "sizesPx": [
+      [
+        "16",
+        19
+      ],
+      [
+        "13.3",
+        5
+      ],
+      [
+        "24",
+        2
+      ],
+      [
+        "18",
+        1
+      ],
+      [
+        "32",
+        1
+      ],
+      [
+        "18.7",
+        1
+      ],
+      [
+        "12.8",
+        1
+      ],
+      [
+        "11.2",
+        1
+      ]
+    ],
+    "distinctSizes": 8,
+    "weights": [
+      [
+        "300",
+        19
+      ],
+      [
+        "400",
+        8
+      ],
+      [
+        "700",
+        4
+      ]
+    ],
+    "distinctTextColors": 4,
+    "tinyTextUnder12px": [
+      {
+        "el": "span.discrete",
+        "size": 11.2,
+        "text": "to bottom"
+      }
+    ],
+    "paragraphs": {
+      "sampled": 0,
+      "lineHeights": [],
+      "charsPerLine": {
+        "min": null,
+        "max": null,
+        "samples": []
+      },
+      "outOfRangeLineHeight": []
+    },
+    "uppercaseWithoutTracking": [],
+    "fontsLoaded": [
+      "icomoon 400"
+    ],
+    "fontDisplay": [
+      [
+        "auto(block)",
+        1
+      ]
+    ]
+  },
+  "color": {
+    "contrastChecked": 31,
+    "contrastFailures": 2,
+    "contrastExamples": [
+      {
+        "el": "button.button.button--solid",
+        "ratio": 2.26,
+        "need": 4.5,
+        "size": 16,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(41, 197, 102)",
+        "text": "Cancel"
+      },
+      {
+        "el": "button.button.button--solid",
+        "ratio": 4,
+        "need": 4.5,
+        "size": 16,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255, 0, 0)",
+        "text": "Not really, no"
+      }
+    ],
+    "unknownBackground": [],
+    "hasDarkModeCSS": false
+  },
+  "spacing": {
+    "distinctValues": 12,
+    "top": [
+      [
+        "24",
+        38
+      ],
+      [
+        "10",
+        16
+      ],
+      [
+        "30",
+        12
+      ],
+      [
+        "40",
+        10
+      ],
+      [
+        "8",
+        7
+      ],
+      [
+        "20",
+        6
+      ],
+      [
+        "48",
+        3
+      ],
+      [
+        "19",
+        2
+      ],
+      [
+        "27",
+        2
+      ],
+      [
+        "32",
+        2
+      ],
+      [
+        "64",
+        2
+      ],
+      [
+        "80",
+        2
+      ]
+    ],
+    "offGrid4": [
+      [
+        "10",
+        16
+      ],
+      [
+        "30",
+        12
+      ],
+      [
+        "19",
+        2
+      ],
+      [
+        "27",
+        2
+      ]
+    ],
+    "radii": [
+      [
+        "4px",
+        19
+      ],
+      [
+        "24px",
+        4
+      ],
+      [
+        "8px",
+        2
+      ],
+      [
+        "2px",
+        1
+      ],
+      [
+        "50%",
+        1
+      ]
+    ],
+    "shadowLevels": 1
+  },
+  "interaction": {
+    "interactiveCount": 20,
+    "targetsUnder24px": {
+      "count": 4,
+      "examples": [
+        {
+          "el": "button.numeric-stepper__button.numeric-stepper__button--up",
+          "w": 20,
+          "h": 19,
+          "text": ""
+        },
+        {
+          "el": "button.numeric-stepper__button.numeric-stepper__button--down",
+          "w": 20,
+          "h": 19,
+          "text": ""
+        },
+        {
+          "el": "button.numeric-stepper__button.numeric-stepper__button--up",
+          "w": 20,
+          "h": 19,
+          "text": ""
+        },
+        {
+          "el": "button.numeric-stepper__button.numeric-stepper__button--down",
+          "w": 20,
+          "h": 19,
+          "text": ""
+        }
+      ]
+    },
+    "targetsUnder44px": {
+      "count": 10,
+      "examples": [
+        {
+          "el": "button.button.button--solid",
+          "w": 140,
+          "h": 40,
+          "text": "Not really, no"
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 230,
+          "h": 40,
+          "text": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 230,
+          "h": 40,
+          "text": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 230,
+          "h": 40,
+          "text": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 230,
+          "h": 40,
+          "text": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "w": 230,
+          "h": 40,
+          "text": "Placeholder..."
+        }
+      ]
+    },
+    "nonSemanticClickables": []
+  },
+  "fold": {
+    "distinctHues": 3,
+    "hues": [
+      0,
+      150,
+      210
+    ],
+    "distinctTextSizes": 7,
+    "boundedRegions": 12,
+    "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+  },
+  "copy": {
+    "labels": [
+      "Not really, no",
+      "Yes",
+      "1",
+      "2",
+      "3",
+      "4",
+      "Next",
+      "Cancel",
+      "Send to bottom"
+    ],
+    "genericLabels": [
+      "Yes"
+    ]
+  },
+  "forms": {
+    "inputs": 6,
+    "unlabeled": [
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Placeholder..."
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Placeholder..."
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Placeholder..."
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Placeholder..."
+      },
+      {
+        "el": "input.input.input--blue",
+        "placeholder": "Placeholder..."
+      },
+      {
+        "el": "textarea.help-form__text-area",
+        "placeholder": null
+      }
+    ],
+    "wrongTypeOrInputmode": [],
+    "personalFieldsWithoutAutocomplete": 0
+  },
+  "semantics": {
+    "imagesMissingAlt": [],
+    "h1Count": 0,
+    "headingLevelSkips": 0
+  },
+  "motion": {
+    "durationsMs": [
+      [
+        "200",
+        9
+      ]
+    ],
+    "easings": [
+      [
+        "ease-out",
+        9
+      ]
+    ],
+    "over500ms": [],
+    "linearOnMovement": [],
+    "hasReducedMotionCSS": false
+  },
+  "focus": {
+    "focusOutlineRemovedRules": 0,
+    "focusVisibleRules": 0,
+    "unreadableCrossOriginSheets": 2
+  },
+  "performance": {
+    "ttfbMs": 372,
+    "domContentLoadedMs": 855,
+    "loadMs": 1127,
+    "lcpMs": null,
+    "cls": 0,
+    "note": "lab, this load only; use PageSpeed/CrUX for field data"
+  }
+}

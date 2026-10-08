@@ -1,0 +1,42 @@
+1.9 load {"loadMs":1848}
+1.9 cookies-at-load-before-any-click [".userinyerface.com:_ga",".userinyerface.com:_gid",".userinyerface.com:_gat"]
+4.5 banner {"cookiesIsActive":true,"timer":"00:00:03"}
+8.7 pagination samples (activePageIndex, currentPageIndex, card indicator, highlighted pip) every 250ms [[2,0,"1 / 4","3"],[2,0,"1 / 4","3"],[2,0,"1 / 4","3"],[3,0,"1 / 4","4"],[3,0,"1 / 4","4"],[3,0,"1 / 4","4"],[3,0,"1 / 4","4"],[0,0,"1 / 4","1"],[0,0,"1 / 4","1"],[0,0,"1 / 4","1"],[0,0,"1 / 4","1"],[1,0,"1 / 4","2"],[1,0,"1 / 4","2"],[1,0,"1 / 4","2"],[1,0,"1 / 4","2"],[2,0,"1 / 4","3"]]
+8.7 T&C checkbox initial {"checked":true,"label":"I do not accept the Terms & Conditions"}
+11.0 states cookie {"no":{"default":{"w":143,"h":40,"x":1097,"y":58,"text":"Not really, no","tag":"BUTTON","disabledAttr":false,"tabIndex":0,"color":"rgb(255, 255, 255)","backgroundColor":"rgba(0, 0, 0, 0)","borderColor":"rgba(0, 0, 0, 0)","borderWidth":"1px","outlineStyle":"none","outlineWidth":"0px","boxShadow":"non
+11.9 after click 'Yes' (it IS a problem) {"cookiesIsActive":true}
+12.7 after click 'Not really, no' {"state":{"cookiesIsActive":false},"cookies":[".userinyerface.com:_ga",".userinyerface.com:_gid",".userinyerface.com:_gat",".userinyerface.com:_ga_WV3V8CDC4C"]}
+25.4 state-diff cookieNo {"size":"143x40","tag":"BUTTON","cursor":"default","tabIndex":0,"bg":"rgba(0, 0, 0, 0)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[],"focusIsActive":true}
+25.4 state-diff cookieYes {"size":"140x48","tag":"BUTTON","cursor":"default","tabIndex":0,"bg":"rgb(255, 255, 255)","color":"rgb(255, 0, 0)","hover":[],"pressed":[],"focus":[],"focusIsActive":true}
+25.4 state-diff next {"size":"30x16","tag":"A","cursor":"default","tabIndex":0,"bg":"rgba(0, 0, 0, 0)","color":"rgb(181, 187, 192)","hover":[],"pressed":[],"focus":[],"focusIsActive":false}
+25.4 state-diff cancel {"size":"186x40","tag":"BUTTON","cursor":"default","tabIndex":0,"bg":"rgb(12, 88, 218)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[],"focusIsActive":true}
+25.4 state-diff reset {"size":"38x16","tag":"A","cursor":"default","tabIndex":0,"bg":"rgba(0, 0, 0, 0)","color":"rgb(181, 187, 192)","hover":[],"pressed":[],"focus":[],"focusIsActive":false}
+25.4 state-diff tcBox {"size":"18x18","tag":"SPAN","cursor":"default","tabIndex":-1,"bg":"rgb(52, 152, 219)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[],"focusIsActive":false}
+25.4 state-diff tcInput {"size":"0x0","tag":"INPUT","cursor":"default","tabIndex":0,"bg":"rgba(0, 0, 0, 0)","color":"rgb(0, 0, 0)","hover":[],"pressed":[],"focus":[],"focusIsActive":false}
+25.4 state-diff emailInput {"size":"124x40","tag":"INPUT","cursor":"text","tabIndex":-1,"bg":"rgba(0, 0, 0, 0)","color":"rgb(181, 187, 192)","hover":[],"pressed":[],"focus":[],"focusIsActive":true}
+25.4 state-diff extDropdown {"size":"80x38","tag":"DIV","cursor":"auto","tabIndex":-1,"bg":"rgba(0, 0, 0, 0)","color":"rgb(0, 0, 0)","hover":[],"pressed":[],"focus":[],"focusIsActive":false}
+25.4 state-diff pip {"size":"48x48","tag":"BUTTON","cursor":"default","tabIndex":0,"bg":"rgb(41, 197, 102)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[],"focusIsActive":true}
+25.4 state-diff helpSendBottom {"size":"97x40","tag":"BUTTON","cursor":"default","tabIndex":0,"bg":"rgb(12, 88, 218)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[],"focusIsActive":true}
+25.4 state-diff helpLink {"size":"26x15","tag":"A","cursor":"pointer","tabIndex":0,"bg":"rgba(0, 0, 0, 0)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[],"focusIsActive":false}
+25.4 state-diff helpUp {"size":"24x24","tag":"BUTTON","cursor":"default","tabIndex":0,"bg":"rgb(12, 88, 218)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[],"focusIsActive":true}
+25.4 Tab x14 sequence ["BUTTON.pagination__button \"1\" outline:none/0px shadow:none","BUTTON.pagination__button \"2\" outline:none/0px shadow:none","BUTTON.pagination__button \"3\" outline:none/0px shadow:none","BUTTON.pagination__button is-active \"4\" outline:none/0px shadow:none","BUTTON.button button--solid button--
+26.2 email-ext dropdown open, height/opacity every 80ms ["1px op0.00","52px op0.35","120px op0.80","145px op0.97","150px op1.00","150px op1.00","150px op1.00","150px op1.00"]
+27.5 Next with all empty: errors {"tcError":"Please do NOT forget to accept our terms and conditions","inputBorders":["rgb(12, 88, 218)","rgb(12, 88, 218)","rgb(12, 88, 218)","rgb(0, 0, 0)"],"rules":[["Your password requires at least 10 characters.","rgb(41, 197, 102)"],["Your password should have at least 1 Capital letter.","rgb(4
+28.0 after clicking checkbox box {"checked":false,"err":"Please do NOT forget to accept our terms and conditions"}
+29.2 click on label text 'I do not accept the Terms & Conditions' {"termsVisible":true,"checked":true}
+29.2 T&C modal {"title":"Please read our terms and conditions","scrollH":2459,"clientH":300,"acceptCls":"terms-and-conditions__accept-button-container disabled","acceptOpacity":"0.5","closeVisible":false,"cheat":"ALT to scroll faster is cheating and not allowed."}
+30.2 after Escape, backdrop click, Accept click before scrolling {"termsVisible":true}
+31.7 20 wheel ticks of deltaY 100 -> scrollTop px {"before":0,"after":40}
+31.7 ticks needed to reach bottom at measured rate {"scrollable":2159,"perTick":2,"ticks":1080}
+56.6 after alt+wheel x400 {"top":2159,"max":2159,"acceptCls":"terms-and-conditions__accept-button-container"}
+57.1 after Accept {"termsVisible":false,"tcCheckboxStillChecked_meaningNotAccepted":true}
+57.7 confirm modal {"text":"Are you sure you want to cancel? Yes Cancel ","btns":["A \"Yes\" bg:rgb(255, 0, 0) href:/index.html","BUTTON \"Cancel\" bg:rgb(41, 197, 102) href:null"]}
+57.9 Escape on confirm modal true
+58.3 click modal 'Cancel' {"confirm":false,"step":0}
+59.0 Help link twice {"q1":"Please wait, there are 499 people in line.","q2":"Please wait, there are 500 people in line."}
+62.4 timer modal {"text":"Hurry up, time is ticking! 00:01:01 Lock ©lose 2026 ","btn":["Lock bg:rgb(41, 197, 102)"],"close":{"text":"©lose 2026","color":"rgb(181, 187, 192)","size":"14px","cursor":"auto"}}
+121.5 help widget after 'Send to bottom' (sampled 1/s), reopenAt(s) {"reopenAt":50.503,"hs":["0s h228 00:00:57","1s h204 hidden 00:00:58","2s h180 hidden 00:00:59","3s h157 hidden 00:01:00 TIMER-MODAL","4s h128 hidden 00:01:02 TIMER-MODAL","5s h108 hidden 00:01:03 TIMER-MODAL","6s h90 hidden 00:01:04 TIMER-MODAL","7s h73 hidden 00:01:05 TIMER-MODAL","8s h57 hidden 0
+121.9 after Lock {"close":false,"btn":["Unlock"]}
+122.4 Escape on timer modal true
+122.8 after ©lose click {"modal":false,"timer":"00:02:01"}
+122.8 total requests {"n":15,"hosts":["userinyerface.com","fonts.googleapis.com","www.google-analytics.com","www.googletagmanager.com","region1.google-analytics.com","fonts.gstatic.com"]}

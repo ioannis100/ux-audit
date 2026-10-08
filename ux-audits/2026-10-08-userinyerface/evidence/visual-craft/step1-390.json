@@ -1,0 +1,1040 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/game.html",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "453x979",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          20
+        ]
+      ],
+      "sizesPx": [
+        [
+          "13",
+          6
+        ],
+        [
+          "14.4",
+          6
+        ],
+        [
+          "16",
+          2
+        ],
+        [
+          "24",
+          2
+        ],
+        [
+          "18",
+          1
+        ],
+        [
+          "32",
+          1
+        ],
+        [
+          "12.8",
+          1
+        ],
+        [
+          "11.2",
+          1
+        ]
+      ],
+      "distinctSizes": 8,
+      "weights": [
+        [
+          "400",
+          17
+        ],
+        [
+          "700",
+          3
+        ]
+      ],
+      "distinctTextColors": 5,
+      "tinyTextUnder12px": [
+        {
+          "el": "span.discrete",
+          "size": 11.2,
+          "text": "to bottom"
+        }
+      ],
+      "paragraphs": {
+        "sampled": 0,
+        "lineHeights": [],
+        "charsPerLine": {
+          "min": null,
+          "max": null,
+          "samples": []
+        },
+        "outOfRangeLineHeight": []
+      },
+      "uppercaseWithoutTracking": [],
+      "fontsLoaded": [
+        "icomoon 400"
+      ],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 20,
+      "contrastFailures": 8,
+      "contrastExamples": [
+        {
+          "el": "a.button--secondary",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14.4,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "Next"
+        },
+        {
+          "el": "a.button--secondary.u-right",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14.4,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "Reset"
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password requires at least 10 characters."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password should have at least 1 Capital letter."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password must have at least 1 Numeral."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password needs at least 1 letter of your email."
+        }
+      ],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 10,
+      "top": [
+        [
+          "24",
+          19
+        ],
+        [
+          "40",
+          12
+        ],
+        [
+          "32",
+          10
+        ],
+        [
+          "10",
+          7
+        ],
+        [
+          "8",
+          5
+        ],
+        [
+          "48",
+          3
+        ],
+        [
+          "27",
+          2
+        ],
+        [
+          "64",
+          2
+        ],
+        [
+          "16",
+          1
+        ],
+        [
+          "20",
+          1
+        ]
+      ],
+      "offGrid4": [
+        [
+          "10",
+          7
+        ],
+        [
+          "27",
+          2
+        ]
+      ],
+      "radii": [
+        [
+          "4px",
+          10
+        ],
+        [
+          "24px",
+          4
+        ],
+        [
+          "8px",
+          4
+        ]
+      ],
+      "shadowLevels": 2
+    },
+    "interaction": {
+      "interactiveCount": 13,
+      "targetsUnder24px": {
+        "count": 0,
+        "examples": []
+      },
+      "targetsUnder44px": {
+        "count": 7,
+        "examples": [
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Not really, no"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 372,
+            "h": 40,
+            "text": "Choose Password"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 124,
+            "h": 40,
+            "text": "Your email"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 124,
+            "h": 40,
+            "text": "Domain"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 186,
+            "h": 40,
+            "text": "Cancel"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 24,
+            "h": 24,
+            "text": ""
+          }
+        ]
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 3,
+      "hues": [
+        0,
+        150,
+        210
+      ],
+      "distinctTextSizes": 7,
+      "boundedRegions": 17,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "Not really, no",
+        "Yes",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Cancel",
+        "Send to bottom"
+      ],
+      "genericLabels": [
+        "Yes"
+      ]
+    },
+    "forms": {
+      "inputs": 4,
+      "unlabeled": [
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Choose Password"
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Your email"
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Domain"
+        },
+        {
+          "el": "textarea.help-form__text-area",
+          "placeholder": null
+        }
+      ],
+      "wrongTypeOrInputmode": [
+        {
+          "el": "input.input.input--blue",
+          "type": "text",
+          "name": ""
+        }
+      ],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 0,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [
+        [
+          "200",
+          9
+        ],
+        [
+          "250",
+          1
+        ]
+      ],
+      "easings": [
+        [
+          "ease-out",
+          9
+        ],
+        [
+          "ease",
+          1
+        ]
+      ],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 296,
+      "domContentLoadedMs": 796,
+      "loadMs": 1059,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "probe": {
+    "buttons": [
+      {
+        "text": "Not really, no",
+        "cls": "button button--solid button--transparent",
+        "x": 128,
+        "y": 142,
+        "w": 140,
+        "h": 40,
+        "color": "#ffffff",
+        "bg": "#ff0000",
+        "contrast": 4,
+        "font": "400 16px/40px sans-serif",
+        "border": "1px solid #000000",
+        "borderVsBg": 5.25,
+        "radius": "4px",
+        "padding": "0px 24px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Yes",
+        "cls": "cookies__button button button--solid button--white",
+        "x": 288,
+        "y": 138,
+        "w": 140,
+        "h": 48,
+        "color": "#ff0000",
+        "bg": "#ffffff",
+        "contrast": 4,
+        "font": "400 24px/40px sans-serif",
+        "border": "1px solid #ffffff",
+        "borderVsBg": 4,
+        "radius": "0px",
+        "padding": "0px 24px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "1",
+        "cls": "pagination__button",
+        "x": 27,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#ffffff",
+        "bg": "#29c566",
+        "contrast": 2.26,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "2",
+        "cls": "pagination__button",
+        "x": 123,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#ebfaf1",
+        "bg": "#3dca74",
+        "contrast": 1.97,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #ebfaf1",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "3",
+        "cls": "pagination__button is-active",
+        "x": 219,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#3dca74",
+        "bg": "#ebfaf1",
+        "contrast": 1.97,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #3dca74",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "4",
+        "cls": "pagination__button",
+        "x": 315,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#ffffff",
+        "bg": "#29c566",
+        "contrast": 2.26,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Next",
+        "cls": "button--secondary",
+        "x": 64,
+        "y": 1005,
+        "w": 30,
+        "h": 16,
+        "color": "#b5bbc0",
+        "bg": "#ffffff",
+        "contrast": 1.94,
+        "font": "400 14.4px/normal sans-serif",
+        "border": "0px none #b5bbc0",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Cancel",
+        "cls": "button button--solid button--blue button--fluid",
+        "x": 125,
+        "y": 993,
+        "w": 186,
+        "h": 40,
+        "color": "#ffffff",
+        "bg": "#0c58da",
+        "contrast": 6.13,
+        "font": "400 12.96px/40px sans-serif",
+        "border": "1px solid #0c58da",
+        "borderVsBg": 6.13,
+        "radius": "4px",
+        "padding": "0px 24px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Reset",
+        "cls": "button--secondary u-right",
+        "x": 366,
+        "y": 1005,
+        "w": 38,
+        "h": 16,
+        "color": "#b5bbc0",
+        "bg": "#ffffff",
+        "contrast": 1.94,
+        "font": "400 14.4px/normal sans-serif",
+        "border": "0px none #b5bbc0",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "",
+        "cls": "button button--solid button--blue help-form__close-button",
+        "x": 341,
+        "y": 775,
+        "w": 24,
+        "h": 24,
+        "color": "#ffffff",
+        "bg": "#0c58da",
+        "contrast": 6.13,
+        "font": "400 12.8px/12.8px sans-serif",
+        "border": "1px solid #0c58da",
+        "borderVsBg": 2.38,
+        "radius": "4px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Help",
+        "cls": "help-form__help-button",
+        "x": 126,
+        "y": 898,
+        "w": 26,
+        "h": 15,
+        "color": "#ffffff",
+        "bg": "#132a42",
+        "contrast": 14.61,
+        "font": "400 12.8px/normal sans-serif",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "underline",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "start"
+      },
+      {
+        "text": "Send to bottom",
+        "cls": "button button--solid button--blue help-form__send-to-bottom-",
+        "x": 268,
+        "y": 896,
+        "w": 97,
+        "h": 40,
+        "color": "#ffffff",
+        "bg": "#0c58da",
+        "contrast": 6.13,
+        "font": "400 16px/16px sans-serif",
+        "border": "1px solid #0c58da",
+        "borderVsBg": 2.38,
+        "radius": "4px",
+        "padding": "0px 24px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      }
+    ],
+    "inputs": [
+      {
+        "text": "Choose Password",
+        "cls": "input input--blue input--gray",
+        "x": 32,
+        "y": 807,
+        "w": 372,
+        "h": 40,
+        "color": "#b5bbc0",
+        "bg": "#ffffff",
+        "contrast": 1.94,
+        "font": "400 12.96px/normal sans-serif",
+        "border": "1px solid #b5bbc0",
+        "borderVsBg": 1.94,
+        "radius": "4px",
+        "padding": "0px 24px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "start",
+        "placeholder": "Choose Password",
+        "placeholderColor": "#b5bbc0",
+        "placeholderContrast": 1.94,
+        "maxLength": null,
+        "type": "text"
+      },
+      {
+        "text": "Your email",
+        "cls": "input input--blue input--gray",
+        "x": 32,
+        "y": 855,
+        "w": 124,
+        "h": 40,
+        "color": "#b5bbc0",
+        "bg": "#ffffff",
+        "contrast": 1.94,
+        "font": "400 12.96px/normal sans-serif",
+        "border": "1px solid #b5bbc0",
+        "borderVsBg": 1.94,
+        "radius": "4px",
+        "padding": "0px 24px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "start",
+        "placeholder": "Your email",
+        "placeholderColor": "#b5bbc0",
+        "placeholderContrast": 1.94,
+        "maxLength": null,
+        "type": "text"
+      },
+      {
+        "text": "Domain",
+        "cls": "input input--blue input--gray",
+        "x": 190,
+        "y": 855,
+        "w": 124,
+        "h": 40,
+        "color": "#b5bbc0",
+        "bg": "#ffffff",
+        "contrast": 1.94,
+        "font": "400 12.96px/normal sans-serif",
+        "border": "1px solid #b5bbc0",
+        "borderVsBg": 1.94,
+        "radius": "4px",
+        "padding": "0px 24px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "start",
+        "placeholder": "Domain",
+        "placeholderColor": "#b5bbc0",
+        "placeholderContrast": 1.94,
+        "maxLength": null,
+        "type": "text"
+      },
+      {
+        "text": "other",
+        "cls": "dropdown__field",
+        "x": 324,
+        "y": 856,
+        "w": 80,
+        "h": 38,
+        "color": "#000000",
+        "bg": "#ffffff",
+        "contrast": 21,
+        "font": "400 14.4px/normal sans-serif",
+        "border": "1px solid #b5bbc0",
+        "borderVsBg": 1.94,
+        "radius": "4px",
+        "padding": "10px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "left",
+        "placeholder": null,
+        "placeholderColor": "#000000",
+        "placeholderContrast": null,
+        "maxLength": null,
+        "type": null
+      },
+      {
+        "text": "",
+        "cls": "help-form__text-area",
+        "x": 126,
+        "y": 820,
+        "w": 239,
+        "h": 72,
+        "color": "#000000",
+        "bg": "#ffffff",
+        "contrast": 21,
+        "font": "400 13px/normal monospace",
+        "border": "1px solid #b5bbc0",
+        "borderVsBg": 7.54,
+        "radius": "4px",
+        "padding": "8px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "start",
+        "placeholder": null,
+        "placeholderColor": "#000000",
+        "placeholderContrast": null,
+        "maxLength": null,
+        "type": "textarea"
+      }
+    ],
+    "labels": [
+      {
+        "text": "This site uses cookies, is that a proble",
+        "cls": "cookies__message",
+        "x": 40,
+        "y": 64,
+        "w": 88,
+        "h": 196,
+        "color": "#ffffff",
+        "bg": "#ff0000",
+        "contrast": 4,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "start"
+      },
+      {
+        "text": "Your password requires at least 10 chara",
+        "cls": "password-check__password-rule",
+        "x": 32,
+        "y": 1100,
+        "w": 326,
+        "h": 20,
+        "color": "#29c566",
+        "bg": "#0c58da",
+        "contrast": 2.71,
+        "font": "400 13px/19.5px sans-serif",
+        "border": "0px none #29c566",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Your password should have at least 1 Cap",
+        "cls": "password-check__password-rule",
+        "x": 32,
+        "y": 1120,
+        "w": 326,
+        "h": 20,
+        "color": "#29c566",
+        "bg": "#0c58da",
+        "contrast": 2.71,
+        "font": "400 13px/19.5px sans-serif",
+        "border": "0px none #29c566",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Your password must have at least 1 Numer",
+        "cls": "password-check__password-rule",
+        "x": 32,
+        "y": 1139,
+        "w": 326,
+        "h": 20,
+        "color": "#29c566",
+        "bg": "#0c58da",
+        "contrast": 2.71,
+        "font": "400 13px/19.5px sans-serif",
+        "border": "0px none #29c566",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Your password needs at least 1 letter of",
+        "cls": "password-check__password-rule",
+        "x": 32,
+        "y": 1159,
+        "w": 326,
+        "h": 20,
+        "color": "#29c566",
+        "bg": "#0c58da",
+        "contrast": 2.71,
+        "font": "400 13px/19.5px sans-serif",
+        "border": "0px none #29c566",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Your password can have at least 1 cyrill",
+        "cls": "password-check__password-rule",
+        "x": 32,
+        "y": 1178,
+        "w": 326,
+        "h": 20,
+        "color": "#29c566",
+        "bg": "#0c58da",
+        "contrast": 2.71,
+        "font": "400 13px/19.5px sans-serif",
+        "border": "0px none #29c566",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "How can we help?",
+        "cls": "help-form__title",
+        "x": 126,
+        "y": 775,
+        "w": 239,
+        "h": 21,
+        "color": "#ffffff",
+        "bg": "#132a42",
+        "contrast": 14.61,
+        "font": "700 18px/normal sans-serif",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "start"
+      }
+    ],
+    "pips": [
+      {
+        "text": "1",
+        "cls": "pagination__button",
+        "x": 27,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#ffffff",
+        "bg": "#29c566",
+        "contrast": 2.26,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center",
+        "active": false,
+        "boxShadow": "none"
+      },
+      {
+        "text": "2",
+        "cls": "pagination__button",
+        "x": 123,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#ebfaf1",
+        "bg": "#3dca74",
+        "contrast": 1.97,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #ebfaf1",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center",
+        "active": false,
+        "boxShadow": "none"
+      },
+      {
+        "text": "3",
+        "cls": "pagination__button is-active",
+        "x": 219,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#3dca74",
+        "bg": "#ebfaf1",
+        "contrast": 1.97,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #3dca74",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center",
+        "active": true,
+        "boxShadow": "none"
+      },
+      {
+        "text": "4",
+        "cls": "pagination__button",
+        "x": 315,
+        "y": 679,
+        "w": 48,
+        "h": 48,
+        "color": "#ffffff",
+        "bg": "#29c566",
+        "contrast": 2.26,
+        "font": "400 24px/normal sans-serif",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "24px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center",
+        "active": false,
+        "boxShadow": "none"
+      }
+    ],
+    "checkboxes": [
+      {
+        "text": "",
+        "cls": "checkbox",
+        "x": 77,
+        "y": 935,
+        "w": 18,
+        "h": 18,
+        "color": "#000000",
+        "bg": "#ffffff",
+        "contrast": 21,
+        "font": "400 14.4px/normal sans-serif",
+        "border": "0px none #000000",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center",
+        "checked": true
+      },
+      {
+        "text": "",
+        "cls": "checkbox__box",
+        "x": 77,
+        "y": 935,
+        "w": 18,
+        "h": 18,
+        "color": "#ffffff",
+        "bg": "#3498db",
+        "contrast": 3.15,
+        "font": "400 14.4px/18px sans-serif",
+        "border": "1px solid #1a6190",
+        "borderVsBg": 6.65,
+        "radius": "4px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center",
+        "checked": true
+      }
+    ],
+    "images": [
+      {
+        "src": "verhaert-digital-logo.svg",
+        "natural": "300x48",
+        "rendered": "200x32",
+        "fit": "fill",
+        "filter": "none",
+        "alt": "verhaert.digital"
+      }
+    ],
+    "state": {
+      "page": 2,
+      "cookies": true,
+      "timerModal": false,
+      "confirm": false,
+      "terms": false
+    },
+    "doc": {
+      "w": 453,
+      "h": 1294,
+      "iw": 453
+    }
+  }
+}

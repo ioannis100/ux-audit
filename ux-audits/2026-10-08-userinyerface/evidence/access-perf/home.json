@@ -1,0 +1,42 @@
+{
+  "homeTab": [
+    "BUTTON:NO href=null outline=none/0px",
+    "A:HERE href=/game.html outline=auto/1px",
+    "BODY:Hi and welcome to Us href=null outline=none/3px",
+    "BUTTON:NO href=null outline=none/0px",
+    "A:HERE href=/game.html outline=auto/1px",
+    "BUTTON:NO href=null outline=none/0px",
+    "A:HERE href=/game.html outline=auto/1px",
+    "BODY:Hi and welcome to Us href=null outline=none/3px",
+    "BUTTON:NO href=null outline=none/0px",
+    "A:HERE href=/game.html outline=auto/1px"
+  ],
+  "homeLinks": [
+    {
+      "tag": "BUTTON",
+      "text": "NO",
+      "href": null,
+      "cls": "start__button",
+      "cursor": "pointer"
+    },
+    {
+      "tag": "A",
+      "text": "HERE",
+      "href": "/game.html",
+      "cls": "start__link",
+      "cursor": "text"
+    }
+  ],
+  "enterOnHere": "https://userinyerface.com/game.html",
+  "end": {
+    "alt": "Carlton Dancing",
+    "src": "https://userinyerface.com/images/carlton-dancing.gif",
+    "w": 498,
+    "h": 278,
+    "focus": "BODY",
+    "live": false,
+    "h1": [
+      "YOU ARE AWESOME!"
+    ]
+  }
+}

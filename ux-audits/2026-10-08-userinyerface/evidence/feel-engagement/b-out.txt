@@ -1,0 +1,28 @@
+5.9 step2 interests on arrival (label, checked) {"checked":21,"of":21,"list":"Ponies[x] Polo[x] Dough[x] Snails[x] Balls[x] Post-its[x] Faucets[x] Enveloppes[x] Cables[x] Questions[x] Squares[x] Purple[x] Cotton[x] Dry-wall[x] Closets[x] Tires[x] Windows[x] Select all[x] Mullets[x] Cinnamon[x] Unselect all[x]"}
+11.9 state-diff s2Next {"size":"214x40","tag":"BUTTON","cursor":"default","bg":"rgba(0, 0, 0, 0)","color":"rgb(255, 255, 255)","border":"rgb(255, 255, 255)","fs":"16px","hover":[],"pressed":[],"focus":[]}
+11.9 state-diff s2Cancel {"size":"204x40","tag":"BUTTON","cursor":"default","bg":"rgb(41, 197, 102)","color":"rgb(255, 255, 255)","border":"rgb(41, 197, 102)","fs":"16px","hover":[],"pressed":[],"focus":[]}
+11.9 state-diff s2Download {"size":"154x32","tag":"BUTTON","cursor":"default","bg":"rgb(12, 88, 218)","color":"rgb(255, 255, 255)","border":"rgb(12, 88, 218)","fs":"14px","hover":[],"pressed":[],"focus":[]}
+11.9 state-diff s2UploadLink {"size":"42x16","tag":"A","cursor":"auto","bg":"rgba(0, 0, 0, 0)","color":"rgb(127, 140, 141)","border":"rgb(127, 140, 141)","fs":"14px","hover":[],"pressed":[],"focus":[]}
+11.9 state-diff s2InterestBox {"size":"15x15","tag":"SPAN","cursor":"default","bg":"rgb(52, 152, 219)","color":"rgb(255, 255, 255)","border":"rgb(26, 97, 144)","fs":"14px","hover":[],"pressed":[],"focus":[]}
+12.5 step2 Next with defaults ["Please upload a picture","Please choose 3 interests."]
+12.7 after clicking 'Unselect all' {"checked":[]}
+13.4 after ticking 3 {"checked":["Ponies","Polo","Dough"]}
+14.0 step2 Cancel -> {"step":0,"confirm":false,"indicator":"1 / 4"}
+14.8 back on step2 after Cancel: work kept? {"checked":21}
+19.8 avatar upload via file chooser -> image shown (detached <input type=file>; puppeteer accept) {"shown":false,"ms":4004}
+20.3 avatar set via component onAvatarComplete(test-avatar dataURL) [tooling fallback] {"shown":true,"spinnerStillRendered":"block"}
+21.4 step2 Next (valid) -> transition {"step":2,"indicator":"3 / 4"}
+24.9 state-diff s3Next {"size":"140x40","tag":"BUTTON","cursor":"default","bg":"rgba(0, 0, 0, 0)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[]}
+24.9 state-diff s3Cancel {"size":"140x40","tag":"BUTTON","cursor":"default","bg":"rgb(41, 197, 102)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[]}
+24.9 state-diff s3Toggle {"size":"185x40","tag":"DIV","cursor":"auto","bg":"rgb(12, 88, 218)","color":"rgb(255, 255, 255)","hover":[],"pressed":[],"focus":[]}
+24.9 gender toggle initial ["Male*","Female"]
+25.4 click 'Male' twice {"first":["Male","Female*"],"second":["Male*","Female"]}
+25.9 step3 Cancel -> confirm? {"confirm":false}
+27.0 step3 Next empty -> error modal null
+28.6 step4 instruction {"h2":"Almost done! Now we just need proof that you are human.","h3":"Select all light pictures","containerScrollTop":27}
+29.8 state-diff validate {"size":"140x40","bg":"rgb(12, 88, 218)","cursor":"default","hover":[],"pressed":[],"focus":[]}
+30.4 Validate with nothing selected {"before":"Select all light pictures","after":"Select all pictures with a bow","anyErrorText":false,"step":3}
+32.6 captcha ticked indexes {"title":"Select all pictures with a bow","want":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]}
+36.6 Validate (correct) -> end screen {"ms":4026,"endSamples":[{"end":false,"timer":"00:00:31"},{"end":true,"timer":"00:00:31"},{"end":true,"timer":"00:00:31"},{"end":true,"timer":"00:00:31"},{"end":true,"timer":"00:00:31"},{"end":true,"timer":"00:00:31"},{"end":true,"timer":"00:00:31"},{"end":true,"timer":"00:00:31"}]}
+36.7 end screen content {"text":"00:00:31 YOU ARE AWESOME! A true interface legend.","links":[],"gif":{"natural":"498x278","alt":"Carlton Dancing"},"help":false,"pagination":false}
+39.7 timer 3s after end (stopped?) 00:00:31

@@ -1,0 +1,8 @@
+10.4 two sessions, same instant: timers {"s1":"00:00:09","s2":"00:00:02"}
+11.0 help queue: s1, s2 {"s1":"Please wait, there are 475 people in line.","s2":"Please wait, there are 425 people in line.","s1again":"Please wait, there are 476 people in line."}
+15.3 reload mid-flow (on step 3) {"before":{"timer":"00:00:11","step":"3 / 4","ls":[[],[]]},"after":{"timer":"00:00:02","step":"1 / 4","cookieBannerBack":true}}
+15.5 help queue after reload s1 "Please wait, there are 426 people in line."
+15.5 timer limit check {"DISABLE_TIMER_MODAL":null,"timerHandlers":2}
+27.1 home -> game -> step2 -> Back -> Forward {"url":"https://userinyerface.com/game.html","step":"2 / 4","timer":"00:00:08"}
+27.1 prefers-reduced-motion: reduce — computed motion {"matches":true,"helpHidden":"height 14s ease-out","pip":"background-color 0.2s ease-out, color 0.2s ease-out","pipCyclingStill":true,"anyRMQuery":false}
+28.2 pips still cycle under reduced motion {"a0":2,"a1":3}

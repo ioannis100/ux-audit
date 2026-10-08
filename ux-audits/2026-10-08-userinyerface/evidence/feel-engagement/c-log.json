@@ -1,0 +1,115 @@
+[
+  {
+    "t": "4.4",
+    "a": "390 innerWidth",
+    "r": 453
+  },
+  {
+    "t": "4.7",
+    "a": "390 cookie banner",
+    "r": {
+      "bannerH": 324,
+      "pctOfViewport": 33,
+      "buttons": [
+        "\"Not really, no\" 128,142 140x40 bg:rgba(0, 0, 0, 0) border:rgba(0, 0, 0, 0) fs:16px rightEdge:268",
+        "\"Yes\" 288,138 140x48 bg:rgb(255, 255, 255) border:rgb(255, 255, 255) fs:24px rightEdge:428"
+      ],
+      "overflowX": 453
+    }
+  },
+  {
+    "t": "5.6",
+    "a": "390 touch pressed (finger down 150ms)",
+    "r": [
+      {
+        "sel": ".cookies .align__cell:first-child button",
+        "changed": []
+      },
+      {
+        "sel": ".login-form .button-container__primary button",
+        "changed": []
+      }
+    ]
+  },
+  {
+    "t": "6.6",
+    "a": "390 after tapping 'Not really, no'",
+    "r": false
+  },
+  {
+    "t": "6.6",
+    "a": "390 step-1 target sizes (CSS px)",
+    "r": [
+      ".login-form .button-container__secondary a 30x16",
+      ".login-form .button-container__primary button 186x40",
+      ".login-form a.u-right 38x16",
+      ".login-form .checkbox__box 18x18",
+      ".login-form__terms-conditions 247x16",
+      ".help-form__help-button 26x15",
+      ".help-form__close-button 24x24",
+      ".help-form__send-to-bottom-button 97x40",
+      ".pagination__button 48x48"
+    ]
+  },
+  {
+    "t": "6.6",
+    "a": "390 hit-tests step 1",
+    "r": [
+      {
+        "sel": ".login-form .button-container__primary button",
+        "box": "125,669 186x40",
+        "topmost": "self"
+      },
+      {
+        "sel": ".login-form .button-container__secondary a",
+        "box": "64,681 30x16",
+        "topmost": "self"
+      },
+      {
+        "sel": ".login-form a.u-right",
+        "box": "366,681 38x16",
+        "topmost": "self"
+      },
+      {
+        "sel": ".pagination__button",
+        "box": "27,355 48x48",
+        "topmost": "self"
+      }
+    ]
+  },
+  {
+    "t": "7.7",
+    "a": "390 tap on T&C label text opened modal?",
+    "r": {
+      "modal": false,
+      "tcChecked": true
+    }
+  },
+  {
+    "t": "8.5",
+    "a": "390 T&C modal",
+    "r": {
+      "clientH": 300,
+      "scrollable": 2159
+    }
+  },
+  {
+    "t": "11.0",
+    "a": "390 T&C: 5 full-height finger swipes -> scrollTop",
+    "r": 0
+  },
+  {
+    "t": "62.0",
+    "a": "390 timer modal close affordance",
+    "r": "©lose 36x16 at 16,284"
+  },
+  {
+    "t": "67.8",
+    "a": "390 end screen",
+    "r": {
+      "end": false,
+      "text": "00:01:06 1 2 3 4 4 / 4 Almost done! Now we just need proof that you are human. Select all pictures with a circle Validate How can we help? Help Send to bottom",
+      "docH": 1404
+    }
+  }
+]

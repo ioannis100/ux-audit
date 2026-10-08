@@ -1,0 +1,6 @@
+node_modules/
+ux-audits/*/package.json
+ux-audits/*/package-lock.json
+ux-audits/*/evidence/**/*.mp4
+ux-audits/*/evidence/**/*.mov
+.DS_Store

@@ -1,0 +1,478 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/game.html",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "1440x900",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          18
+        ]
+      ],
+      "sizesPx": [
+        [
+          "13",
+          6
+        ],
+        [
+          "14.4",
+          6
+        ],
+        [
+          "16",
+          1
+        ],
+        [
+          "18",
+          1
+        ],
+        [
+          "32",
+          1
+        ],
+        [
+          "10.8",
+          1
+        ],
+        [
+          "12.8",
+          1
+        ],
+        [
+          "11.2",
+          1
+        ]
+      ],
+      "distinctSizes": 8,
+      "weights": [
+        [
+          "400",
+          15
+        ],
+        [
+          "700",
+          3
+        ]
+      ],
+      "distinctTextColors": 5,
+      "tinyTextUnder12px": [
+        {
+          "el": "div.login-form__terms-conditions-error",
+          "size": 10.8,
+          "text": "Please do NOT forget to accept our terms and conditions"
+        },
+        {
+          "el": "span.discrete",
+          "size": 11.2,
+          "text": "to bottom"
+        }
+      ],
+      "paragraphs": {
+        "sampled": 0,
+        "lineHeights": [],
+        "charsPerLine": {
+          "min": null,
+          "max": null,
+          "samples": []
+        },
+        "outOfRangeLineHeight": []
+      },
+      "uppercaseWithoutTracking": [],
+      "fontsLoaded": [
+        "icomoon 400"
+      ],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 18,
+      "contrastFailures": 8,
+      "contrastExamples": [
+        {
+          "el": "a.button--secondary",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14.4,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "Next"
+        },
+        {
+          "el": "a.button--secondary.u-right",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14.4,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "Reset"
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password requires at least 10 characters."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password should have at least 1 Capital letter."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password must have at least 1 Numeral."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password needs at least 1 letter of your email."
+        }
+      ],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 9,
+      "top": [
+        [
+          "24",
+          13
+        ],
+        [
+          "32",
+          10
+        ],
+        [
+          "10",
+          9
+        ],
+        [
+          "40",
+          7
+        ],
+        [
+          "8",
+          5
+        ],
+        [
+          "48",
+          3
+        ],
+        [
+          "64",
+          2
+        ],
+        [
+          "552",
+          2
+        ],
+        [
+          "16",
+          1
+        ]
+      ],
+      "offGrid4": [
+        [
+          "10",
+          9
+        ]
+      ],
+      "radii": [
+        [
+          "4px",
+          9
+        ],
+        [
+          "24px",
+          4
+        ],
+        [
+          "8px",
+          4
+        ]
+      ],
+      "shadowLevels": 2
+    },
+    "interaction": {
+      "interactiveCount": 11,
+      "targetsUnder24px": {
+        "count": 0,
+        "examples": []
+      },
+      "targetsUnder44px": {
+        "count": 6,
+        "examples": [
+          {
+            "el": "input.input.input--blue",
+            "w": 372,
+            "h": 40,
+            "text": "Choose Password"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 124,
+            "h": 40,
+            "text": "Your email"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 124,
+            "h": 40,
+            "text": "Domain"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 186,
+            "h": 40,
+            "text": "Cancel"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 24,
+            "h": 24,
+            "text": ""
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 97,
+            "h": 40,
+            "text": "Send to bottom"
+          }
+        ]
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 3,
+      "hues": [
+        0,
+        150,
+        210
+      ],
+      "distinctTextSizes": 8,
+      "boundedRegions": 15,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Cancel",
+        "Send to bottom"
+      ],
+      "genericLabels": []
+    },
+    "forms": {
+      "inputs": 4,
+      "unlabeled": [
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Choose Password"
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Your email"
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Domain"
+        },
+        {
+          "el": "textarea.help-form__text-area",
+          "placeholder": null
+        }
+      ],
+      "wrongTypeOrInputmode": [
+        {
+          "el": "input.input.input--blue",
+          "type": "text",
+          "name": ""
+        }
+      ],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 0,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [
+        [
+          "200",
+          9
+        ],
+        [
+          "250",
+          1
+        ]
+      ],
+      "easings": [
+        [
+          "ease-out",
+          9
+        ],
+        [
+          "ease",
+          1
+        ]
+      ],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 248,
+      "domContentLoadedMs": 880,
+      "loadMs": 1203,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "modal": [
+    {
+      "cls": "login-form__terms-conditions-error",
+      "text": "Please do NOT forget to accept our terms and conditions",
+      "x": 534,
+      "y": 639,
+      "w": 372,
+      "h": 12,
+      "color": "rgb(255, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 10.8px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 0, 0)"
+    },
+    {
+      "cls": "help-form",
+      "text": "How can we help? Help Send to bottom",
+      "x": 1081,
+      "y": 622,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__container",
+      "text": "How can we help? Help Send to bottom",
+      "x": 1081,
+      "y": 622,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(19, 42, 66)",
+      "font": "400 16px/normal",
+      "radius": "8px 8px 0px 0px",
+      "shadow": "rgba(0, 0, 0, 0.3) 0px 2px 12px 0px",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__title",
+      "text": "How can we help?",
+      "x": 1113,
+      "y": 646,
+      "w": 239,
+      "h": 21,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "700 18px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__close-button",
+      "text": "",
+      "x": 1328,
+      "y": 646,
+      "w": 24,
+      "h": 24,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 12.8px/12.8px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    },
+    {
+      "cls": "help-form__text-area",
+      "text": "",
+      "x": 1113,
+      "y": 691,
+      "w": 239,
+      "h": 72,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 13px/normal",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(181, 187, 192)"
+    },
+    {
+      "cls": "help-form__help-button",
+      "text": "Help",
+      "x": 1113,
+      "y": 769,
+      "w": 26,
+      "h": 15,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12.8px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__send-to-bottom-",
+      "text": "Send to bottom",
+      "x": 1255,
+      "y": 767,
+      "w": 97,
+      "h": 40,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 16px/16px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    }
+  ]
+}

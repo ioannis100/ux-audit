@@ -1,0 +1,744 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/game.html",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "390x844",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          86
+        ]
+      ],
+      "sizesPx": [
+        [
+          "12",
+          60
+        ],
+        [
+          "18",
+          11
+        ],
+        [
+          "16",
+          5
+        ],
+        [
+          "14",
+          2
+        ],
+        [
+          "24",
+          2
+        ],
+        [
+          "32",
+          2
+        ],
+        [
+          "23",
+          1
+        ],
+        [
+          "25",
+          1
+        ],
+        [
+          "12.8",
+          1
+        ],
+        [
+          "11.2",
+          1
+        ]
+      ],
+      "distinctSizes": 10,
+      "weights": [
+        [
+          "400",
+          67
+        ],
+        [
+          "700",
+          19
+        ]
+      ],
+      "distinctTextColors": 4,
+      "tinyTextUnder12px": [
+        {
+          "el": "span.discrete",
+          "size": 11.2,
+          "text": "to bottom"
+        }
+      ],
+      "paragraphs": {
+        "sampled": 32,
+        "lineHeights": [
+          [
+            "1.2",
+            32
+          ]
+        ],
+        "charsPerLine": {
+          "min": 55,
+          "max": 525,
+          "samples": [
+            525,
+            111,
+            110,
+            93,
+            101,
+            120,
+            97,
+            77,
+            65,
+            85
+          ]
+        },
+        "outOfRangeLineHeight": [
+          {
+            "el": "div.terms-and-conditions__text-content",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          }
+        ]
+      },
+      "uppercaseWithoutTracking": [],
+      "fontsLoaded": [
+        "icomoon 400"
+      ],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 86,
+      "contrastFailures": 4,
+      "contrastExamples": [
+        {
+          "el": "div.timer.timer--gray",
+          "ratio": 1.94,
+          "need": 3,
+          "size": 32,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "00:01:01"
+        },
+        {
+          "el": "span.modal__close-copyright",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "©lose 2026"
+        },
+        {
+          "el": "span",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "©lose"
+        },
+        {
+          "el": "button.button.button--solid",
+          "ratio": 2.26,
+          "need": 4.5,
+          "size": 16,
+          "color": "rgb(255, 255, 255)",
+          "bg": "rgb(41, 197, 102)",
+          "text": "Lock"
+        }
+      ],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 14,
+      "top": [
+        [
+          "4",
+          112
+        ],
+        [
+          "12",
+          54
+        ],
+        [
+          "24",
+          32
+        ],
+        [
+          "40",
+          23
+        ],
+        [
+          "15",
+          20
+        ],
+        [
+          "16",
+          10
+        ],
+        [
+          "8",
+          4
+        ],
+        [
+          "32",
+          4
+        ],
+        [
+          "80",
+          4
+        ],
+        [
+          "48",
+          3
+        ],
+        [
+          "20",
+          2
+        ],
+        [
+          "27",
+          2
+        ],
+        [
+          "64",
+          2
+        ],
+        [
+          "130",
+          2
+        ]
+      ],
+      "offGrid4": [
+        [
+          "15",
+          20
+        ],
+        [
+          "27",
+          2
+        ],
+        [
+          "130",
+          2
+        ]
+      ],
+      "radii": [
+        [
+          "4px",
+          22
+        ],
+        [
+          "24px",
+          4
+        ],
+        [
+          "8px",
+          4
+        ],
+        [
+          "2px",
+          1
+        ]
+      ],
+      "shadowLevels": 1
+    },
+    "interaction": {
+      "interactiveCount": 11,
+      "targetsUnder24px": {
+        "count": 0,
+        "examples": []
+      },
+      "targetsUnder44px": {
+        "count": 5,
+        "examples": [
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Validate"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Accept"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Lock"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 24,
+            "h": 24,
+            "text": ""
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 97,
+            "h": 40,
+            "text": "Send to bottom"
+          }
+        ]
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 2,
+      "hues": [
+        150,
+        210
+      ],
+      "distinctTextSizes": 10,
+      "boundedRegions": 14,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Validate",
+        "[insert email here]",
+        "Accept",
+        "Lock",
+        "Send to bottom"
+      ],
+      "genericLabels": []
+    },
+    "forms": {
+      "inputs": 1,
+      "unlabeled": [
+        {
+          "el": "textarea.help-form__text-area",
+          "placeholder": null
+        }
+      ],
+      "wrongTypeOrInputmode": [],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 0,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [
+        [
+          "200",
+          9
+        ]
+      ],
+      "easings": [
+        [
+          "ease-out",
+          9
+        ]
+      ],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 316,
+      "domContentLoadedMs": 1576,
+      "loadMs": 1664,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "modal": [
+    {
+      "cls": "modal",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0.6)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__box",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 0,
+      "y": 80,
+      "w": 720,
+      "h": 560,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 16px/normal",
+      "radius": "8px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__content",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 40,
+      "y": 120,
+      "w": 640,
+      "h": 480,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 40,
+      "y": 120,
+      "w": 640,
+      "h": 480,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__content",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 40,
+      "y": 120,
+      "w": 640,
+      "h": 480,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__title",
+      "text": "Please read our terms and conditions",
+      "x": 40,
+      "y": 140,
+      "w": 640,
+      "h": 28,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "700 24px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text",
+      "text": "Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [Insert company or website name]'s Websi",
+      "x": 40,
+      "y": 188,
+      "w": 640,
+      "h": 300,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text-scrollbar",
+      "text": "",
+      "x": 675,
+      "y": 188,
+      "w": 5,
+      "h": 300,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text-scrollbar__scroller",
+      "text": "",
+      "x": 675,
+      "y": 188,
+      "w": 5,
+      "h": 36,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(181, 187, 192)",
+      "font": "400 12px/normal",
+      "radius": "2px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text-content",
+      "text": "Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [Insert company or website name]'s Websi",
+      "x": 40,
+      "y": 188,
+      "w": 635,
+      "h": 300,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__buttons-row",
+      "text": "Accept",
+      "x": 40,
+      "y": 512,
+      "w": 640,
+      "h": 40,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__buttons-container",
+      "text": "Accept",
+      "x": 290,
+      "y": 512,
+      "w": 140,
+      "h": 40,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__accept-button-container disabled",
+      "text": "Accept",
+      "x": 290,
+      "y": 512,
+      "w": 140,
+      "h": 40,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__fullscreen",
+      "text": "",
+      "x": 688,
+      "y": 96,
+      "w": 16,
+      "h": 16,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal",
+      "text": "Hurry up, time is ticking! 00:01:01 Lock ©lose 2026",
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0.6)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__box",
+      "text": "Hurry up, time is ticking! 00:01:01 Lock ©lose 2026",
+      "x": 0,
+      "y": 80,
+      "w": 480,
+      "h": 228,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 16px/normal",
+      "radius": "8px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__content",
+      "text": "Hurry up, time is ticking! 00:01:01 Lock ©lose 2026",
+      "x": 40,
+      "y": 120,
+      "w": 400,
+      "h": 148,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__close-copyright",
+      "text": "©lose 2026",
+      "x": 16,
+      "y": 284,
+      "w": 71,
+      "h": 16,
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 14px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(181, 187, 192)"
+    },
+    {
+      "cls": "modal__fullscreen",
+      "text": "",
+      "x": 448,
+      "y": 96,
+      "w": 16,
+      "h": 16,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form",
+      "text": "How can we help? Help Send to bottom",
+      "x": 31,
+      "y": 566,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__container",
+      "text": "How can we help? Help Send to bottom",
+      "x": 31,
+      "y": 566,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(19, 42, 66)",
+      "font": "400 16px/normal",
+      "radius": "8px 8px 0px 0px",
+      "shadow": "rgba(0, 0, 0, 0.3) 0px 2px 12px 0px",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__title",
+      "text": "How can we help?",
+      "x": 63,
+      "y": 590,
+      "w": 239,
+      "h": 21,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "700 18px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__close-button",
+      "text": "",
+      "x": 278,
+      "y": 590,
+      "w": 24,
+      "h": 24,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 12.8px/12.8px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    },
+    {
+      "cls": "help-form__text-area",
+      "text": "",
+      "x": 63,
+      "y": 635,
+      "w": 239,
+      "h": 72,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 13px/normal",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(181, 187, 192)"
+    },
+    {
+      "cls": "help-form__help-button",
+      "text": "Help",
+      "x": 63,
+      "y": 713,
+      "w": 26,
+      "h": 15,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12.8px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    }
+  ]
+}

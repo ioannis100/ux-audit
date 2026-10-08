@@ -1,0 +1,757 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/game.html",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "453x979",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          93
+        ]
+      ],
+      "sizesPx": [
+        [
+          "12",
+          60
+        ],
+        [
+          "18",
+          11
+        ],
+        [
+          "13",
+          6
+        ],
+        [
+          "14.4",
+          6
+        ],
+        [
+          "16",
+          3
+        ],
+        [
+          "24",
+          3
+        ],
+        [
+          "32",
+          1
+        ],
+        [
+          "10.8",
+          1
+        ],
+        [
+          "12.8",
+          1
+        ],
+        [
+          "11.2",
+          1
+        ]
+      ],
+      "distinctSizes": 10,
+      "weights": [
+        [
+          "400",
+          78
+        ],
+        [
+          "700",
+          15
+        ]
+      ],
+      "distinctTextColors": 6,
+      "tinyTextUnder12px": [
+        {
+          "el": "div.login-form__terms-conditions-error",
+          "size": 10.8,
+          "text": "Please do NOT forget to accept our terms and conditions"
+        },
+        {
+          "el": "span.discrete",
+          "size": 11.2,
+          "text": "to bottom"
+        }
+      ],
+      "paragraphs": {
+        "sampled": 32,
+        "lineHeights": [
+          [
+            "1.2",
+            32
+          ]
+        ],
+        "charsPerLine": {
+          "min": 55,
+          "max": 525,
+          "samples": [
+            525,
+            111,
+            110,
+            93,
+            101,
+            120,
+            97,
+            77,
+            65,
+            85
+          ]
+        },
+        "outOfRangeLineHeight": [
+          {
+            "el": "div.terms-and-conditions__text-content",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          },
+          {
+            "el": "p",
+            "lineHeight": 1.2
+          }
+        ]
+      },
+      "uppercaseWithoutTracking": [],
+      "fontsLoaded": [
+        "icomoon 400"
+      ],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 93,
+      "contrastFailures": 9,
+      "contrastExamples": [
+        {
+          "el": "a.button--secondary",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14.4,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "Next"
+        },
+        {
+          "el": "a.button--secondary.u-right",
+          "ratio": 1.94,
+          "need": 4.5,
+          "size": 14.4,
+          "color": "rgb(181, 187, 192)",
+          "bg": "rgb(255, 255, 255)",
+          "text": "Reset"
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password requires at least 10 characters."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password should have at least 1 Capital letter."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password must have at least 1 Numeral."
+        },
+        {
+          "el": "div.password-check__password-rule",
+          "ratio": 2.71,
+          "need": 4.5,
+          "size": 13,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Your password needs at least 1 letter of your email."
+        }
+      ],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 13,
+      "top": [
+        [
+          "12",
+          54
+        ],
+        [
+          "40",
+          24
+        ],
+        [
+          "24",
+          22
+        ],
+        [
+          "15",
+          20
+        ],
+        [
+          "32",
+          10
+        ],
+        [
+          "10",
+          9
+        ],
+        [
+          "8",
+          5
+        ],
+        [
+          "20",
+          3
+        ],
+        [
+          "48",
+          3
+        ],
+        [
+          "27",
+          2
+        ],
+        [
+          "64",
+          2
+        ],
+        [
+          "80",
+          2
+        ],
+        [
+          "16",
+          1
+        ]
+      ],
+      "offGrid4": [
+        [
+          "15",
+          20
+        ],
+        [
+          "10",
+          9
+        ],
+        [
+          "27",
+          2
+        ]
+      ],
+      "radii": [
+        [
+          "4px",
+          11
+        ],
+        [
+          "8px",
+          5
+        ],
+        [
+          "24px",
+          4
+        ],
+        [
+          "2px",
+          1
+        ]
+      ],
+      "shadowLevels": 2
+    },
+    "interaction": {
+      "interactiveCount": 15,
+      "targetsUnder24px": {
+        "count": 0,
+        "examples": []
+      },
+      "targetsUnder44px": {
+        "count": 8,
+        "examples": [
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Not really, no"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 372,
+            "h": 40,
+            "text": "Choose Password"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 124,
+            "h": 40,
+            "text": "Your email"
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 124,
+            "h": 40,
+            "text": "Domain"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 186,
+            "h": 40,
+            "text": "Cancel"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Accept"
+          }
+        ]
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 3,
+      "hues": [
+        0,
+        150,
+        210
+      ],
+      "distinctTextSizes": 9,
+      "boundedRegions": 20,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "Not really, no",
+        "Yes",
+        "1",
+        "2",
+        "3",
+        "4",
+        "Cancel",
+        "[insert email here]",
+        "Accept",
+        "Send to bottom"
+      ],
+      "genericLabels": [
+        "Yes"
+      ]
+    },
+    "forms": {
+      "inputs": 4,
+      "unlabeled": [
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Choose Password"
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Your email"
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Domain"
+        },
+        {
+          "el": "textarea.help-form__text-area",
+          "placeholder": null
+        }
+      ],
+      "wrongTypeOrInputmode": [
+        {
+          "el": "input.input.input--blue",
+          "type": "text",
+          "name": ""
+        }
+      ],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 0,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [
+        [
+          "200",
+          9
+        ],
+        [
+          "250",
+          1
+        ]
+      ],
+      "easings": [
+        [
+          "ease-out",
+          9
+        ],
+        [
+          "ease",
+          1
+        ]
+      ],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 539,
+      "domContentLoadedMs": 1007,
+      "loadMs": 1335,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "modal": [
+    {
+      "cls": "login-form__terms-conditions-error",
+      "text": "Please do NOT forget to accept our terms and conditions",
+      "x": 32,
+      "y": 963,
+      "w": 372,
+      "h": 12,
+      "color": "rgb(255, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 10.8px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 0, 0)"
+    },
+    {
+      "cls": "modal",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 0,
+      "y": 0,
+      "w": 453,
+      "h": 979,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0.6)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__box",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 0,
+      "y": 80,
+      "w": 720,
+      "h": 560,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 16px/normal",
+      "radius": "8px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__content",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 40,
+      "y": 120,
+      "w": 640,
+      "h": 480,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 40,
+      "y": 120,
+      "w": 640,
+      "h": 480,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__content",
+      "text": "Please read our terms and conditions Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [In",
+      "x": 40,
+      "y": 120,
+      "w": 640,
+      "h": 480,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__title",
+      "text": "Please read our terms and conditions",
+      "x": 40,
+      "y": 140,
+      "w": 640,
+      "h": 28,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "700 24px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text",
+      "text": "Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [Insert company or website name]'s Websi",
+      "x": 40,
+      "y": 188,
+      "w": 640,
+      "h": 300,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text-scrollbar",
+      "text": "",
+      "x": 675,
+      "y": 188,
+      "w": 5,
+      "h": 300,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text-scrollbar__scroller",
+      "text": "",
+      "x": 675,
+      "y": 188,
+      "w": 5,
+      "h": 36,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(181, 187, 192)",
+      "font": "400 12px/normal",
+      "radius": "2px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__text-content",
+      "text": "Welcome to [Insert company or website name] These terms and conditions outline the rules and regulations for the use of [Insert company or website name]'s Websi",
+      "x": 40,
+      "y": 188,
+      "w": 635,
+      "h": 300,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__buttons-row",
+      "text": "Accept",
+      "x": 40,
+      "y": 512,
+      "w": 640,
+      "h": 40,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__buttons-container",
+      "text": "Accept",
+      "x": 290,
+      "y": 512,
+      "w": 140,
+      "h": 40,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "terms-and-conditions__accept-button-container disabled",
+      "text": "Accept",
+      "x": 290,
+      "y": 512,
+      "w": 140,
+      "h": 40,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__fullscreen",
+      "text": "",
+      "x": 688,
+      "y": 96,
+      "w": 16,
+      "h": 16,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form",
+      "text": "How can we help? Help Send to bottom",
+      "x": 94,
+      "y": 751,
+      "w": 303,
+      "h": 228,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__container",
+      "text": "How can we help? Help Send to bottom",
+      "x": 94,
+      "y": 751,
+      "w": 303,
+      "h": 228,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(19, 42, 66)",
+      "font": "400 16px/normal",
+      "radius": "8px 8px 0px 0px",
+      "shadow": "rgba(0, 0, 0, 0.3) 0px 2px 12px 0px",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__title",
+      "text": "How can we help?",
+      "x": 126,
+      "y": 775,
+      "w": 239,
+      "h": 21,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "700 18px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__close-button",
+      "text": "",
+      "x": 341,
+      "y": 775,
+      "w": 24,
+      "h": 24,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 12.8px/12.8px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    },
+    {
+      "cls": "help-form__text-area",
+      "text": "",
+      "x": 126,
+      "y": 820,
+      "w": 239,
+      "h": 72,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 13px/normal",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(181, 187, 192)"
+    },
+    {
+      "cls": "help-form__help-button",
+      "text": "Help",
+      "x": 126,
+      "y": 898,
+      "w": 26,
+      "h": 15,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12.8px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__send-to-bottom-",
+      "text": "Send to bottom",
+      "x": 268,
+      "y": 896,
+      "w": 97,
+      "h": 40,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 16px/16px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    }
+  ]
+}

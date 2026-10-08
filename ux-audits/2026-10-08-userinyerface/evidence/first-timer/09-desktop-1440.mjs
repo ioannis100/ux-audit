@@ -1,0 +1,43 @@
+// Jordan at 1440x900: 5-second test on home and step 1 (+ flash/blur), plus 390 help-widget "sent to bottom" geometry.
+import fs from "node:fs";
+import { E, sleep, launch, newPage, go } from "./lib.mjs";
+const browser = await launch();
+const out = {};
+let page = await newPage(browser, 1440, 900);
+await go(page, "https://userinyerface.com/");
+await sleep(500);
+await page.screenshot({ path: E + "home-1440-flash-0.5s.png" });
+await sleep(2000);
+await page.screenshot({ path: E + "home-1440-5s.png" });
+await page.evaluate(() => (document.body.style.filter = "blur(8px)"));
+await page.screenshot({ path: E + "home-1440-blur.png" });
+await page.evaluate(() => (document.body.style.filter = ""));
+out.home = await page.evaluate(() => ({ docH: document.documentElement.scrollHeight, here: (() => { const r = document.querySelector(".start__link").getBoundingClientRect(); return [Math.round(r.x), Math.round(r.y), Math.round(r.width), Math.round(r.height)]; })(), no: (() => { const r = document.querySelector(".start__button").getBoundingClientRect(); return [Math.round(r.x), Math.round(r.y), Math.round(r.width), Math.round(r.height)]; })(), bodyBg: getComputedStyle(document.querySelector(".start") || document.body).backgroundColor }));
+await page.click(".start__link");
+await page.waitForNavigation({ waitUntil: "load", timeout: 25000 }).catch(() => {});
+await sleep(500);
+await page.screenshot({ path: E + "s1-1440-t0.5.png" });
+await sleep(2000);
+await page.screenshot({ path: E + "s1-1440-2.5s.png" });
+await sleep(2500);
+await page.screenshot({ path: E + "s1-1440-5s.png" });
+await page.evaluate(() => (document.body.style.filter = "blur(8px)"));
+await page.screenshot({ path: E + "s1-1440-blur.png" });
+await page.evaluate(() => (document.body.style.filter = ""));
+out.s1 = await page.evaluate(() => { const r = (s) => { const e = document.querySelector(s); if (!e) return null; const b = e.getBoundingClientRect(); return [Math.round(b.x), Math.round(b.y), Math.round(b.width), Math.round(b.height)]; }; return { cookies: r(".cookies"), card: r(".login-form__container"), help: r(".help-form"), rules: r(".password-check"), next: r(".login-form .button--secondary"), cancel: r(".login-form button"), docH: document.documentElement.scrollHeight, sw: document.documentElement.scrollWidth }; });
+// Contrast samples (computed colours)
+out.colors = await page.evaluate(() => ({ rules: getComputedStyle(document.querySelector(".password-check__password-rule")).color, next: getComputedStyle(document.querySelector(".login-form .button--secondary")).color, inputText: getComputedStyle(document.querySelector(".login-form input")).color, bg: getComputedStyle(document.querySelector(".game")).backgroundColor }));
+await page.close();
+// 390: help widget geometry open vs "sent to bottom"
+page = await newPage(browser, 390, 844);
+await go(page, "https://userinyerface.com/game.html");
+await sleep(2600);
+const g = () => page.evaluate(() => { const h = document.querySelector(".help-form"); const r = h.getBoundingClientRect(); return { cls: h.className, top: Math.round(r.y), visiblePx: Math.max(0, Math.round(Math.min(innerHeight, r.bottom) - r.y)), pctOfScreen: Math.round((100 * Math.max(0, Math.min(innerHeight, r.bottom) - r.y)) / innerHeight), position: getComputedStyle(h).position }; });
+out.help390open = await g();
+await page.evaluate(() => document.querySelector(".help-form__send-to-bottom-button").click());
+await sleep(800);
+out.help390sent = await g();
+await page.screenshot({ path: E + "s1-390-help-sent-to-bottom-viewport.png" });
+fs.writeFileSync(E + "desktop-1440.json", JSON.stringify(out, null, 2));
+console.log(JSON.stringify(out, null, 1));
+await browser.close();

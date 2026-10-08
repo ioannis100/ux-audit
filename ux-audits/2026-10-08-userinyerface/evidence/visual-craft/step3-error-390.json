@@ -1,0 +1,563 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/game.html",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "390x844",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          31
+        ]
+      ],
+      "sizesPx": [
+        [
+          "16",
+          20
+        ],
+        [
+          "13.3",
+          5
+        ],
+        [
+          "18",
+          1
+        ],
+        [
+          "24",
+          1
+        ],
+        [
+          "32",
+          1
+        ],
+        [
+          "18.7",
+          1
+        ],
+        [
+          "12.8",
+          1
+        ],
+        [
+          "11.2",
+          1
+        ]
+      ],
+      "distinctSizes": 8,
+      "weights": [
+        [
+          "300",
+          19
+        ],
+        [
+          "400",
+          7
+        ],
+        [
+          "700",
+          5
+        ]
+      ],
+      "distinctTextColors": 3,
+      "tinyTextUnder12px": [
+        {
+          "el": "span.discrete",
+          "size": 11.2,
+          "text": "to bottom"
+        }
+      ],
+      "paragraphs": {
+        "sampled": 0,
+        "lineHeights": [],
+        "charsPerLine": {
+          "min": null,
+          "max": null,
+          "samples": []
+        },
+        "outOfRangeLineHeight": []
+      },
+      "uppercaseWithoutTracking": [],
+      "fontsLoaded": [
+        "icomoon 400"
+      ],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 31,
+      "contrastFailures": 2,
+      "contrastExamples": [
+        {
+          "el": "button.button.button--solid",
+          "ratio": 2.26,
+          "need": 4.5,
+          "size": 16,
+          "color": "rgb(255, 255, 255)",
+          "bg": "rgb(41, 197, 102)",
+          "text": "Cancel"
+        },
+        {
+          "el": "button.button.button--solid",
+          "ratio": 2.26,
+          "need": 4.5,
+          "size": 16,
+          "color": "rgb(255, 255, 255)",
+          "bg": "rgb(41, 197, 102)",
+          "text": "OK"
+        }
+      ],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 14,
+      "top": [
+        [
+          "24",
+          35
+        ],
+        [
+          "10",
+          16
+        ],
+        [
+          "30",
+          12
+        ],
+        [
+          "40",
+          12
+        ],
+        [
+          "8",
+          7
+        ],
+        [
+          "20",
+          5
+        ],
+        [
+          "80",
+          4
+        ],
+        [
+          "48",
+          3
+        ],
+        [
+          "19",
+          2
+        ],
+        [
+          "27",
+          2
+        ],
+        [
+          "32",
+          2
+        ],
+        [
+          "64",
+          2
+        ],
+        [
+          "130",
+          2
+        ],
+        [
+          "16",
+          1
+        ]
+      ],
+      "offGrid4": [
+        [
+          "10",
+          16
+        ],
+        [
+          "30",
+          12
+        ],
+        [
+          "19",
+          2
+        ],
+        [
+          "27",
+          2
+        ],
+        [
+          "130",
+          2
+        ]
+      ],
+      "radii": [
+        [
+          "4px",
+          19
+        ],
+        [
+          "24px",
+          4
+        ],
+        [
+          "8px",
+          3
+        ],
+        [
+          "2px",
+          1
+        ],
+        [
+          "50%",
+          1
+        ]
+      ],
+      "shadowLevels": 1
+    },
+    "interaction": {
+      "interactiveCount": 19,
+      "targetsUnder24px": {
+        "count": 4,
+        "examples": [
+          {
+            "el": "button.numeric-stepper__button.numeric-stepper__button--up",
+            "w": 20,
+            "h": 19,
+            "text": ""
+          },
+          {
+            "el": "button.numeric-stepper__button.numeric-stepper__button--down",
+            "w": 20,
+            "h": 19,
+            "text": ""
+          },
+          {
+            "el": "button.numeric-stepper__button.numeric-stepper__button--up",
+            "w": 20,
+            "h": 19,
+            "text": ""
+          },
+          {
+            "el": "button.numeric-stepper__button.numeric-stepper__button--down",
+            "w": 20,
+            "h": 19,
+            "text": ""
+          }
+        ]
+      },
+      "targetsUnder44px": {
+        "count": 10,
+        "examples": [
+          {
+            "el": "input.input.input--blue",
+            "w": 230,
+            "h": 40,
+            "text": "Placeholder..."
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 230,
+            "h": 40,
+            "text": "Placeholder..."
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 230,
+            "h": 40,
+            "text": "Placeholder..."
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 230,
+            "h": 40,
+            "text": "Placeholder..."
+          },
+          {
+            "el": "input.input.input--blue",
+            "w": 230,
+            "h": 40,
+            "text": "Placeholder..."
+          },
+          {
+            "el": "button.button.button--stroked",
+            "w": 140,
+            "h": 40,
+            "text": "Next"
+          }
+        ]
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 2,
+      "hues": [
+        150,
+        210
+      ],
+      "distinctTextSizes": 8,
+      "boundedRegions": 14,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Next",
+        "Cancel",
+        "OK",
+        "Send to bottom"
+      ],
+      "genericLabels": [
+        "OK"
+      ]
+    },
+    "forms": {
+      "inputs": 6,
+      "unlabeled": [
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Placeholder..."
+        },
+        {
+          "el": "input.input.input--blue",
+          "placeholder": "Placeholder..."
+        },
+        {
+          "el": "textarea.help-form__text-area",
+          "placeholder": null
+        }
+      ],
+      "wrongTypeOrInputmode": [],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 0,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [
+        [
+          "200",
+          9
+        ]
+      ],
+      "easings": [
+        [
+          "ease-out",
+          9
+        ]
+      ],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 539,
+      "domContentLoadedMs": 1007,
+      "loadMs": 1335,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "modal": [
+    {
+      "cls": "personal-details-errors-modal modal",
+      "text": "Please fill in all fields correctly: Invalid first name OK",
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0.6)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__box",
+      "text": "Please fill in all fields correctly: Invalid first name OK",
+      "x": 0,
+      "y": 80,
+      "w": 480,
+      "h": 246,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 16px/normal",
+      "radius": "8px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__content",
+      "text": "Please fill in all fields correctly: Invalid first name OK",
+      "x": 40,
+      "y": 120,
+      "w": 400,
+      "h": 166,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "personal-details-errors-modal__list-container",
+      "text": "Invalid first name",
+      "x": 40,
+      "y": 172,
+      "w": 400,
+      "h": 74,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "modal__fullscreen",
+      "text": "",
+      "x": 448,
+      "y": 96,
+      "w": 16,
+      "h": 16,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form",
+      "text": "How can we help? Help Send to bottom",
+      "x": 31,
+      "y": 566,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__container",
+      "text": "How can we help? Help Send to bottom",
+      "x": 31,
+      "y": 566,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(19, 42, 66)",
+      "font": "400 16px/normal",
+      "radius": "8px 8px 0px 0px",
+      "shadow": "rgba(0, 0, 0, 0.3) 0px 2px 12px 0px",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__title",
+      "text": "How can we help?",
+      "x": 63,
+      "y": 590,
+      "w": 239,
+      "h": 21,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "700 18px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__close-button",
+      "text": "",
+      "x": 278,
+      "y": 590,
+      "w": 24,
+      "h": 24,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 12.8px/12.8px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    },
+    {
+      "cls": "help-form__text-area",
+      "text": "",
+      "x": 63,
+      "y": 635,
+      "w": 239,
+      "h": 72,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 13px/normal",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(181, 187, 192)"
+    },
+    {
+      "cls": "help-form__help-button",
+      "text": "Help",
+      "x": 63,
+      "y": 713,
+      "w": 26,
+      "h": 15,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12.8px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__send-to-bottom-",
+      "text": "Send to bottom",
+      "x": 205,
+      "y": 711,
+      "w": 97,
+      "h": 40,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 16px/16px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    }
+  ]
+}

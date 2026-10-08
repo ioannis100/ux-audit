@@ -1,0 +1,139 @@
+{
+  "helpPos": "fixed",
+  "helpBottom": "0px",
+  "helpRight": "56px",
+  "helpRect": [
+    94,
+    751,
+    303,
+    228
+  ],
+  "email": {
+    "rect": [
+      32,
+      531,
+      124,
+      40
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "domain": {
+    "rect": [
+      190,
+      531,
+      124,
+      40
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "ext": {
+    "rect": [
+      324,
+      532,
+      80,
+      38
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "checkbox": {
+    "rect": [
+      77,
+      611,
+      18,
+      18
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "tcLink": {
+    "rect": [
+      111,
+      611,
+      247,
+      16
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "next": {
+    "rect": [
+      64,
+      681,
+      30,
+      16
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "cancel": {
+    "rect": [
+      125,
+      669,
+      186,
+      40
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "reset": {
+    "rect": [
+      366,
+      681,
+      38,
+      16
+    ],
+    "scrollY": 0,
+    "coveredBy": [
+      "self",
+      "self",
+      "self"
+    ]
+  },
+  "atBottom": {
+    "nextRect": [
+      64,
+      681,
+      30,
+      16
+    ],
+    "top": "self",
+    "scrollY": 0,
+    "docH": 979
+  },
+  "afterTapNext": true,
+  "hOverflow": {
+    "scrollW": 453,
+    "wide": []
+  }
+}

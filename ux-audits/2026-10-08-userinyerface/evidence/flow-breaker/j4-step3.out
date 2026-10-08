@@ -1,0 +1,28 @@
+file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:88
+            this._reject(callback, new TargetCloseError('Target closed'));
+                                   ^
+
+TargetCloseError: Protocol error (Input.dispatchMouseEvent): Target closed
+    at CallbackRegistry.clear (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:88:36)
+    at CdpCDPSession.onClosed (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/cdp/CdpSession.js:121:25)
+    at #onClose (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/cdp/Connection.js:217:21)
+    at WebSocket.<anonymous> (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/node/NodeWebSocketTransport.js:54:30)
+    at callListener (./ux-audits/2026-10-08-userinyerface/node_modules/ws/lib/event-target.js:290:14)
+    at WebSocket.onClose (./ux-audits/2026-10-08-userinyerface/node_modules/ws/lib/event-target.js:220:9)
+    at WebSocket.emit (node:events:514:28)
+    at WebSocket.emitClose (./ux-audits/2026-10-08-userinyerface/node_modules/ws/lib/websocket.js:292:10)
+    at Socket.socketOnClose (./ux-audits/2026-10-08-userinyerface/node_modules/ws/lib/websocket.js:1374:15)
+    at Socket.emit (node:events:514:28) {
+  cause: ProtocolError
+      at <instance_members_initializer> (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:108:14)
+      at new Callback (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:112:16)
+      at CallbackRegistry.create (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:27:26)
+      at Connection._rawSend (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/cdp/Connection.js:125:26)
+      at CdpCDPSession.send (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/cdp/CdpSession.js:72:14)
+      at file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/cdp/Input.js:274:37
+      at #withTransaction (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/cdp/Input.js:235:19)
+      at CdpMouse.move (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/cdp/Input.js:266:40)
+      at file://./ux-audits/2026-10-08-userinyerface/evidence/flow-breaker/j4-step3.mjs:99:99
+}
+
+Node.js v24.21.0

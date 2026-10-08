@@ -1,0 +1,23 @@
+6.4 1440 step3: what receives a click at Next/Cancel centre (help widget open) [{"sel":".personal-details__bottom-button-container .align__cell:first-child button","box":"1020,792 140x40","topmost":"DIV.help-form__container"},{"sel":".personal-details__bottom-button-container .align__cell:last-child button","box":"1180,792 140x40","topmost":"TEXTAREA.help-form__text-area"}]
+21.1 1440 step3 after 'Send to bottom' + 14.5s [{"sel":".personal-details__bottom-button-container .align__cell:first-child button","box":"1020,792 140x40","topmost":"self"},{"sel":".personal-details__bottom-button-container .align__cell:last-child button","box":"1180,792 140x40","topmost":"self"}]
+21.6 1440 step3 Cancel -> {"confirm":true}
+22.7 1440 step3 Next with all empty -> error modal "Please fill in all fields correctly: Invalid first name OK "
+26.5 390 innerWidth 453
+26.8 390 cookie banner {"bannerH":324,"pctOfViewport":33,"buttons":["\"Not really, no\" 128,142 140x40 bg:rgba(0, 0, 0, 0) border:rgba(0, 0, 0, 0) fs:16px rightEdge:268","\"Yes\" 288,138 140x48 bg:rgb(255, 255, 255) border:rgb(255, 255, 255) fs:24px rightEdge:428"],"overflowX":453}
+27.7 390 touch pressed (finger down 150ms) [{"sel":".cookies .align__cell:first-child button","changed":[]},{"sel":".login-form .button-container__primary button","changed":[]}]
+28.4 390 after tapping 'Not really, no' true
+28.4 390 step-1 target sizes (CSS px) [".login-form .button-container__secondary a 30x16",".login-form .button-container__primary button 186x40",".login-form a.u-right 38x16",".login-form .checkbox__box 18x18",".login-form__terms-conditions 247x16",".help-form__help-button 26x15",".help-form__close-button 24x24",".help-form__send-to-bottom-button 97x40",".pagination__button 48x48"]
+28.4 390 hit-tests step 1 [{"sel":".login-form .button-container__primary button","box":"125,678 186x40","topmost":"self"},{"sel":".login-form .button-container__secondary a","box":"64,690 30x16","topmost":"self"},{"sel":".login-form a.u-right","box":"366,690 38x16","topmost":"self"},{"sel":".pagination__button","box":"27,398 48x48","topmost":"self"}]
+file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/api/ElementHandle.js:693
+                throw new Error('Node is either not clickable or not an Element');
+                      ^
+
+Error: Node is either not clickable or not an Element
+    at CdpElementHandle.clickablePoint (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/api/ElementHandle.js:693:23)
+    at async CdpElementHandle.<anonymous> (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/api/ElementHandle.js:119:20)
+    at async CdpElementHandle.tap (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/api/ElementHandle.js:921:30)
+    at async CdpElementHandle.<anonymous> (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/api/ElementHandle.js:130:24)
+    at async CdpFrame.tap (file://./ux-audits/2026-10-08-userinyerface/node_modules/puppeteer-core/lib/puppeteer/api/Frame.js:852:17)
+    at async file://./ux-audits/2026-10-08-userinyerface/evidence/feel-engagement/c-mobile-390-and-step3.mjs:44:3
+
+Node.js v24.21.0

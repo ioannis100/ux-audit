@@ -1,0 +1,340 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "390x844",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          6
+        ],
+        [
+          "Arial",
+          1
+        ]
+      ],
+      "sizesPx": [
+        [
+          "16",
+          4
+        ],
+        [
+          "24",
+          2
+        ],
+        [
+          "32",
+          1
+        ]
+      ],
+      "distinctSizes": 3,
+      "weights": [
+        [
+          "400",
+          4
+        ],
+        [
+          "100",
+          2
+        ],
+        [
+          "700",
+          1
+        ]
+      ],
+      "distinctTextColors": 4,
+      "tinyTextUnder12px": [],
+      "paragraphs": {
+        "sampled": 0,
+        "lineHeights": [],
+        "charsPerLine": {
+          "min": null,
+          "max": null,
+          "samples": []
+        },
+        "outOfRangeLineHeight": []
+      },
+      "uppercaseWithoutTracking": [],
+      "fontsLoaded": [],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 7,
+      "contrastFailures": 7,
+      "contrastExamples": [
+        {
+          "el": "span.start__highlight",
+          "ratio": 2.19,
+          "need": 4.5,
+          "size": 16,
+          "color": "rgba(255, 255, 255, 0.4)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "next page"
+        },
+        {
+          "el": "button.start__button",
+          "ratio": 2.26,
+          "need": 3,
+          "size": 32,
+          "color": "rgb(255, 255, 255)",
+          "bg": "rgb(41, 197, 102)",
+          "text": "NO"
+        },
+        {
+          "el": "p.start__paragraph",
+          "ratio": 2.71,
+          "need": 3,
+          "size": 24,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Hi and welcome to User Inyerface, a challenging exploration "
+        },
+        {
+          "el": "p.start__paragraph",
+          "ratio": 2.71,
+          "need": 3,
+          "size": 24,
+          "color": "rgb(41, 197, 102)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "To play the game, simply fill in the form as fast and accura"
+        },
+        {
+          "el": "p",
+          "ratio": 3.42,
+          "need": 4.5,
+          "size": 16,
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "Please click HERE to GO to the next page"
+        },
+        {
+          "el": "u",
+          "ratio": 3.42,
+          "need": 4.5,
+          "size": 16,
+          "color": "rgb(0, 0, 0)",
+          "bg": "rgb(12, 88, 218)",
+          "text": "click"
+        }
+      ],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 4,
+      "top": [
+        [
+          "40",
+          6
+        ],
+        [
+          "24",
+          4
+        ],
+        [
+          "16",
+          2
+        ],
+        [
+          "64",
+          2
+        ]
+      ],
+      "offGrid4": [],
+      "radii": [
+        [
+          "54px",
+          1
+        ]
+      ],
+      "shadowLevels": 1
+    },
+    "interaction": {
+      "interactiveCount": 2,
+      "targetsUnder24px": {
+        "count": 0,
+        "examples": []
+      },
+      "targetsUnder44px": {
+        "count": 0,
+        "examples": []
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 1,
+      "hues": [
+        150
+      ],
+      "distinctTextSizes": 3,
+      "boundedRegions": 1,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "NO",
+        "HERE"
+      ],
+      "genericLabels": [
+        "NO",
+        "HERE"
+      ]
+    },
+    "forms": {
+      "inputs": 0,
+      "unlabeled": [],
+      "wrongTypeOrInputmode": [],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 0,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [
+        [
+          "200",
+          1
+        ]
+      ],
+      "easings": [
+        [
+          "ease-out",
+          1
+        ]
+      ],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 275,
+      "domContentLoadedMs": 992,
+      "loadMs": 1326,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "probe": {
+    "buttons": [
+      {
+        "text": "NO",
+        "cls": "start__button",
+        "x": 141,
+        "y": 571,
+        "w": 108,
+        "h": 108,
+        "color": "#ffffff",
+        "bg": "#29c566",
+        "contrast": 2.26,
+        "font": "700 32px/normal Arial",
+        "border": "0px none #ffffff",
+        "borderVsBg": null,
+        "radius": "54px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      }
+    ],
+    "inputs": [],
+    "labels": [
+      {
+        "text": "Hi and welcome to User Inyerface, a chal",
+        "cls": "start__paragraph",
+        "x": 0,
+        "y": 311,
+        "w": 390,
+        "h": 112,
+        "color": "#29c566",
+        "bg": "#0c58da",
+        "contrast": 2.71,
+        "font": "100 24px/normal sans-serif",
+        "border": "0px none #29c566",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "To play the game, simply fill in the for",
+        "cls": "start__paragraph",
+        "x": 0,
+        "y": 447,
+        "w": 390,
+        "h": 84,
+        "color": "#29c566",
+        "bg": "#0c58da",
+        "contrast": 2.71,
+        "font": "100 24px/normal sans-serif",
+        "border": "0px none #29c566",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      },
+      {
+        "text": "Please click HERE to GO to the next page",
+        "cls": "",
+        "x": 0,
+        "y": 719,
+        "w": 390,
+        "h": 18,
+        "color": "#000000",
+        "bg": "#0c58da",
+        "contrast": 3.42,
+        "font": "400 16px/normal sans-serif",
+        "border": "0px none #000000",
+        "borderVsBg": null,
+        "radius": "0px",
+        "padding": "0px",
+        "deco": "none",
+        "transform": "none",
+        "letterSpacing": "normal",
+        "align": "center"
+      }
+    ],
+    "pips": [],
+    "checkboxes": [],
+    "images": [
+      {
+        "src": "verhaert-digital-logo.svg",
+        "natural": "300x48",
+        "rendered": "200x32",
+        "fit": "fill",
+        "filter": "none",
+        "alt": "verhaert.digital"
+      }
+    ],
+    "state": null,
+    "doc": {
+      "w": 390,
+      "h": 844,
+      "iw": 390
+    }
+  }
+}

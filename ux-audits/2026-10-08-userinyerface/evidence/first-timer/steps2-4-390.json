@@ -1,0 +1,1176 @@
+{
+  "s2": {
+    "text": "2 / 4\n\t\nThis is me\n\nTo complete your profile, please upload any image.\n\nDownload image\nChoose 3 interests\nPonies\nPolo\nDough\nSnails\nBalls\nPost-its\nFaucets\nEnveloppes\nCables\nQuestions\nSquares\nPurple\nCotton\nDry-wall\nClosets\nTires\nWindows\nSelect all\nMullets\nCinnamon\nUnselect all\nNext\tCancel",
+    "checked": [
+      [
+        "Ponies",
+        true
+      ],
+      [
+        "Polo",
+        true
+      ],
+      [
+        "Dough",
+        true
+      ],
+      [
+        "Snails",
+        true
+      ],
+      [
+        "Balls",
+        true
+      ],
+      [
+        "Post-its",
+        true
+      ],
+      [
+        "Faucets",
+        true
+      ],
+      [
+        "Enveloppes",
+        true
+      ],
+      [
+        "Cables",
+        true
+      ],
+      [
+        "Questions",
+        true
+      ],
+      [
+        "Squares",
+        true
+      ],
+      [
+        "Purple",
+        true
+      ],
+      [
+        "Cotton",
+        true
+      ],
+      [
+        "Dry-wall",
+        true
+      ],
+      [
+        "Closets",
+        true
+      ],
+      [
+        "Tires",
+        true
+      ],
+      [
+        "Windows",
+        true
+      ],
+      [
+        "Select all",
+        true
+      ],
+      [
+        "Mullets",
+        true
+      ],
+      [
+        "Cinnamon",
+        true
+      ],
+      [
+        "Unselect all",
+        true
+      ]
+    ],
+    "sizes": {
+      "box": [
+        15,
+        15
+      ],
+      "font": "14px"
+    },
+    "upload": {
+      "w": 42,
+      "h": 16,
+      "color": "rgb(127, 140, 141)",
+      "deco": "none",
+      "font": "14px"
+    },
+    "download": {
+      "w": 154,
+      "h": 32,
+      "bg": "rgb(12, 88, 218)"
+    }
+  },
+  "dlLabel": "source: download('images/avatar_placeholder.png') — not tapped to avoid a download",
+  "avatarViaChooser": true,
+  "s3": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button",
+      "text": "1",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 27,
+      "y": 218,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button is-active",
+      "text": "2",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 123,
+      "y": 218,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(41, 197, 102)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button",
+      "text": "3",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 219,
+      "y": 218,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button",
+      "text": "4",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 315,
+      "y": 218,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue",
+      "text": "",
+      "value": "Placeholder...",
+      "placeholder": "Placeholder...",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 80,
+      "y": 444,
+      "w": 230,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue",
+      "text": "",
+      "value": "Placeholder...",
+      "placeholder": "Placeholder...",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 80,
+      "y": 556,
+      "w": 230,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "dropdown__field",
+      "text": "Choose a title",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 80,
+      "y": 668,
+      "w": 230,
+      "h": 37,
+      "font": "13.3333px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue",
+      "text": "",
+      "value": "Placeholder...",
+      "placeholder": "Placeholder...",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 80,
+      "y": 777,
+      "w": 230,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue",
+      "text": "",
+      "value": "Placeholder...",
+      "placeholder": "Placeholder...",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 80,
+      "y": 889,
+      "w": 230,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "dropdown__field",
+      "text": "Choose a country",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 80,
+      "y": 1001,
+      "w": 230,
+      "h": 40,
+      "font": "13.3333px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue",
+      "text": "",
+      "value": "Placeholder...",
+      "placeholder": "Placeholder...",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 80,
+      "y": 1113,
+      "w": 230,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "numeric-stepper__button numeric-stepper__button--u",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 289,
+      "y": 1226,
+      "w": 20,
+      "h": 19,
+      "font": "13.3333px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "numeric-stepper__button numeric-stepper__button--d",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 289,
+      "y": 1245,
+      "w": 20,
+      "h": 19,
+      "font": "13.3333px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "numeric-stepper__button numeric-stepper__button--u",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 289,
+      "y": 1338,
+      "w": 20,
+      "h": 19,
+      "font": "13.3333px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "numeric-stepper__button numeric-stepper__button--d",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 289,
+      "y": 1357,
+      "w": 20,
+      "h": 19,
+      "font": "13.3333px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "dropdown__field",
+      "text": "Day",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 80,
+      "y": 1449,
+      "w": 77,
+      "h": 37,
+      "font": "13.3333px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "dropdown__field",
+      "text": "Month",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 165,
+      "y": 1449,
+      "w": 69,
+      "h": 37,
+      "font": "13.3333px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "dropdown__field",
+      "text": "Year",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 241,
+      "y": 1449,
+      "w": 69,
+      "h": 37,
+      "font": "13.3333px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "toggle-button toggle-button--left selected",
+      "text": "Male",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 80,
+      "y": 1670,
+      "w": 115,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "toggle-button toggle-button--right",
+      "text": "Female",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 195,
+      "y": 1670,
+      "w": 115,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(12, 88, 218)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "button button--stroked button--white",
+      "text": "Next",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 90,
+      "y": 1784,
+      "w": 140,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "button button--solid button--green",
+      "text": "Cancel",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 250,
+      "y": 1784,
+      "w": 140,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "button button--solid button--blue help-form__close",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 278,
+      "y": 763,
+      "w": 24,
+      "h": 24,
+      "font": "12.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)"
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "cls": "help-form__text-area",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 63,
+      "y": 808,
+      "w": 239,
+      "h": 72,
+      "font": "13px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "cls": "help-form__help-button",
+      "text": "Help",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 63,
+      "y": 886,
+      "w": 26,
+      "h": 15,
+      "font": "12.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "button button--solid button--blue help-form__send-",
+      "text": "Send to bottom",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 205,
+      "y": 884,
+      "w": 97,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)"
+    }
+  ],
+  "s3labels": [
+    "First name",
+    "Zip",
+    "Title",
+    "City",
+    "Surname",
+    "Country",
+    "Street",
+    "Box",
+    "Number",
+    "Birthdate",
+    "Age",
+    "Gender"
+  ],
+  "gender": [
+    [
+      "Male",
+      "toggle-button toggle-button--left selected"
+    ],
+    [
+      "Female",
+      "toggle-button toggle-button--right"
+    ]
+  ],
+  "steppers": [
+    {
+      "text": "1",
+      "w": 230,
+      "h": 40,
+      "btn": [
+        [
+          20,
+          19
+        ],
+        [
+          20,
+          19
+        ]
+      ]
+    },
+    {
+      "text": "1",
+      "w": 230,
+      "h": 40,
+      "btn": [
+        [
+          20,
+          19
+        ],
+        [
+          20,
+          19
+        ]
+      ]
+    }
+  ],
+  "s3errors": [
+    {
+      "modal": "Please fill in all fields correctly:\nGender and title don't match\nOK\n\t",
+      "step": 2
+    },
+    {
+      "action": "tapped 'Female' to satisfy 'Gender and title don't match' with Title=Mr"
+    },
+    {
+      "modal": null,
+      "step": 3
+    }
+  ],
+  "s4": {
+    "h2": "Almost done! Now we just need proof that you are human.",
+    "h3": "Select all pictures with a bow",
+    "scrollTop": 27,
+    "scrollH": 587,
+    "clientH": 560,
+    "cell": [
+      82,
+      92
+    ],
+    "cb": [
+      18,
+      18
+    ],
+    "nChecks": 16
+  },
+  "end": {
+    "finished": true,
+    "text": "YOU ARE AWESOME!\nA true interface legend.",
+    "timer": "00:00:53"
+  },
+  "net": [
+    "GET https://userinyerface.com/game.html",
+    "GET https://userinyerface.com/app.js",
+    "GET https://www.google-analytics.com/analytics.js",
+    "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=644807648&t=pageview&_s=1&d",
+    "GET https://userinyerface.com/favicon.ico",
+    "GET https://www.googletagmanager.com/gtag/js?id=G-WV3V8CDC4C&cx=c&_slc=1",
+    "POST https://region1.google-analytics.com/g/collect?v=2&tid=G-WV3V8CDC4C&gtm=45je6a61v911230570",
+    "GET data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAACEUlEQVR4nO3SQQkAMAzA"
+  ],
+  "log": [
+    {
+      "t": 3.9,
+      "timer": "00:00:04",
+      "action": "card indicator after jump",
+      "result": "2 / 4"
+    },
+    {
+      "t": 8.1,
+      "timer": "00:00:08",
+      "action": "step 2 arrival: interests and their initial state",
+      "result": {
+        "checked": "21/21 pre-ticked",
+        "sizes": {
+          "box": [
+            15,
+            15
+          ],
+          "font": "14px"
+        },
+        "upload": {
+          "w": 42,
+          "h": 16,
+          "color": "rgb(127, 140, 141)",
+          "deco": "none",
+          "font": "14px"
+        },
+        "download": {
+          "w": 154,
+          "h": 32,
+          "bg": "rgb(12, 88, 218)"
+        }
+      }
+    },
+    {
+      "t": 8.8,
+      "timer": "00:00:09",
+      "action": "tap Next immediately",
+      "result": "Please upload a picture\nPlease choose 3 interests."
+    },
+    {
+      "t": 9.1,
+      "timer": "00:00:09",
+      "action": "covered-tap check so far",
+      "result": [
+        {
+          "target": "Next",
+          "coveredBy": "help-form__container"
+        }
+      ]
+    },
+    {
+      "t": 9.4,
+      "timer": "00:00:09",
+      "action": "dismiss help widget via 'Send to bottom' (it covers the interests list)",
+      "result": true
+    },
+    {
+      "t": 10,
+      "timer": "00:00:10",
+      "action": "tap Next again, help widget gone",
+      "result": "Please upload a picture\nPlease choose 3 interests."
+    },
+    {
+      "t": 13,
+      "timer": "00:00:13",
+      "action": "tap 'upload' link + choose test-avatar.png",
+      "result": {
+        "chooser": true,
+        "hasAvatar": true
+      }
+    },
+    {
+      "t": 13.6,
+      "timer": "00:00:14",
+      "action": "tap 'Unselect all' (a checkbox in the list)",
+      "result": [
+        "Ponies",
+        "Polo",
+        "Dough",
+        "Snails",
+        "Balls",
+        "Post-its",
+        "Faucets",
+        "Enveloppes",
+        "Cables",
+        "Questions",
+        "Squares",
+        "Purple",
+        "Cotton",
+        "Dry-wall",
+        "Closets",
+        "Tires",
+        "Windows",
+        "Select all",
+        "Mullets",
+        "Cinnamon",
+        "Unselect all"
+      ]
+    },
+    {
+      "t": 14.6,
+      "timer": "00:00:15",
+      "action": "tap Ponies, Purple, Cotton",
+      "result": [
+        "Ponies",
+        "Polo",
+        "Dough",
+        "Snails",
+        "Post-its",
+        "Faucets",
+        "Enveloppes",
+        "Cables",
+        "Questions",
+        "Squares",
+        "Purple",
+        "Cotton",
+        "Dry-wall",
+        "Closets",
+        "Tires",
+        "Windows",
+        "Select all",
+        "Mullets",
+        "Cinnamon",
+        "Unselect all"
+      ]
+    },
+    {
+      "t": 15.1,
+      "timer": "00:00:15",
+      "action": "tap the WORD 'Snails'",
+      "result": true
+    },
+    {
+      "t": 15.4,
+      "timer": "00:00:15",
+      "action": "(DOM clicks) leave exactly Ponies, Purple, Cotton ticked",
+      "result": {
+        "ticked": [
+          "Ponies",
+          "Purple",
+          "Cotton"
+        ],
+        "avatar": true
+      }
+    },
+    {
+      "t": 16.4,
+      "timer": "00:00:16",
+      "action": "tap Next with avatar + 3 interests",
+      "result": {
+        "step": 2,
+        "err": null
+      }
+    },
+    {
+      "t": 17.6,
+      "timer": "00:00:18",
+      "action": "card indicator after jump",
+      "result": "3 / 4"
+    },
+    {
+      "t": 22,
+      "timer": "00:00:22",
+      "action": "step 3 arrival: fields",
+      "result": {
+        "labels": [
+          "First name",
+          "Zip",
+          "Title",
+          "City",
+          "Surname",
+          "Country",
+          "Street",
+          "Box",
+          "Number",
+          "Birthdate",
+          "Age",
+          "Gender"
+        ],
+        "inputs": [
+          "Placeholder...|230x40|16px",
+          "Placeholder...|230x40|16px",
+          "Placeholder...|230x40|16px",
+          "Placeholder...|230x40|16px",
+          "Placeholder...|230x40|16px"
+        ]
+      }
+    },
+    {
+      "t": 22.6,
+      "timer": "00:00:23",
+      "action": "tap Next immediately",
+      "result": "Please fill in all fields correctly:\nInvalid first name\nOK\n\t"
+    },
+    {
+      "t": 31.1,
+      "timer": "00:00:31",
+      "action": "tap 'First name' field, type 'Test'",
+      "result": "Placeholder.Test.."
+    },
+    {
+      "t": 31.1,
+      "timer": "00:00:31",
+      "action": "text inputs in DOM order",
+      "result": [
+        "First name",
+        "Zip",
+        "City",
+        "Surname",
+        "Street"
+      ]
+    },
+    {
+      "t": 33.7,
+      "timer": "00:00:34",
+      "action": "filled text fields (select-all + type)",
+      "result": [
+        "Test",
+        "1000",
+        "Testville",
+        "User",
+        "Test street 1"
+      ]
+    },
+    {
+      "t": 33.7,
+      "timer": "00:00:34",
+      "action": "dropdowns in DOM order",
+      "result": [
+        "Title",
+        "Country",
+        "Birthdate",
+        "Birthdate",
+        "Birthdate"
+      ]
+    },
+    {
+      "t": 34.3,
+      "timer": "00:00:34",
+      "action": "open Title",
+      "result": [
+        "Mr",
+        "Mrs"
+      ]
+    },
+    {
+      "t": 35.5,
+      "timer": "00:00:35",
+      "action": "open Country",
+      "result": {
+        "n": 236,
+        "firstText": [
+          "flag flag-af country-dropdown__flag-item",
+          "flag flag-ax country-dropdown__flag-item",
+          "flag flag-al country-dropdown__flag-item"
+        ],
+        "listH": 150,
+        "scrollH": 1448
+      }
+    },
+    {
+      "t": 36.1,
+      "timer": "00:00:36",
+      "action": "pick Belgium (item #20, text-less flag row)",
+      "result": {
+        "r": {
+          "tapped": true,
+          "cover": null
+        },
+        "field": "Belgium"
+      }
+    },
+    {
+      "t": 38.1,
+      "timer": "00:00:38",
+      "action": "open Month",
+      "result": [
+        "April",
+        "August",
+        "December",
+        "February",
+        "January",
+        "July",
+        "June",
+        "March",
+        "May",
+        "November",
+        "October",
+        "September"
+      ]
+    },
+    {
+      "t": 39.3,
+      "timer": "00:00:39",
+      "action": "open Year",
+      "result": {
+        "first": [
+          "1900",
+          "1901",
+          "1902"
+        ],
+        "last": [
+          "2025",
+          "2026"
+        ],
+        "n": 127,
+        "pos1990": 90
+      }
+    },
+    {
+      "t": 39.8,
+      "timer": "00:00:40",
+      "action": "birthdate fields now",
+      "result": [
+        "1",
+        "January",
+        "1990"
+      ]
+    },
+    {
+      "t": 39.8,
+      "timer": "00:00:40",
+      "action": "age slider geometry",
+      "result": {
+        "handle": {
+          "x": 56,
+          "y": 508.4375,
+          "height": 48,
+          "width": 48
+        },
+        "track": {
+          "x": 80,
+          "y": 530.4375,
+          "height": 0,
+          "width": 230
+        },
+        "value": "0"
+      }
+    },
+    {
+      "t": 40.5,
+      "timer": "00:00:40",
+      "action": "drag Age handle toward 36 by touch",
+      "result": "36"
+    },
+    {
+      "t": 40.6,
+      "timer": "00:00:41",
+      "action": "gender toggle state (left as-is with Title=Mr)",
+      "result": [
+        [
+          "Male",
+          "toggle-button toggle-button--left selected"
+        ],
+        [
+          "Female",
+          "toggle-button toggle-button--right"
+        ]
+      ]
+    },
+    {
+      "t": 40.6,
+      "timer": "00:00:41",
+      "action": "Box / Number steppers",
+      "result": [
+        {
+          "text": "1",
+          "w": 230,
+          "h": 40,
+          "btn": [
+            [
+              20,
+              19
+            ],
+            [
+              20,
+              19
+            ]
+          ]
+        },
+        {
+          "text": "1",
+          "w": 230,
+          "h": 40,
+          "btn": [
+            [
+              20,
+              19
+            ],
+            [
+              20,
+              19
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": 42.9,
+      "timer": "00:00:43",
+      "action": "Next with everything filled (loop over error modal)",
+      "result": [
+        {
+          "modal": "Please fill in all fields correctly:\nGender and title don't match\nOK\n\t",
+          "step": 2
+        },
+        {
+          "action": "tapped 'Female' to satisfy 'Gender and title don't match' with Title=Mr"
+        },
+        {
+          "modal": null,
+          "step": 3
+        }
+      ]
+    },
+    {
+      "t": 44,
+      "timer": "00:00:44",
+      "action": "card indicator after jump",
+      "result": "4 / 4"
+    },
+    {
+      "t": 48.3,
+      "timer": "00:00:48",
+      "action": "step 4 arrival",
+      "result": {
+        "h2": "Almost done! Now we just need proof that you are human.",
+        "h3": "Select all pictures with a bow",
+        "scrollTop": 27,
+        "scrollH": 587,
+        "clientH": 560,
+        "cell": [
+          82,
+          92
+        ],
+        "cb": [
+          18,
+          18
+        ],
+        "nChecks": 16
+      }
+    },
+    {
+      "t": 49.1,
+      "timer": "00:00:49",
+      "action": "tap Validate with nothing ticked",
+      "result": {
+        "instructionNow": "Select all pictures with glasses",
+        "before": "Select all pictures with a bow",
+        "anyMessage": "4 / 4 Almost done! Now we just need proof that you are human. Select all pictures with glasses Validate"
+      }
+    },
+    {
+      "t": 52.9,
+      "timer": "00:00:53",
+      "action": "tick all 16 boxes",
+      "result": 16
+    },
+    {
+      "t": 54.7,
+      "timer": "00:00:53",
+      "action": "tap Validate",
+      "result": {
+        "finished": true,
+        "text": "YOU ARE AWESOME!\nA true interface legend.",
+        "timer": "00:00:53"
+      }
+    },
+    {
+      "t": 57.9,
+      "timer": "00:00:53",
+      "action": "3 s later: timer still running?",
+      "result": "00:00:53"
+    }
+  ],
+  "coverHits": [
+    {
+      "target": "Next",
+      "coveredBy": "help-form__container"
+    },
+    {
+      "target": "Next",
+      "coveredBy": "help-form__container"
+    },
+    {
+      "target": "Next",
+      "coveredBy": "help-form__container"
+    },
+    {
+      "target": "Next",
+      "coveredBy": "help-form__container"
+    }
+  ]
+}

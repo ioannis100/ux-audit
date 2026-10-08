@@ -1,0 +1,349 @@
+[
+  {
+    "t": "5.9",
+    "a": "step2 interests on arrival (label, checked)",
+    "r": {
+      "checked": 21,
+      "of": 21,
+      "list": "Ponies[x] Polo[x] Dough[x] Snails[x] Balls[x] Post-its[x] Faucets[x] Enveloppes[x] Cables[x] Questions[x] Squares[x] Purple[x] Cotton[x] Dry-wall[x] Closets[x] Tires[x] Windows[x] Select all[x] Mullets[x] Cinnamon[x] Unselect all[x]"
+    }
+  },
+  {
+    "t": "11.9",
+    "a": "state-diff s2Next",
+    "r": {
+      "size": "214x40",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "border": "rgb(255, 255, 255)",
+      "fs": "16px",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "11.9",
+    "a": "state-diff s2Cancel",
+    "r": {
+      "size": "204x40",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "bg": "rgb(41, 197, 102)",
+      "color": "rgb(255, 255, 255)",
+      "border": "rgb(41, 197, 102)",
+      "fs": "16px",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "11.9",
+    "a": "state-diff s2Download",
+    "r": {
+      "size": "154x32",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "bg": "rgb(12, 88, 218)",
+      "color": "rgb(255, 255, 255)",
+      "border": "rgb(12, 88, 218)",
+      "fs": "14px",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "11.9",
+    "a": "state-diff s2UploadLink",
+    "r": {
+      "size": "42x16",
+      "tag": "A",
+      "cursor": "auto",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(127, 140, 141)",
+      "border": "rgb(127, 140, 141)",
+      "fs": "14px",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "11.9",
+    "a": "state-diff s2InterestBox",
+    "r": {
+      "size": "15x15",
+      "tag": "SPAN",
+      "cursor": "default",
+      "bg": "rgb(52, 152, 219)",
+      "color": "rgb(255, 255, 255)",
+      "border": "rgb(26, 97, 144)",
+      "fs": "14px",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "12.5",
+    "a": "step2 Next with defaults",
+    "r": [
+      "Please upload a picture",
+      "Please choose 3 interests."
+    ]
+  },
+  {
+    "t": "12.7",
+    "a": "after clicking 'Unselect all'",
+    "r": {
+      "checked": []
+    }
+  },
+  {
+    "t": "13.4",
+    "a": "after ticking 3",
+    "r": {
+      "checked": [
+        "Ponies",
+        "Polo",
+        "Dough"
+      ]
+    }
+  },
+  {
+    "t": "14.0",
+    "a": "step2 Cancel ->",
+    "r": {
+      "step": 0,
+      "confirm": false,
+      "indicator": "1 / 4"
+    }
+  },
+  {
+    "t": "14.8",
+    "a": "back on step2 after Cancel: work kept?",
+    "r": {
+      "checked": 21
+    }
+  },
+  {
+    "t": "19.8",
+    "a": "avatar upload via file chooser -> image shown (detached <input type=file>; puppeteer accept)",
+    "r": {
+      "shown": false,
+      "ms": 4004
+    }
+  },
+  {
+    "t": "20.3",
+    "a": "avatar set via component onAvatarComplete(test-avatar dataURL) [tooling fallback]",
+    "r": {
+      "shown": true,
+      "spinnerStillRendered": "block"
+    }
+  },
+  {
+    "t": "21.4",
+    "a": "step2 Next (valid) -> transition",
+    "r": {
+      "step": 2,
+      "indicator": "3 / 4"
+    }
+  },
+  {
+    "t": "24.9",
+    "a": "state-diff s3Next",
+    "r": {
+      "size": "140x40",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "24.9",
+    "a": "state-diff s3Cancel",
+    "r": {
+      "size": "140x40",
+      "tag": "BUTTON",
+      "cursor": "default",
+      "bg": "rgb(41, 197, 102)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "24.9",
+    "a": "state-diff s3Toggle",
+    "r": {
+      "size": "185x40",
+      "tag": "DIV",
+      "cursor": "auto",
+      "bg": "rgb(12, 88, 218)",
+      "color": "rgb(255, 255, 255)",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "24.9",
+    "a": "gender toggle initial",
+    "r": [
+      "Male*",
+      "Female"
+    ]
+  },
+  {
+    "t": "25.4",
+    "a": "click 'Male' twice",
+    "r": {
+      "first": [
+        "Male",
+        "Female*"
+      ],
+      "second": [
+        "Male*",
+        "Female"
+      ]
+    }
+  },
+  {
+    "t": "25.9",
+    "a": "step3 Cancel -> confirm?",
+    "r": {
+      "confirm": false
+    }
+  },
+  {
+    "t": "27.0",
+    "a": "step3 Next empty -> error modal",
+    "r": null
+  },
+  {
+    "t": "28.6",
+    "a": "step4 instruction",
+    "r": {
+      "h2": "Almost done! Now we just need proof that you are human.",
+      "h3": "Select all light pictures",
+      "containerScrollTop": 27
+    }
+  },
+  {
+    "t": "29.8",
+    "a": "state-diff validate",
+    "r": {
+      "size": "140x40",
+      "bg": "rgb(12, 88, 218)",
+      "cursor": "default",
+      "hover": [],
+      "pressed": [],
+      "focus": []
+    }
+  },
+  {
+    "t": "30.4",
+    "a": "Validate with nothing selected",
+    "r": {
+      "before": "Select all light pictures",
+      "after": "Select all pictures with a bow",
+      "anyErrorText": false,
+      "step": 3
+    }
+  },
+  {
+    "t": "32.6",
+    "a": "captcha ticked indexes",
+    "r": {
+      "title": "Select all pictures with a bow",
+      "want": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  {
+    "t": "36.6",
+    "a": "Validate (correct) -> end screen",
+    "r": {
+      "ms": 4026,
+      "endSamples": [
+        {
+          "end": false,
+          "timer": "00:00:31"
+        },
+        {
+          "end": true,
+          "timer": "00:00:31"
+        },
+        {
+          "end": true,
+          "timer": "00:00:31"
+        },
+        {
+          "end": true,
+          "timer": "00:00:31"
+        },
+        {
+          "end": true,
+          "timer": "00:00:31"
+        },
+        {
+          "end": true,
+          "timer": "00:00:31"
+        },
+        {
+          "end": true,
+          "timer": "00:00:31"
+        },
+        {
+          "end": true,
+          "timer": "00:00:31"
+        }
+      ]
+    }
+  },
+  {
+    "t": "36.7",
+    "a": "end screen content",
+    "r": {
+      "text": "00:00:31 YOU ARE AWESOME! A true interface legend.",
+      "links": [],
+      "gif": {
+        "natural": "498x278",
+        "alt": "Carlton Dancing"
+      },
+      "help": false,
+      "pagination": false
+    }
+  },
+  {
+    "t": "39.7",
+    "a": "timer 3s after end (stopped?)",
+    "r": "00:00:31"
+  }
+]

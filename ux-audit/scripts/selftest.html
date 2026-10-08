@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- Self-check for extract-design.js. Serve this folder and open the page:
+     python3 -m http.server 8765 -d ~/.claude/skills/ux-audit/scripts
+     then visit http://localhost:8765/selftest.html. Title becomes PASS or FAIL. -->
+<meta charset="utf-8">
+<title>running</title>
+<style>
+  body { font: 16px/1.5 Georgia, serif; background: #fff; color: #111; margin: 0; }
+  .lowc { color: #bbb; }                 /* ~1.9:1 on white: must fail */
+  .ok { color: #333; }                   /* ~12.6:1: must pass */
+  .tiny { font-size: 10px; }
+  .odd { padding: 13px; }                /* off the 4pt grid */
+  .slow { transition: transform 900ms linear; }
+  .caps { text-transform: uppercase; }
+  p.tight { line-height: 1.1; max-width: none; }
+  .card { border: 1px solid #ccc; padding: 8px; }   /* one bounded region in the fold */
+  .blue { color: #1a73e8; }                          /* one non-neutral hue in the fold */
+</style>
+<div class="card">boxed card <span class="blue">blue text</span></div>
+<div aria-hidden="true" style="border-radius:7px;box-shadow:0 3px 9px #000;font-size:33px">decorative mock-up label</div>
+<p class="lowc">Low contrast sentence here</p>
+<p class="ok">Fine contrast sentence here</p>
+<span class="tiny">tiny print</span>
+<div class="odd">odd spacing</div>
+<div class="slow">slow linear move</div>
+<span class="caps">eyebrow label</span>
+<button style="width:16px;height:16px;padding:0"></button>
+<button>Submit</button>
+<div onclick="1" style="cursor:pointer">fake button</div>
+<input name="email" type="text">
+<img src="x.png" width="10" height="10">
+<p class="tight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+<pre id="out"></pre>
+<script>
+fetch('extract-design.js').then(r => r.text()).then(src => eval(src)).then(r => {
+  const fails = [];
+  const ok = (cond, msg) => cond || fails.push(msg);
+  const failEls = r.color.contrastExamples.map(e => e.el);
+  ok(failEls.includes('p.lowc'), 'low contrast detected');
+  ok(!failEls.includes('p.ok'), 'good contrast not flagged');
+  ok(r.typography.tinyTextUnder12px.some(t => t.el === 'span.tiny'), 'tiny text');
+  ok(r.spacing.offGrid4.some(([v]) => +v === 13), 'off-grid spacing');
+  ok(r.motion.over500ms.some(m => m.el === 'div.slow'), 'slow animation');
+  ok(r.motion.linearOnMovement.includes('div.slow'), 'linear movement');
+  ok(!r.motion.hasReducedMotionCSS, 'no reduced-motion css');
+  ok(r.typography.uppercaseWithoutTracking.some(t => t.el === 'span.caps'), 'caps tracking');
+  ok(r.interaction.targetsUnder24px.count >= 1, 'small target');
+  ok(r.interaction.nonSemanticClickables.some(t => t.text === 'fake button'), 'div onclick');
+  ok(r.copy.genericLabels.includes('Submit'), 'generic label');
+  ok(r.forms.unlabeled.length >= 1 && r.forms.wrongTypeOrInputmode.length === 1, 'form checks');
+  ok(r.semantics.imagesMissingAlt.length === 1, 'missing alt');
+  ok(r.typography.paragraphs.outOfRangeLineHeight.some(p => p.el === 'p.tight'), 'tight line-height');
+  ok(!r.typography.sizesPx.some(([v]) => +v === 33) && !r.spacing.radii.some(([v]) => v === '7px'), 'decorative excluded from tokens');
+  ok(r.fold && r.fold.distinctTextSizes >= 2 && r.fold.boundedRegions >= 1 && r.fold.distinctHues === 1 && r.fold.hues[0] === 210, 'fold complexity');
+  document.title = fails.length ? 'FAIL' : 'PASS';
+  document.getElementById('out').textContent = (fails.length ? 'FAILED: ' + fails.join(', ') + '\n\n' : 'PASS\n\n') + JSON.stringify(r, null, 2);
+}).catch(e => { document.title = 'FAIL'; document.getElementById('out').textContent = e.stack; });
+</script>

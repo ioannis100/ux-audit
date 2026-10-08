@@ -1,0 +1,123 @@
+{
+  "loadMs": 1368,
+  "info": {
+    "title": "User Inyerface - A worst-practice UI experiment",
+    "iw": 390,
+    "docH": 844,
+    "text": "Hi and welcome to User Inyerface,\na challenging exploration of\nuser interactions and design patterns.\n\nTo play the game, simply fill in the form\nas fast and accurate as possible.\n\nNO\n\nPlease click HERE to GO to the next page",
+    "inv": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "cls": "start__button",
+        "text": "NO",
+        "value": "",
+        "placeholder": null,
+        "inputmode": null,
+        "autocomplete": null,
+        "tabindex": null,
+        "x": 141,
+        "y": 571,
+        "w": 108,
+        "h": 108,
+        "font": "32px",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(41, 197, 102)"
+      },
+      {
+        "tag": "A",
+        "type": null,
+        "cls": "start__link",
+        "text": "HERE",
+        "value": null,
+        "placeholder": null,
+        "inputmode": null,
+        "autocomplete": null,
+        "tabindex": null,
+        "x": 134,
+        "y": 719,
+        "w": 44,
+        "h": 18,
+        "font": "16px",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "styles": [
+      {
+        "s": "p",
+        "font": "24px",
+        "weight": "100",
+        "color": "rgb(41, 197, 102)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cursor": "auto",
+        "deco": "none",
+        "x": 0,
+        "y": 311,
+        "w": 390,
+        "h": 112
+      },
+      {
+        "s": ".start__button",
+        "font": "32px",
+        "weight": "700",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(41, 197, 102)",
+        "cursor": "pointer",
+        "deco": "none",
+        "x": 141,
+        "y": 571,
+        "w": 108,
+        "h": 108
+      },
+      {
+        "s": ".start__link",
+        "font": "16px",
+        "weight": "400",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cursor": "text",
+        "deco": "none",
+        "x": 134,
+        "y": 719,
+        "w": 44,
+        "h": 18
+      },
+      {
+        "s": ".start__highlight",
+        "font": "16px",
+        "weight": "400",
+        "color": "rgba(255, 255, 255, 0.4)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cursor": "auto",
+        "deco": "none",
+        "x": 275,
+        "y": 719,
+        "w": 70,
+        "h": 18
+      },
+      {
+        "s": "u",
+        "font": "16px",
+        "weight": "400",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cursor": "auto",
+        "deco": "underline",
+        "x": 99,
+        "y": 719,
+        "w": 31,
+        "h": 18
+      }
+    ]
+  },
+  "afterNo": {
+    "url": "https://userinyerface.com/",
+    "changed": false
+  },
+  "afterHighlight": "https://userinyerface.com/",
+  "afterHere": {
+    "url": "https://userinyerface.com/game.html",
+    "ms": 304
+  }
+}

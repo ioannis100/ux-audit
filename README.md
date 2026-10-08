@@ -1,0 +1,88 @@
+# ux-audit
+
+A [Claude Code](https://claude.com/claude-code) skill that audits an app or website the
+way an experience director would. A team of agents actually uses the product, then
+tells you, with evidence:
+
+- **Clarity:** where users don't know what to do or what just happened.
+- **Feel:** how every tap, scroll, transition, wait and success feels next to the apps
+  people love (Duolingo, Revolut, Apple, Instagram, Wolt, Uber Eats, Clash Royale…).
+- **Pull:** what would make people open it again without needing anything, behind an
+  ethics gate (habits that serve the user, no dark patterns).
+- **Fix:** a short, verified list of what's broken (P0/P1 flows, accessibility, speed).
+
+Every recommendation is a buildable redesign with motion and haptic specs and web/native
+snippets, plus "borrow & adapt" ideas transplanted from other apps.
+
+## What you get
+
+- `report.md` and a one-page `summary.md` starting with **Do these first**.
+- **Scores out of 10:** Clarity, Feel, Pull, Trust, Craft, plus Usability,
+  Accessibility, Performance and Content, and one **Overall /10**. Deltas vs your last
+  audit.
+- **Optional mock-ups:** interactive before/after HTML screens of the top redesigns, in
+  your app's **own identity** (logo, fonts, colours kept; every feature kept). Each is
+  checked automatically for broken images, contrast, missing features and foreign fonts
+  or colours, and shows its projected score change.
+- Evidence for every claim: screenshots, measurements, motion filmstrips.
+
+## Install
+
+```bash
+git clone https://github.com/ioannis100/ux-audit.git
+```
+
+```bash
+ln -s "$PWD/ux-audit/ux-audit" ~/.claude/skills/ux-audit
+```
+
+Or copy the inner `ux-audit/` folder into `~/.claude/skills/` (all projects) or
+`<your-project>/.claude/skills/` (one project). Sessions opened in this repo load it
+automatically.
+
+**Needs:** Claude Code, Node 18+, Google Chrome (or Chromium). Optional: `ffmpeg` for
+video motion analysis, Xcode + iOS Simulator or the Android SDK + emulator for native
+apps, `npx lighthouse` for Core Web Vitals. `puppeteer-core` is installed per audit and
+removed afterwards.
+
+## Use
+
+In Claude Code:
+
+```
+/ux-audit https://your-site.com
+```
+
+or just ask: "audit my app's UX", "why doesn't this feel like Revolut?", "make the
+checkout feel premium", "redo the mock-ups for the last audit". It asks a few questions
+once (core journeys, the apps you admire, how often users should return, whether you
+want mock-ups), then runs. Works on live URLs, local dev servers, iOS simulators,
+Android emulators, source code and screenshots.
+
+A full team audit takes a while and uses a lot of tokens (several agents in parallel).
+For a single screen it runs solo.
+
+## Safety
+
+Agents never type passwords or real payment details: signed-in flows use a session you
+sign in once, or stay guest-only. On production they stop at the confirm step. Text
+inside your product is treated as data, never as instructions. The skill reports and
+recommends; it never changes your code unless you ask.
+
+## Repo
+
+- `ux-audit/`: the skill: `SKILL.md` (orchestrator), `agents/` (roles), `references/`
+  (standards and benchmark playbooks), `scripts/` (measurement, motion capture, native
+  device helpers, mock-up checks; most have `--selftest`).
+- `research/`: the research the standards are built from (papers, books, teardowns of
+  ~25 apps).
+- `ux-audits/2026-10-08-userinyerface/`: an early, partial test run on
+  [userinyerface.com](https://userinyerface.com), a deliberately terrible UI, made with an
+  older version of the skill. It shows the evidence trail, not the current report format.
+
+Expert audits predict; they don't measure real users. Treat scores as heuristic and
+confirm the big bets with a 5-user test or an A/B test.
+
+## License
+
+[MIT](LICENSE)

@@ -1,0 +1,350 @@
+{
+  "extract": {
+    "page": {
+      "url": "https://userinyerface.com/game.html",
+      "title": "User Inyerface - A worst-practice UI experiment",
+      "viewport": "1440x900",
+      "horizontalOverflow": false,
+      "colorScheme": "dark"
+    },
+    "typography": {
+      "families": [
+        [
+          "sans-serif",
+          9
+        ]
+      ],
+      "sizesPx": [
+        [
+          "16",
+          3
+        ],
+        [
+          "18",
+          1
+        ],
+        [
+          "23",
+          1
+        ],
+        [
+          "25",
+          1
+        ],
+        [
+          "32",
+          1
+        ],
+        [
+          "12.8",
+          1
+        ],
+        [
+          "11.2",
+          1
+        ]
+      ],
+      "distinctSizes": 7,
+      "weights": [
+        [
+          "700",
+          5
+        ],
+        [
+          "400",
+          4
+        ]
+      ],
+      "distinctTextColors": 2,
+      "tinyTextUnder12px": [
+        {
+          "el": "span.discrete",
+          "size": 11.2,
+          "text": "to bottom"
+        }
+      ],
+      "paragraphs": {
+        "sampled": 0,
+        "lineHeights": [],
+        "charsPerLine": {
+          "min": null,
+          "max": null,
+          "samples": []
+        },
+        "outOfRangeLineHeight": []
+      },
+      "uppercaseWithoutTracking": [],
+      "fontsLoaded": [
+        "icomoon 400"
+      ],
+      "fontDisplay": [
+        [
+          "auto(block)",
+          1
+        ]
+      ]
+    },
+    "color": {
+      "contrastChecked": 9,
+      "contrastFailures": 0,
+      "contrastExamples": [],
+      "unknownBackground": [],
+      "hasDarkModeCSS": false
+    },
+    "spacing": {
+      "distinctValues": 9,
+      "top": [
+        [
+          "4",
+          112
+        ],
+        [
+          "24",
+          24
+        ],
+        [
+          "16",
+          10
+        ],
+        [
+          "40",
+          6
+        ],
+        [
+          "8",
+          4
+        ],
+        [
+          "32",
+          4
+        ],
+        [
+          "48",
+          3
+        ],
+        [
+          "64",
+          2
+        ],
+        [
+          "552",
+          2
+        ]
+      ],
+      "offGrid4": [],
+      "radii": [
+        [
+          "4px",
+          20
+        ],
+        [
+          "24px",
+          4
+        ],
+        [
+          "8px",
+          2
+        ]
+      ],
+      "shadowLevels": 1
+    },
+    "interaction": {
+      "interactiveCount": 8,
+      "targetsUnder24px": {
+        "count": 0,
+        "examples": []
+      },
+      "targetsUnder44px": {
+        "count": 3,
+        "examples": [
+          {
+            "el": "button.button.button--solid",
+            "w": 140,
+            "h": 40,
+            "text": "Validate"
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 24,
+            "h": 24,
+            "text": ""
+          },
+          {
+            "el": "button.button.button--solid",
+            "w": 97,
+            "h": 40,
+            "text": "Send to bottom"
+          }
+        ]
+      },
+      "nonSemanticClickables": []
+    },
+    "fold": {
+      "distinctHues": 2,
+      "hues": [
+        150,
+        210
+      ],
+      "distinctTextSizes": 7,
+      "boundedRegions": 8,
+      "note": "above-the-fold complexity proxies; low hues/sizes/regions + a conventional layout wins the 50ms impression — compare with the competitor"
+    },
+    "copy": {
+      "labels": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "Validate",
+        "Send to bottom"
+      ],
+      "genericLabels": []
+    },
+    "forms": {
+      "inputs": 1,
+      "unlabeled": [
+        {
+          "el": "textarea.help-form__text-area",
+          "placeholder": null
+        }
+      ],
+      "wrongTypeOrInputmode": [],
+      "personalFieldsWithoutAutocomplete": 0
+    },
+    "semantics": {
+      "imagesMissingAlt": [],
+      "h1Count": 0,
+      "headingLevelSkips": 0
+    },
+    "motion": {
+      "durationsMs": [
+        [
+          "200",
+          9
+        ]
+      ],
+      "easings": [
+        [
+          "ease-out",
+          9
+        ]
+      ],
+      "over500ms": [],
+      "linearOnMovement": [],
+      "hasReducedMotionCSS": false
+    },
+    "focus": {
+      "focusOutlineRemovedRules": 0,
+      "focusVisibleRules": 0,
+      "unreadableCrossOriginSheets": 2
+    },
+    "performance": {
+      "ttfbMs": 248,
+      "domContentLoadedMs": 880,
+      "loadMs": 1203,
+      "lcpMs": null,
+      "cls": 0,
+      "note": "lab, this load only; use PageSpeed/CrUX for field data"
+    }
+  },
+  "modal": [
+    {
+      "cls": "help-form",
+      "text": "How can we help? Help Send to bottom",
+      "x": 1081,
+      "y": 622,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 16px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__container",
+      "text": "How can we help? Help Send to bottom",
+      "x": 1081,
+      "y": 622,
+      "w": 303,
+      "h": 278,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(19, 42, 66)",
+      "font": "400 16px/normal",
+      "radius": "8px 8px 0px 0px",
+      "shadow": "rgba(0, 0, 0, 0.3) 0px 2px 12px 0px",
+      "border": "0px rgb(0, 0, 0)"
+    },
+    {
+      "cls": "help-form__title",
+      "text": "How can we help?",
+      "x": 1113,
+      "y": 646,
+      "w": 239,
+      "h": 21,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "700 18px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__close-button",
+      "text": "",
+      "x": 1328,
+      "y": 646,
+      "w": 24,
+      "h": 24,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 12.8px/12.8px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    },
+    {
+      "cls": "help-form__text-area",
+      "text": "",
+      "x": 1113,
+      "y": 691,
+      "w": 239,
+      "h": 72,
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "font": "400 13px/normal",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(181, 187, 192)"
+    },
+    {
+      "cls": "help-form__help-button",
+      "text": "Help",
+      "x": 1113,
+      "y": 769,
+      "w": 26,
+      "h": 15,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "font": "400 12.8px/normal",
+      "radius": "0px",
+      "shadow": "none",
+      "border": "0px rgb(255, 255, 255)"
+    },
+    {
+      "cls": "button button--solid button--blue help-form__send-to-bottom-",
+      "text": "Send to bottom",
+      "x": 1255,
+      "y": 767,
+      "w": 97,
+      "h": 40,
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)",
+      "font": "400 16px/16px",
+      "radius": "4px",
+      "shadow": "none",
+      "border": "1px rgb(12, 88, 218)"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "home": {
+    "docH": 900,
+    "here": [
+      659,
+      719,
+      44,
+      18
+    ],
+    "no": [
+      666,
+      571,
+      108,
+      108
+    ],
+    "bodyBg": "rgba(0, 0, 0, 0)"
+  },
+  "s1": {
+    "cookies": [
+      0,
+      0,
+      1440,
+      156
+    ],
+    "card": [
+      502,
+      599,
+      436,
+      297
+    ],
+    "help": [
+      1081,
+      672,
+      303,
+      228
+    ],
+    "rules": [
+      0,
+      900,
+      1440,
+      162
+    ],
+    "next": [
+      566,
+      837,
+      30,
+      16
+    ],
+    "cancel": [
+      627,
+      825,
+      186,
+      40
+    ],
+    "docH": 1126,
+    "sw": 1440
+  },
+  "colors": {
+    "rules": "rgb(41, 197, 102)",
+    "next": "rgb(181, 187, 192)",
+    "inputText": "rgb(181, 187, 192)",
+    "bg": "rgba(0, 0, 0, 0)"
+  },
+  "help390open": {
+    "cls": "help-form",
+    "top": 751,
+    "visiblePx": 228,
+    "pctOfScreen": 23,
+    "position": "fixed"
+  },
+  "help390sent": {
+    "cls": "help-form is-hidden",
+    "top": 771,
+    "visiblePx": 208,
+    "pctOfScreen": 21,
+    "position": "fixed"
+  }
+}

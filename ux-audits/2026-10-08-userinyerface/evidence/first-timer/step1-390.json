@@ -1,0 +1,922 @@
+{
+  "inv5s": [
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "button button--solid button--transparent",
+      "text": "Not really, no",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 128,
+      "y": 142,
+      "w": 140,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "cookies__button button button--solid button--white",
+      "text": "Yes",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 288,
+      "y": 138,
+      "w": 140,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(255, 0, 0)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button is-active",
+      "text": "1",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 27,
+      "y": 679,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(41, 197, 102)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button",
+      "text": "2",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 123,
+      "y": 679,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button",
+      "text": "3",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 219,
+      "y": 679,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "pagination__button",
+      "text": "4",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 315,
+      "y": 679,
+      "w": 48,
+      "h": 48,
+      "font": "24px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(41, 197, 102)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue input--gray",
+      "text": "",
+      "value": "Choose Password",
+      "placeholder": "Choose Password",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 32,
+      "y": 807,
+      "w": 372,
+      "h": 40,
+      "font": "12.96px",
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue input--gray",
+      "text": "",
+      "value": "Your email",
+      "placeholder": "Your email",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 32,
+      "y": 855,
+      "w": 124,
+      "h": 40,
+      "font": "12.96px",
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "cls": "input input--blue input--gray",
+      "text": "",
+      "value": "Domain",
+      "placeholder": "Domain",
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": "-1",
+      "x": 190,
+      "y": 855,
+      "w": 124,
+      "h": 40,
+      "font": "12.96px",
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "DIV",
+      "type": null,
+      "cls": "dropdown__field",
+      "text": "other",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 324,
+      "y": 856,
+      "w": 80,
+      "h": 38,
+      "font": "14.4px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "LABEL",
+      "type": null,
+      "cls": "checkbox__label",
+      "text": "",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 77,
+      "y": 935,
+      "w": 18,
+      "h": 16,
+      "font": "14.4px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "SPAN",
+      "type": null,
+      "cls": "checkbox__box",
+      "text": "",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 77,
+      "y": 935,
+      "w": 18,
+      "h": 18,
+      "font": "14.4px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(52, 152, 219)"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "cls": "login-form__terms-conditions",
+      "text": "I do not accept the Terms & Conditions",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 111,
+      "y": 935,
+      "w": 247,
+      "h": 16,
+      "font": "14.4px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "cls": "button--secondary",
+      "text": "Next",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 64,
+      "y": 1005,
+      "w": 30,
+      "h": 16,
+      "font": "14.4px",
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "button",
+      "cls": "button button--solid button--blue button--fluid",
+      "text": "Cancel",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 125,
+      "y": 993,
+      "w": 186,
+      "h": 40,
+      "font": "12.96px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "cls": "button--secondary u-right",
+      "text": "Reset",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 366,
+      "y": 1005,
+      "w": 38,
+      "h": 16,
+      "font": "14.4px",
+      "color": "rgb(181, 187, 192)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "button button--solid button--blue help-form__close",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 341,
+      "y": 775,
+      "w": 24,
+      "h": 24,
+      "font": "12.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)"
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "cls": "help-form__text-area",
+      "text": "",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 126,
+      "y": 820,
+      "w": 239,
+      "h": 72,
+      "font": "13px",
+      "color": "rgb(0, 0, 0)",
+      "bg": "rgb(255, 255, 255)"
+    },
+    {
+      "tag": "A",
+      "type": null,
+      "cls": "help-form__help-button",
+      "text": "Help",
+      "value": null,
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 126,
+      "y": 898,
+      "w": 26,
+      "h": 15,
+      "font": "12.8px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "tag": "BUTTON",
+      "type": "submit",
+      "cls": "button button--solid button--blue help-form__send-",
+      "text": "Send to bottom",
+      "value": "",
+      "placeholder": null,
+      "inputmode": null,
+      "autocomplete": null,
+      "tabindex": null,
+      "x": 268,
+      "y": 896,
+      "w": 97,
+      "h": 40,
+      "font": "16px",
+      "color": "rgb(255, 255, 255)",
+      "bg": "rgb(12, 88, 218)"
+    }
+  ],
+  "text5s": "This site uses cookies, is that a problem for you?\n\n\t\nNot really, no\n\t\nYes\n00:00:05\n1\t2\t3\t4\n1 / 4\n\t@\t\t\nother\nI do not accept the Terms & Conditions\nNext\t\nCancel\n\t\nReset\nYour password requires at least 10 characters.\nYour password should have at least 1 Capital letter.\nYour password must have at least 1 Numeral.\nYour password needs at least 1 letter of your email.\nYour password can have at least 1 cyrillic character.\nHow can we help?\nHelp\nSend\nto bottom",
+  "layout": {
+    "cookies": {
+      "y": 0,
+      "h": 324,
+      "w": 390,
+      "x": 0
+    },
+    "help": {
+      "y": 751,
+      "h": 228,
+      "w": 303,
+      "x": 94
+    },
+    "timer": {
+      "y": 607,
+      "h": 32,
+      "w": 390,
+      "x": 0
+    },
+    "pagination": {
+      "y": 679,
+      "h": 48,
+      "w": 336,
+      "x": 27
+    },
+    "card": {
+      "y": 767,
+      "h": 297,
+      "w": 436,
+      "x": 0
+    },
+    "rules": {
+      "y": 1068,
+      "h": 162,
+      "w": 390,
+      "x": 0
+    },
+    "docH": 1294,
+    "iw": 453
+  },
+  "tcBefore": {
+    "checked": true,
+    "label": "I do not accept the Terms & Conditions"
+  },
+  "afterNext1": {
+    "text": "1 / 4\n\t@\t\t\n.com\nI do not accept the Terms & Conditions\nPlease do NOT forget to accept our terms and conditions\nNext\t\nCancel\n\t\nReset\nYour password requires at least 10 characters.\nYour password should have at least 1 Capital letter.\nYour password must have at least 1 Numeral.\nYour password needs at least 1 letter of your email.\nYour password can have at least 1 cyrillic character.",
+    "pwClass": "input input--blue input--blue",
+    "emailClass": "input input--blue input--gray",
+    "tcErr": "Please do NOT forget to accept our terms and conditions",
+    "pwColor": "rgb(12, 88, 218) / rgba(0, 0, 0, 0)"
+  },
+  "tc": {
+    "title": "Please read our terms and conditions",
+    "first": "Welcome to [Insert company or website name]\n\nThese terms and conditions outline the rules and regulations for the use of [Insert company or website name]'s Website.\n\n[Insert Company Or Website Name] is located at:\n[insert street] [insert suburb], [insert city]\n[insert state / region] - [insert zip],",
+    "len": 11032,
+    "scrollH": 2459,
+    "clientH": 300,
+    "acceptCls": "terms-and-conditions__accept-button-container disabled",
+    "cheat": "cheating and not allowed.",
+    "placeholders": 27
+  },
+  "afterNext2": {
+    "tcErr": null,
+    "box": false,
+    "pwClass": "input input--blue input--blue",
+    "rules": "Your password requires at least 10 characters.\nYour password should have at least 1 Capital letter.\nYour password must have at least 1 Numeral.\nYour password needs at least 1 letter of your email.\nYour password can have at least 1 cyrillic character."
+  },
+  "helpTap": {
+    "tapped": false,
+    "bb": {
+      "x": 126,
+      "y": 848,
+      "height": 15,
+      "width": 26.328125
+    },
+    "note": "not tappable by touch (Node is either not clickable or not an E); DOM click used"
+  },
+  "sendTap": {
+    "tapped": false,
+    "bb": {
+      "x": 268.296875,
+      "y": 846,
+      "height": 40,
+      "width": 96.703125
+    },
+    "note": "not tappable by touch (Node is either not clickable or not an E); DOM click used"
+  },
+  "cancelModal": "Are you sure you want to cancel?\nYes\n\t\nCancel\n\t",
+  "timerModal": {
+    "text": "Hurry up, time is ticking!\n00:01:00\nLock\n©lose 2026\n\t",
+    "html": "<div class=\"modal__box\"><div class=\"modal__content\"><h2 class=\"title title--center\">Hurry up, time is ticking!</h2><div class=\"timer timer--gray timer--center\">00:01:00</div><button name=\"button\" type=\"button\" class=\"button button--solid button--green button--center\">Lock</button><span class=\"modal__close-copyright\"><span>©lose</span> 2026</span></div><span class=\"modal__fullscreen\"></span></div>"
+  },
+  "closeGeom": {
+    "text": "©lose 2026",
+    "w": 36,
+    "h": 16,
+    "font": "14px",
+    "color": "rgb(181, 187, 192)"
+  },
+  "net": [
+    "GET https://userinyerface.com/",
+    "GET https://userinyerface.com/app.js",
+    "GET https://www.google-analytics.com/analytics.js",
+    "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1275341705&t=pageview&_s=1&",
+    "GET https://userinyerface.com/favicon.ico",
+    "GET https://www.googletagmanager.com/gtag/js?id=G-WV3V8CDC4C&cx=c&_slc=1",
+    "POST https://region1.google-analytics.com/g/collect?v=2&tid=G-WV3V8CDC4C&gtm=45je6a60v911230570",
+    "GET https://userinyerface.com/game.html",
+    "GET https://userinyerface.com/app.js",
+    "GET https://www.google-analytics.com/analytics.js",
+    "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=213732224&t=pageview&_s=1&d",
+    "GET https://userinyerface.com/favicon.ico",
+    "GET https://www.googletagmanager.com/gtag/js?id=G-WV3V8CDC4C&cx=c&_slc=1",
+    "POST https://region1.google-analytics.com/g/collect?v=2&tid=G-WV3V8CDC4C&gtm=45je6a60v911230570",
+    "GET https://userinyerface.com/game.html",
+    "GET https://userinyerface.com/app.js",
+    "GET https://www.google-analytics.com/analytics.js",
+    "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1844990685&t=pageview&_s=1&",
+    "GET https://userinyerface.com/favicon.ico",
+    "GET https://www.googletagmanager.com/gtag/js?id=G-WV3V8CDC4C&cx=c&_slc=1"
+  ],
+  "log": [
+    {
+      "t": 0,
+      "timer": "00:00:00",
+      "action": "game.html loaded after tapping HERE",
+      "result": "https://userinyerface.com/game.html"
+    },
+    {
+      "t": 5.9,
+      "timer": "00:00:05",
+      "action": "pagination active pip sampled each second for 5 s",
+      "result": [
+        "<li class=\"pagination__item\"><button type=\"button\" class=\"pagination__button\">1</button></li><li class=\"pagination__item\"><button type=\"button\" class=\"pagination__button\">2</button></li><li class=\"pag",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "t": 5.9,
+      "timer": "00:00:05",
+      "action": "layout measured",
+      "result": {
+        "cookies": {
+          "y": 0,
+          "h": 324,
+          "w": 390,
+          "x": 0
+        },
+        "help": {
+          "y": 751,
+          "h": 228,
+          "w": 303,
+          "x": 94
+        },
+        "timer": {
+          "y": 607,
+          "h": 32,
+          "w": 390,
+          "x": 0
+        },
+        "pagination": {
+          "y": 679,
+          "h": 48,
+          "w": 336,
+          "x": 27
+        },
+        "card": {
+          "y": 767,
+          "h": 297,
+          "w": 436,
+          "x": 0
+        },
+        "rules": {
+          "y": 1068,
+          "h": 162,
+          "w": 390,
+          "x": 0
+        },
+        "docH": 1294,
+        "iw": 453
+      }
+    },
+    {
+      "t": 6.6,
+      "timer": "00:00:06",
+      "action": "tap cookie 'Yes'",
+      "result": "banner still there, nothing happened"
+    },
+    {
+      "t": 7.3,
+      "timer": "00:00:07",
+      "action": "tap cookie 'Not really, no'",
+      "result": "banner gone"
+    },
+    {
+      "t": 7.8,
+      "timer": "00:00:07",
+      "action": "tap 'Your email' field",
+      "result": {
+        "val": "Your email",
+        "selStart": 6,
+        "selEnd": 6,
+        "type": "text",
+        "inputmode": "",
+        "autocomplete": ""
+      }
+    },
+    {
+      "t": 8.1,
+      "timer": "00:00:08",
+      "action": "type 'test'",
+      "result": "Your etestmail"
+    },
+    {
+      "t": 8.4,
+      "timer": "00:00:08",
+      "action": "select-all + type 'test'",
+      "result": "test"
+    },
+    {
+      "t": 8.9,
+      "timer": "00:00:08",
+      "action": "domain: select-all + type 'example'",
+      "result": "example"
+    },
+    {
+      "t": 9.6,
+      "timer": "00:00:09",
+      "action": "open extension dropdown",
+      "result": [
+        {
+          "t": "other",
+          "y": 570,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".org",
+          "y": 606,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".co.uk",
+          "y": 642,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".net",
+          "y": 678,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".gov",
+          "y": 714,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".de",
+          "y": 750,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".fr",
+          "y": 786,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".nl",
+          "y": 822,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".com",
+          "y": 858,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".be",
+          "y": 894,
+          "h": 36,
+          "vis": true
+        },
+        {
+          "t": ".jpg",
+          "y": 930,
+          "h": 36,
+          "vis": true
+        }
+      ]
+    },
+    {
+      "t": 10,
+      "timer": "00:00:10",
+      "action": "pick '.com'",
+      "result": ".com"
+    },
+    {
+      "t": 10.2,
+      "timer": "00:00:10",
+      "action": "T&C checkbox state at arrival",
+      "result": {
+        "checked": true,
+        "label": "I do not accept the Terms & Conditions"
+      }
+    },
+    {
+      "t": 10.9,
+      "timer": "00:00:11",
+      "action": "tap Next (password empty, T&C box untouched)",
+      "result": {
+        "text": "1 / 4\n\t@\t\t\n.com\nI do not accept the Terms & Conditions\nPlease do NOT forget to accept our terms and conditions\nNext\t\nCancel\n\t\nReset\nYour password requires at least 10 characters.\nYour password should have at least 1 Capital letter.\nYour password must have at least 1 Numeral.\nYour password needs at least 1 letter of your email.\nYour password can have at least 1 cyrillic character.",
+        "pwClass": "input input--blue input--blue",
+        "emailClass": "input input--blue input--gray",
+        "tcErr": "Please do NOT forget to accept our terms and conditions",
+        "pwColor": "rgb(12, 88, 218) / rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "t": 11.7,
+      "timer": "00:00:11",
+      "action": "tap the T&C checkbox box",
+      "result": false
+    },
+    {
+      "t": 12.6,
+      "timer": "00:00:12",
+      "action": "tap the words 'Terms & Conditions'",
+      "result": "T&C modal opened"
+    },
+    {
+      "t": 12.7,
+      "timer": "00:00:12",
+      "action": "read T&C modal",
+      "result": {
+        "title": "Please read our terms and conditions",
+        "first": "Welcome to [Insert company or website name]\n\nThese terms and conditions outline the rules and regulations for the use of [Insert company or website name]'s Website.\n\n[Insert Company Or Website Name] is located at:\n[insert street] [insert suburb], [insert city]\n[insert state / region] - [insert zip],",
+        "len": 11032,
+        "scrollH": 2459,
+        "clientH": 300,
+        "acceptCls": "terms-and-conditions__accept-button-container disabled",
+        "cheat": "cheating and not allowed.",
+        "placeholders": 27
+      }
+    },
+    {
+      "t": 13.2,
+      "timer": "00:00:13",
+      "action": "tap Accept without scrolling",
+      "result": "still open (disabled)"
+    },
+    {
+      "t": 14.9,
+      "timer": "00:00:15",
+      "action": "5 full-height swipes on the T&C text",
+      "result": {
+        "prog": [
+          [
+            48,
+            2159,
+            "none"
+          ],
+          [
+            97,
+            2159,
+            "none"
+          ],
+          [
+            146,
+            2159,
+            "none"
+          ],
+          [
+            195,
+            2159,
+            "none"
+          ],
+          [
+            243,
+            2159,
+            "none"
+          ]
+        ],
+        "ms": 1680
+      }
+    },
+    {
+      "t": 16.5,
+      "timer": "00:00:16",
+      "action": "10 wheel ticks (deltaY 400)",
+      "result": [
+        [
+          263,
+          2159,
+          "none"
+        ]
+      ]
+    },
+    {
+      "t": 16.8,
+      "timer": "00:00:16",
+      "action": "press Escape on T&C",
+      "result": "still open, no close control"
+    },
+    {
+      "t": 17.4,
+      "timer": "00:00:17",
+      "action": "(state-set bottom reached) tap Accept",
+      "result": "closed; T&C box checked = false"
+    },
+    {
+      "t": 18,
+      "timer": "00:00:18",
+      "action": "tap Next again (password still empty)",
+      "result": {
+        "tcErr": null,
+        "box": false,
+        "pwClass": "input input--blue input--blue",
+        "rules": "Your password requires at least 10 characters.\nYour password should have at least 1 Capital letter.\nYour password must have at least 1 Numeral.\nYour password needs at least 1 letter of your email.\nYour password can have at least 1 cyrillic character."
+      }
+    },
+    {
+      "t": 18.1,
+      "timer": "00:00:18",
+      "action": "help widget geometry",
+      "result": {
+        "cls": "help-form",
+        "y": 751,
+        "h": 228,
+        "w": 303
+      }
+    },
+    {
+      "t": 18.8,
+      "timer": "00:00:18",
+      "action": "tap help chevron (looks like 'collapse')",
+      "result": {
+        "cls": "help-form",
+        "h": 278
+      }
+    },
+    {
+      "t": 20.9,
+      "timer": "00:00:20",
+      "action": "type in help: 'where is this form going '",
+      "result": "where ichthyoacanthotoxism shit form going "
+    },
+    {
+      "t": 21.3,
+      "timer": "00:00:21",
+      "action": "tap 'Help' {\"tapped\":false,\"bb\":{\"x\":126,\"y\":848,\"height\":15,\"width\":26.328125},\"note\":\"not tappable by touch (Node is either not clickable or not an E); DOM click used\"}",
+      "result": "Please wait, there are 444 people in line."
+    },
+    {
+      "t": 21.6,
+      "timer": "00:00:21",
+      "action": "tap 'Help' again",
+      "result": "Please wait, there are 445 people in line."
+    },
+    {
+      "t": 22.3,
+      "timer": "00:00:22",
+      "action": "tap 'Send to bottom'",
+      "result": {
+        "cls": "help-form is-hidden",
+        "h": 263,
+        "text": ""
+      }
+    },
+    {
+      "t": 23,
+      "timer": "00:00:23",
+      "action": "tap 'Cancel' (filled primary button)",
+      "result": "Are you sure you want to cancel?\nYes\n\t\nCancel\n\t"
+    },
+    {
+      "t": 23.6,
+      "timer": "00:00:23",
+      "action": "in modal tap green 'Cancel'",
+      "result": {
+        "modal": false,
+        "url": "/game.html",
+        "email": "test"
+      }
+    },
+    {
+      "t": 24.1,
+      "timer": "00:00:24",
+      "action": "tap 'Reset'",
+      "result": {
+        "email": "Your email",
+        "domain": "Domain",
+        "ext": "other",
+        "tc": false
+      }
+    },
+    {
+      "t": 60,
+      "timer": "00:01:00",
+      "action": "timer modal",
+      "result": {
+        "text": "Hurry up, time is ticking!\n00:01:00\nLock\n©lose 2026\n\t",
+        "html": "<div class=\"modal__box\"><div class=\"modal__content\"><h2 class=\"title title--center\">Hurry up, time is ticking!</h2><div class=\"timer timer--gray timer--center\">00:01:00</div><button name=\"button\" type=\"button\" class=\"button button--solid button--green button--center\">Lock</button><span class=\"modal__close-copyright\"><span>©lose</span> 2026</span></div><span class=\"modal__fullscreen\"></span></div>"
+      }
+    },
+    {
+      "t": 62.5,
+      "timer": "00:01:02",
+      "action": "Escape on timer modal",
+      "result": "still open"
+    },
+    {
+      "t": 62.8,
+      "timer": "00:01:02",
+      "action": "tap backdrop",
+      "result": "still open"
+    },
+    {
+      "t": 62.8,
+      "timer": "00:01:02",
+      "action": "close control found",
+      "result": {
+        "text": "©lose 2026",
+        "w": 36,
+        "h": 16,
+        "font": "14px",
+        "color": "rgb(181, 187, 192)"
+      }
+    },
+    {
+      "t": 63.2,
+      "timer": "00:01:03",
+      "action": "tap '©lose'",
+      "result": "closed"
+    },
+    {
+      "t": 65,
+      "timer": "00:00:01",
+      "action": "reload mid-step-1",
+      "result": {
+        "timerBefore": "00:01:03",
+        "timerAfter": "00:00:01",
+        "email": "Your email",
+        "cookies": false
+      }
+    }
+  ]
+}

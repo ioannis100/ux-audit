@@ -1,0 +1,5526 @@
+{
+  "390": [
+    {
+      "label": "step1+initial",
+      "page": 1,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:02 1 2 3 4 1 / 4 @ other I do not accept the Terms & Conditions Next Cancel Reset Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character. How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 324
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 88,
+          "h": 196
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 128,
+          "y": 142,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 288,
+          "y": 138,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 27,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "2",
+          "x": 123,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "3",
+          "x": 219,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "4",
+          "x": 315,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue input--gray",
+          "text": "Choose Password",
+          "x": 32,
+          "y": 807,
+          "w": 372,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue input--gray",
+          "text": "Your email",
+          "x": 32,
+          "y": 855,
+          "w": 124,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue input--gray",
+          "text": "Domain",
+          "x": 190,
+          "y": 855,
+          "w": 124,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown dropdown--gray",
+          "text": "other",
+          "x": 324,
+          "y": 856,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "other",
+          "x": 324,
+          "y": 856,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "other",
+          "x": 324,
+          "y": 856,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 374,
+          "y": 856,
+          "w": 30,
+          "h": 38
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 77,
+          "y": 935,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 77,
+          "y": 935,
+          "w": 18,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 77,
+          "y": 935,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 78,
+          "y": 935,
+          "w": 16,
+          "h": 18
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "login-form__terms-conditions",
+          "text": "I do not accept the Terms & Conditions",
+          "x": 111,
+          "y": 935,
+          "w": 247,
+          "h": 16
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "align__cell button-container__secondary",
+          "text": "Next",
+          "x": 32,
+          "y": 993,
+          "w": 93,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "button--secondary",
+          "text": "Next",
+          "x": 64,
+          "y": 1005,
+          "w": 30,
+          "h": 16
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "align__cell button-container__primary",
+          "text": "Cancel",
+          "x": 125,
+          "y": 993,
+          "w": 186,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--blue button--flu",
+          "text": "Cancel",
+          "x": 125,
+          "y": 993,
+          "w": 186,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "align__cell button-container__secondary",
+          "text": "Reset",
+          "x": 311,
+          "y": 993,
+          "w": 93,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "button--secondary u-right",
+          "text": "Reset",
+          "x": 366,
+          "y": 1005,
+          "w": 38,
+          "h": 16
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 94,
+          "y": 751,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 94,
+          "y": 751,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "H2",
+          "type": null,
+          "cls": "help-form__title",
+          "text": "How can we help?",
+          "x": 126,
+          "y": 775,
+          "w": 239,
+          "h": 21
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "",
+          "x": 341,
+          "y": 775,
+          "w": 24,
+          "h": 24
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "cls": "help-form__text-area",
+          "text": "",
+          "x": 126,
+          "y": 820,
+          "w": 239,
+          "h": 72
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "help-form__help-button",
+          "text": "Help",
+          "x": 126,
+          "y": 898,
+          "w": 26,
+          "h": 15
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "Send to bottom",
+          "x": 268,
+          "y": 896,
+          "w": 97,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "label": "step2",
+      "page": 2,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:04 1 2 3 4 2 / 4 This is me To complete your profile, please upload any image. Download image Choose 3 interests Ponies Polo Dough Snails Balls Post-its Faucets Enveloppes Cables Questions Squares Purple Cotton Dry-wall Closets Tires Windows Select all Mullets Cinnamon Unselect all Next Cancel How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 324
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 88,
+          "h": 196
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 128,
+          "y": 142,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 288,
+          "y": 138,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 27,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 123,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "3",
+          "x": 219,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "4",
+          "x": 315,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "avatar-and-interests__upload-button",
+          "text": "upload",
+          "x": 268,
+          "y": 876,
+          "w": 42,
+          "h": 16
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "align__cell avatar-and-interests__avatar-uplo",
+          "text": "Download image",
+          "x": 223,
+          "y": 913,
+          "w": 154,
+          "h": 32
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 40,
+          "y": 1055,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 40,
+          "y": 1055,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 40,
+          "y": 1057,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 41,
+          "y": 1057,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 40,
+          "y": 1080,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 40,
+          "y": 1080,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 40,
+          "y": 1082,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 41,
+          "y": 1082,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 40,
+          "y": 1105,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 40,
+          "y": 1105,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 40,
+          "y": 1107,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 41,
+          "y": 1107,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 40,
+          "y": 1130,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 40,
+          "y": 1130,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 40,
+          "y": 1131,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 41,
+          "y": 1131,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 40,
+          "y": 1154,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 40,
+          "y": 1154,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 40,
+          "y": 1156,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 41,
+          "y": 1156,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 40,
+          "y": 1179,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 40,
+          "y": 1179,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 40,
+          "y": 1181,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 41,
+          "y": 1181,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 40,
+          "y": 1204,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 40,
+          "y": 1204,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 40,
+          "y": 1206,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 41,
+          "y": 1206,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 169,
+          "y": 1055,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 169,
+          "y": 1055,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 169,
+          "y": 1057,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 170,
+          "y": 1057,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 169,
+          "y": 1080,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 169,
+          "y": 1080,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 169,
+          "y": 1082,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 170,
+          "y": 1082,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 169,
+          "y": 1105,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 169,
+          "y": 1105,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 169,
+          "y": 1107,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 170,
+          "y": 1107,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 169,
+          "y": 1130,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 169,
+          "y": 1130,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 169,
+          "y": 1131,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 170,
+          "y": 1131,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 169,
+          "y": 1154,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 169,
+          "y": 1154,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 169,
+          "y": 1156,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 170,
+          "y": 1156,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 169,
+          "y": 1179,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 169,
+          "y": 1179,
+          "w": 15,
+          "h": 16
+        }
+      ]
+    },
+    {
+      "label": "step3",
+      "page": 3,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:05 1 2 3 4 3 / 4 Personal details First name Zip Title Choose a title City Surname Country Choose a country Street Box 1 Number 1 Birthdate Day Month Year Age 0 Gender Male Female Next Cancel How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 324
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 88,
+          "h": 196
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 128,
+          "y": 142,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 288,
+          "y": 138,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 27,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 123,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "3",
+          "x": 219,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "4",
+          "x": 315,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 80,
+          "y": 905,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 80,
+          "y": 1017,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Choose a title",
+          "x": 80,
+          "y": 1129,
+          "w": 230,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Choose a title",
+          "x": 80,
+          "y": 1129,
+          "w": 230,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Choose a title",
+          "x": 80,
+          "y": 1129,
+          "w": 230,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 278,
+          "y": 1129,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 80,
+          "y": 1238,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 80,
+          "y": 1350,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown country-dropdown no-selection",
+          "text": "Choose a country",
+          "x": 80,
+          "y": 1462,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Choose a country",
+          "x": 80,
+          "y": 1462,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Choose a country",
+          "x": 80,
+          "y": 1462,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "country-dropdown__selected-country-name",
+          "text": "Choose a country",
+          "x": 89,
+          "y": 1476,
+          "w": 105,
+          "h": 15
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 278,
+          "y": 1462,
+          "w": 32,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 80,
+          "y": 1574,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "numeric-stepper__button-container",
+          "text": "",
+          "x": 289,
+          "y": 1687,
+          "w": 20,
+          "h": 38
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 289,
+          "y": 1687,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 289,
+          "y": 1706,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "numeric-stepper__button-container",
+          "text": "",
+          "x": 289,
+          "y": 1799,
+          "w": 20,
+          "h": 38
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 289,
+          "y": 1799,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 289,
+          "y": 1818,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdowns",
+          "text": "Day Month Year",
+          "x": 80,
+          "y": 1910,
+          "w": 230,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdown__container date-dropdown__conta",
+          "text": "Day",
+          "x": 80,
+          "y": 1910,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Day",
+          "x": 80,
+          "y": 1910,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Day",
+          "x": 80,
+          "y": 1910,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Day",
+          "x": 80,
+          "y": 1910,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 125,
+          "y": 1910,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdown__container date-dropdown__conta",
+          "text": "Month",
+          "x": 157,
+          "y": 1910,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Month",
+          "x": 165,
+          "y": 1910,
+          "w": 69,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Month",
+          "x": 165,
+          "y": 1910,
+          "w": 69,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Month",
+          "x": 165,
+          "y": 1910,
+          "w": 69,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 201,
+          "y": 1910,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdown__container date-dropdown__conta",
+          "text": "Year",
+          "x": 233,
+          "y": 1910,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Year",
+          "x": 241,
+          "y": 1910,
+          "w": 69,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Year",
+          "x": 241,
+          "y": 1910,
+          "w": 69,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Year",
+          "x": 241,
+          "y": 1910,
+          "w": 69,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 278,
+          "y": 1910,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "toggle-buttons",
+          "text": "Male Female",
+          "x": 80,
+          "y": 2131,
+          "w": 230,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "toggle-button toggle-button--left selected",
+          "text": "Male",
+          "x": 80,
+          "y": 2131,
+          "w": 115,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "toggle-button toggle-button--right",
+          "text": "Female",
+          "x": 195,
+          "y": 2131,
+          "w": 115,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "personal-details__bottom-button-row",
+          "text": "Next Cancel",
+          "x": 0,
+          "y": 2245,
+          "w": 390,
+          "h": 44
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "personal-details__bottom-button-container",
+          "text": "Next Cancel",
+          "x": 90,
+          "y": 2245,
+          "w": 300,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--stroked button--white",
+          "text": "Next",
+          "x": 90,
+          "y": 2245,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--green",
+          "text": "Cancel",
+          "x": 250,
+          "y": 2245,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 70,
+          "y": 699,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 70,
+          "y": 699,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "H2",
+          "type": null,
+          "cls": "help-form__title",
+          "text": "How can we help?",
+          "x": 102,
+          "y": 723,
+          "w": 239,
+          "h": 21
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "",
+          "x": 317,
+          "y": 723,
+          "w": 24,
+          "h": 24
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "cls": "help-form__text-area",
+          "text": "",
+          "x": 102,
+          "y": 768,
+          "w": 239,
+          "h": 72
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "help-form__help-button",
+          "text": "Help",
+          "x": 102,
+          "y": 846,
+          "w": 26,
+          "h": 15
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "Send to bottom",
+          "x": 244,
+          "y": 844,
+          "w": 97,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "label": "step4",
+      "page": 0,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:06 1 2 3 4 4 / 4 Almost done! Now we just need proof that you are human. Select all light pictures Validate How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 324
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 88,
+          "h": 196
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 128,
+          "y": 142,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 288,
+          "y": 138,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "1",
+          "x": 27,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 123,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "3",
+          "x": 219,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "4",
+          "x": 315,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "captcha-gallery__button-container",
+          "text": "Validate",
+          "x": 16,
+          "y": 1562,
+          "w": 358,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--blue",
+          "text": "Validate",
+          "x": 125,
+          "y": 1562,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 70,
+          "y": 699,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 70,
+          "y": 699,
+          "w": 303,
+          "h": 228
+        }
+      ]
+    },
+    {
+      "label": "after+30s",
+      "page": 3,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:37 1 2 3 4 4 / 4 Almost done! Now we just need proof that you are human. Select all light pictures Validate How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 324
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 88,
+          "h": 196
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 128,
+          "y": 142,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 288,
+          "y": 138,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 27,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 123,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "3",
+          "x": 219,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "4",
+          "x": 315,
+          "y": 679,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 947,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 947,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 948,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 1094,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 1094,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 1095,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 1241,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 1241,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 52,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 52,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 52,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 141,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 141,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 141,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 231,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 231,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 231,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 320,
+          "y": 1387,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 320,
+          "y": 1387,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 320,
+          "y": 1388,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "captcha-gallery__button-container",
+          "text": "Validate",
+          "x": 16,
+          "y": 1562,
+          "w": 358,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--blue",
+          "text": "Validate",
+          "x": 125,
+          "y": 1562,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 70,
+          "y": 699,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 70,
+          "y": 699,
+          "w": 303,
+          "h": 228
+        }
+      ]
+    }
+  ],
+  "1440": [
+    {
+      "label": "step1+initial",
+      "page": 2,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:03 1 2 3 4 1 / 4 @ other I do not accept the Terms & Conditions Next Cancel Reset Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character. How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 156
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 859,
+          "h": 28
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 1097,
+          "y": 58,
+          "w": 143,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 1260,
+          "y": 54,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 552,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 648,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "3",
+          "x": 744,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "4",
+          "x": 840,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue input--gray",
+          "text": "Choose Password",
+          "x": 534,
+          "y": 639,
+          "w": 372,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue input--gray",
+          "text": "Your email",
+          "x": 534,
+          "y": 687,
+          "w": 124,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue input--gray",
+          "text": "Domain",
+          "x": 692,
+          "y": 687,
+          "w": 124,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown dropdown--gray",
+          "text": "other",
+          "x": 826,
+          "y": 688,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "other",
+          "x": 826,
+          "y": 688,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "other",
+          "x": 826,
+          "y": 688,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 876,
+          "y": 688,
+          "w": 30,
+          "h": 38
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 579,
+          "y": 767,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 579,
+          "y": 767,
+          "w": 18,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 579,
+          "y": 767,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 580,
+          "y": 767,
+          "w": 16,
+          "h": 18
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "login-form__terms-conditions",
+          "text": "I do not accept the Terms & Conditions",
+          "x": 613,
+          "y": 767,
+          "w": 247,
+          "h": 16
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "align__cell button-container__secondary",
+          "text": "Next",
+          "x": 534,
+          "y": 825,
+          "w": 93,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "button--secondary",
+          "text": "Next",
+          "x": 566,
+          "y": 837,
+          "w": 30,
+          "h": 16
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "align__cell button-container__primary",
+          "text": "Cancel",
+          "x": 627,
+          "y": 825,
+          "w": 186,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--blue button--flu",
+          "text": "Cancel",
+          "x": 627,
+          "y": 825,
+          "w": 186,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "align__cell button-container__secondary",
+          "text": "Reset",
+          "x": 813,
+          "y": 825,
+          "w": 93,
+          "h": 40
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "button--secondary u-right",
+          "text": "Reset",
+          "x": 868,
+          "y": 837,
+          "w": 38,
+          "h": 16
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "H2",
+          "type": null,
+          "cls": "help-form__title",
+          "text": "How can we help?",
+          "x": 1113,
+          "y": 696,
+          "w": 239,
+          "h": 21
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "",
+          "x": 1328,
+          "y": 696,
+          "w": 24,
+          "h": 24
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "cls": "help-form__text-area",
+          "text": "",
+          "x": 1113,
+          "y": 741,
+          "w": 239,
+          "h": 72
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "help-form__help-button",
+          "text": "Help",
+          "x": 1113,
+          "y": 819,
+          "w": 26,
+          "h": 15
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "Send to bottom",
+          "x": 1255,
+          "y": 817,
+          "w": 97,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "label": "step2",
+      "page": 2,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:04 1 2 3 4 2 / 4 This is me To complete your profile, please upload any image. Download image Choose 3 interests Ponies Polo Dough Snails Balls Post-its Faucets Enveloppes Cables Questions Squares Purple Cotton Dry-wall Closets Tires Windows Select all Mullets Cinnamon Unselect all Next Cancel How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 156
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 859,
+          "h": 28
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 1097,
+          "y": 58,
+          "w": 143,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 1260,
+          "y": 54,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 552,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 648,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "3",
+          "x": 744,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "4",
+          "x": 840,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "avatar-and-interests__upload-button",
+          "text": "upload",
+          "x": 769,
+          "y": 708,
+          "w": 42,
+          "h": 16
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "align__cell avatar-and-interests__avatar-uplo",
+          "text": "Download image",
+          "x": 724,
+          "y": 745,
+          "w": 154,
+          "h": 32
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 541,
+          "y": 887,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 541,
+          "y": 887,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 541,
+          "y": 889,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 542,
+          "y": 889,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 541,
+          "y": 912,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 541,
+          "y": 912,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 541,
+          "y": 914,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 542,
+          "y": 914,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 541,
+          "y": 937,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 541,
+          "y": 937,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 541,
+          "y": 939,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 542,
+          "y": 939,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 541,
+          "y": 962,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 541,
+          "y": 962,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 541,
+          "y": 963,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 542,
+          "y": 963,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 541,
+          "y": 986,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 541,
+          "y": 986,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 541,
+          "y": 988,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 542,
+          "y": 988,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 541,
+          "y": 1011,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 541,
+          "y": 1011,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 541,
+          "y": 1013,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 542,
+          "y": 1013,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 541,
+          "y": 1036,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 541,
+          "y": 1036,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 541,
+          "y": 1038,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 542,
+          "y": 1038,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 670,
+          "y": 887,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 670,
+          "y": 887,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 670,
+          "y": 889,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 671,
+          "y": 889,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 670,
+          "y": 912,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 670,
+          "y": 912,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 670,
+          "y": 914,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 671,
+          "y": 914,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 670,
+          "y": 937,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 670,
+          "y": 937,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 670,
+          "y": 939,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 671,
+          "y": 939,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 670,
+          "y": 962,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 670,
+          "y": 962,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 670,
+          "y": 963,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 671,
+          "y": 963,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 670,
+          "y": 986,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 670,
+          "y": 986,
+          "w": 15,
+          "h": 16
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 670,
+          "y": 988,
+          "w": 15,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "icon icon-check checkbox__check",
+          "text": "",
+          "x": 671,
+          "y": 988,
+          "w": 13,
+          "h": 15
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox small",
+          "text": "",
+          "x": 670,
+          "y": 1011,
+          "w": 15,
+          "h": 17
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 670,
+          "y": 1011,
+          "w": 15,
+          "h": 16
+        }
+      ]
+    },
+    {
+      "label": "step3",
+      "page": 3,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:05 1 2 3 4 3 / 4 Personal details First name Zip Title Choose a title City Surname Country Choose a country Street Box 1 Number 1 Birthdate Day Month Year Age 0 Gender Male Female Next Cancel How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 156
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 859,
+          "h": 28
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 1097,
+          "y": 58,
+          "w": 143,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 1260,
+          "y": 54,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 552,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 648,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "3",
+          "x": 744,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "4",
+          "x": 840,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 300,
+          "y": 695,
+          "w": 420,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 870,
+          "y": 695,
+          "w": 370,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Choose a title",
+          "x": 300,
+          "y": 767,
+          "w": 420,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Choose a title",
+          "x": 300,
+          "y": 767,
+          "w": 420,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Choose a title",
+          "x": 300,
+          "y": 767,
+          "w": 420,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 688,
+          "y": 767,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 870,
+          "y": 765,
+          "w": 370,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 300,
+          "y": 835,
+          "w": 420,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown country-dropdown no-selection",
+          "text": "Choose a country",
+          "x": 870,
+          "y": 835,
+          "w": 370,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Choose a country",
+          "x": 870,
+          "y": 835,
+          "w": 370,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Choose a country",
+          "x": 870,
+          "y": 835,
+          "w": 370,
+          "h": 40
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "country-dropdown__selected-country-name",
+          "text": "Choose a country",
+          "x": 879,
+          "y": 849,
+          "w": 105,
+          "h": 15
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 1208,
+          "y": 835,
+          "w": 32,
+          "h": 40
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "cls": "input input--blue",
+          "text": "Placeholder...",
+          "x": 300,
+          "y": 905,
+          "w": 420,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "numeric-stepper__button-container",
+          "text": "",
+          "x": 1219,
+          "y": 906,
+          "w": 20,
+          "h": 38
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 1219,
+          "y": 906,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 1219,
+          "y": 925,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "numeric-stepper__button-container",
+          "text": "",
+          "x": 699,
+          "y": 976,
+          "w": 20,
+          "h": 38
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 699,
+          "y": 976,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "numeric-stepper__button numeric-stepper__butt",
+          "text": "",
+          "x": 699,
+          "y": 995,
+          "w": 20,
+          "h": 19
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdowns",
+          "text": "Day Month Year",
+          "x": 870,
+          "y": 977,
+          "w": 370,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdown__container date-dropdown__conta",
+          "text": "Day",
+          "x": 870,
+          "y": 977,
+          "w": 123,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Day",
+          "x": 870,
+          "y": 977,
+          "w": 123,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Day",
+          "x": 870,
+          "y": 977,
+          "w": 123,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Day",
+          "x": 870,
+          "y": 977,
+          "w": 123,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 961,
+          "y": 977,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdown__container date-dropdown__conta",
+          "text": "Month",
+          "x": 993,
+          "y": 977,
+          "w": 123,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Month",
+          "x": 1001,
+          "y": 977,
+          "w": 115,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Month",
+          "x": 1001,
+          "y": 977,
+          "w": 115,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Month",
+          "x": 1001,
+          "y": 977,
+          "w": 115,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 1085,
+          "y": 977,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "date-dropdown__container date-dropdown__conta",
+          "text": "Year",
+          "x": 1117,
+          "y": 977,
+          "w": 123,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown no-selection",
+          "text": "Year",
+          "x": 1125,
+          "y": 977,
+          "w": 115,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__header",
+          "text": "Year",
+          "x": 1125,
+          "y": 977,
+          "w": 115,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__field",
+          "text": "Year",
+          "x": 1125,
+          "y": 977,
+          "w": 115,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "dropdown__opener",
+          "text": "",
+          "x": 1208,
+          "y": 977,
+          "w": 32,
+          "h": 37
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "toggle-buttons",
+          "text": "Male Female",
+          "x": 870,
+          "y": 1045,
+          "w": 370,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "toggle-button toggle-button--left selected",
+          "text": "Male",
+          "x": 870,
+          "y": 1045,
+          "w": 185,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "toggle-button toggle-button--right",
+          "text": "Female",
+          "x": 1055,
+          "y": 1045,
+          "w": 185,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "personal-details__bottom-button-row",
+          "text": "Next Cancel",
+          "x": 120,
+          "y": 1159,
+          "w": 1200,
+          "h": 44
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "personal-details__bottom-button-container",
+          "text": "Next Cancel",
+          "x": 1020,
+          "y": 1159,
+          "w": 300,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--stroked button--white",
+          "text": "Next",
+          "x": 1020,
+          "y": 1159,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--green",
+          "text": "Cancel",
+          "x": 1180,
+          "y": 1159,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "H2",
+          "type": null,
+          "cls": "help-form__title",
+          "text": "How can we help?",
+          "x": 1113,
+          "y": 696,
+          "w": 239,
+          "h": 21
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "",
+          "x": 1328,
+          "y": 696,
+          "w": 24,
+          "h": 24
+        },
+        {
+          "tag": "TEXTAREA",
+          "type": "textarea",
+          "cls": "help-form__text-area",
+          "text": "",
+          "x": 1113,
+          "y": 741,
+          "w": 239,
+          "h": 72
+        },
+        {
+          "tag": "A",
+          "type": null,
+          "cls": "help-form__help-button",
+          "text": "Help",
+          "x": 1113,
+          "y": 819,
+          "w": 26,
+          "h": 15
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "cls": "button button--solid button--blue help-form__",
+          "text": "Send to bottom",
+          "x": 1255,
+          "y": 817,
+          "w": 97,
+          "h": 40
+        }
+      ]
+    },
+    {
+      "label": "step4",
+      "page": 1,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:07 1 2 3 4 4 / 4 Almost done! Now we just need proof that you are human. Select all pictures with glasses Validate How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 156
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 859,
+          "h": 28
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 1097,
+          "y": 58,
+          "w": 143,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 1260,
+          "y": 54,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 552,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "2",
+          "x": 648,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "3",
+          "x": 744,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "4",
+          "x": 840,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "captcha-gallery__button-container",
+          "text": "Validate",
+          "x": 336,
+          "y": 1336,
+          "w": 768,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--blue",
+          "text": "Validate",
+          "x": 650,
+          "y": 1336,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        }
+      ]
+    },
+    {
+      "label": "after+30s",
+      "page": 3,
+      "cookies": true,
+      "timerModal": false,
+      "pagesMeta": "[1,2,3,4]",
+      "text": "This site uses cookies, is that a problem for you? Not really, no Yes 00:00:37 1 2 3 4 4 / 4 Almost done! Now we just need proof that you are human. Select all pictures with glasses Validate How can we help? Help Send to bottom",
+      "els": [
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "cookies",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 0,
+          "y": 0,
+          "w": 1440,
+          "h": 156
+        },
+        {
+          "tag": "P",
+          "type": null,
+          "cls": "cookies__message",
+          "text": "This site uses cookies, is that a problem for you?",
+          "x": 40,
+          "y": 64,
+          "w": 859,
+          "h": 28
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--transparent",
+          "text": "Not really, no",
+          "x": 1097,
+          "y": 58,
+          "w": 143,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "cookies__button button button--solid button--",
+          "text": "Yes",
+          "x": 1260,
+          "y": 54,
+          "w": 140,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "1",
+          "x": 552,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "2",
+          "x": 648,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button",
+          "text": "3",
+          "x": 744,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "pagination__button is-active",
+          "text": "4",
+          "x": 840,
+          "y": 511,
+          "w": 48,
+          "h": 48
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 721,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 721,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 722,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 868,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 868,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 869,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 1015,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 1015,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 423,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 423,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 423,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 615,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 615,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 615,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 807,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 807,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 807,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox",
+          "text": "",
+          "x": 999,
+          "y": 1161,
+          "w": 18,
+          "h": 19
+        },
+        {
+          "tag": "LABEL",
+          "type": null,
+          "cls": "checkbox__label",
+          "text": "",
+          "x": 999,
+          "y": 1161,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "SPAN",
+          "type": null,
+          "cls": "checkbox__box",
+          "text": "",
+          "x": 999,
+          "y": 1162,
+          "w": 18,
+          "h": 18
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "captcha-gallery__button-container",
+          "text": "Validate",
+          "x": 336,
+          "y": 1336,
+          "w": 768,
+          "h": 40
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "cls": "button button--solid button--blue",
+          "text": "Validate",
+          "x": 650,
+          "y": 1336,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        },
+        {
+          "tag": "DIV",
+          "type": null,
+          "cls": "help-form__container",
+          "text": "How can we help? Help Send to bottom",
+          "x": 1081,
+          "y": 672,
+          "w": 303,
+          "h": 228
+        }
+      ]
+    }
+  ]
+}

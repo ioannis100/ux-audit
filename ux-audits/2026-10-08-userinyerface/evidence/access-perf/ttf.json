@@ -1,0 +1,169 @@
+{
+  "step1 Next (password empty)": {
+    "hitIsTarget": true,
+    "hit": "button--secondary",
+    "firstDomChangeMs": 24,
+    "nextPaintMs": 58
+  },
+  "step1 T&C checkbox (untick)": {
+    "hitIsTarget": true,
+    "before": [
+      1,
+      false,
+      1
+    ],
+    "firstVisibleChangeMs": 1,
+    "fullyShownMs": 1,
+    "last": [
+      618,
+      false,
+      0
+    ]
+  },
+  "cookie Yes": {
+    "hitIsTarget": true,
+    "hit": "cookies__button button button--solid but",
+    "firstDomChangeMs": 386,
+    "nextPaintMs": 387
+  },
+  "pagination button 2": {
+    "hitIsTarget": true,
+    "hit": "pagination__button",
+    "firstDomChangeMs": 881,
+    "nextPaintMs": 882
+  },
+  "cookie Not really, no": {
+    "hitIsTarget": true,
+    "hit": "button button--solid button--transparent",
+    "firstDomChangeMs": 20,
+    "nextPaintMs": 53
+  },
+  "step2 interest checkbox": {
+    "hitIsTarget": true,
+    "before": [
+      20,
+      false,
+      1
+    ],
+    "firstVisibleChangeMs": 20,
+    "fullyShownMs": 20,
+    "last": [
+      620,
+      false,
+      0
+    ]
+  },
+  "step2 Next (incomplete)": {
+    "hitIsTarget": true,
+    "hit": "button button--stroked button--white but",
+    "firstDomChangeMs": 15,
+    "nextPaintMs": 49
+  },
+  "step2Spinner": {
+    "w": 130,
+    "h": 0,
+    "opacity": "1",
+    "display": "block",
+    "visibility": "visible"
+  },
+  "step3NextCovered": {
+    "rect": [
+      1020,
+      792,
+      140,
+      40
+    ],
+    "hits": [
+      "Next",
+      "help-form__container",
+      "help-form__text-area"
+    ]
+  },
+  "step3 Next (empty fields)": {
+    "hitIsTarget": true,
+    "hit": "button button--stroked button--white",
+    "firstDomChangeMs": 1,
+    "nextPaintMs": 5
+  },
+  "step3ErrorModal": {
+    "text": "Please fill in all fields correctly: Invalid first name OK ",
+    "role": null,
+    "ariaModal": null,
+    "focusInside": false,
+    "active": "BUTTON:Next"
+  },
+  "step3ErrorModalTab": [
+    "BUTTON:Cancel",
+    "BUTTON:OK",
+    "BUTTON:button button--solid",
+    "TEXTAREA:help-form__text-area",
+    "BUTTON:Send\nto bottom",
+    "BODY:00:00:16\n1\t2\t3\t4\n3 /",
+    "BUTTON:1",
+    "BUTTON:2"
+  ],
+  "step3ErrorModalEscCloses": false,
+  "timerModalLock": {
+    "before": {
+      "close": true,
+      "closeTag": "SPAN",
+      "closeTab": -1
+    },
+    "after": {
+      "close": false,
+      "buttons": [
+        "Unlock"
+      ],
+      "timer": "00:00:04",
+      "timerAfter3s": "00:00:07"
+    }
+  },
+  "slow": [
+    {
+      "t": 3000,
+      "cloaked": true,
+      "visibleText": 0
+    },
+    {
+      "t": 8000,
+      "cloaked": true,
+      "visibleText": 0
+    },
+    {
+      "t": 12000,
+      "cloaked": true,
+      "visibleText": 0
+    },
+    {
+      "t": 16000,
+      "cloaked": false,
+      "visibleText": 381,
+      "timer": "00:00:01"
+    },
+    {
+      "t": 22000,
+      "cloaked": false,
+      "visibleText": 456,
+      "timer": "00:00:07"
+    },
+    {
+      "t": 30000,
+      "cloaked": false,
+      "visibleText": 456,
+      "timer": "00:00:15"
+    }
+  ],
+  "slowRequestsFinishedAtMs": {
+    "https://userinyerface.com/game.html": 709,
+    "https://fonts.googleapis.com/css": 1440,
+    "https://userinyerface.com/images/verhaert-digital-logo.svg": 1469,
+    "https://userinyerface.com/app.css": 2642,
+    "https://www.google-analytics.com/analytics.js": 4136,
+    "https://www.google-analytics.com/j/collect": 4576,
+    "https://www.googletagmanager.com/gtag/js": 11609,
+    "https://userinyerface.com/app.js": 14723,
+    "https://userinyerface.com/fonts/icomoon/icomoon.ttf": 15239,
+    "https://userinyerface.com/images/userinyerface-logo.svg": 15327,
+    "https://userinyerface.com/favicon.ico": 15796
+  }
+}

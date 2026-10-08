@@ -1,0 +1,865 @@
+{
+ "390": {
+  "atLoad": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "",
+    "emailDomain": "",
+    "emailExt": ""
+   },
+   "emailError": false,
+   "passwordError": false,
+   "tcError": false,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "Your email",
+    "Domain"
+   ],
+   "inputClasses": [
+    "input input--blue input--gray",
+    "input input--blue input--gray",
+    "input input--blue input--gray"
+   ],
+   "tcChecked": true,
+   "extShown": "other",
+   "visibleErrorText": [],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "layout": {
+   "cookies": {
+    "x": 0,
+    "y": 0,
+    "w": 390,
+    "h": 324,
+    "right": 390
+   },
+   "card": {
+    "x": 0,
+    "y": 767,
+    "w": 436,
+    "h": 297,
+    "right": 436
+   },
+   "pw": {
+    "x": 32,
+    "y": 807,
+    "w": 372,
+    "h": 40,
+    "right": 404
+   },
+   "email": {
+    "x": 32,
+    "y": 855,
+    "w": 124,
+    "h": 40,
+    "right": 156
+   },
+   "domain": {
+    "x": 190,
+    "y": 855,
+    "w": 124,
+    "h": 40,
+    "right": 314
+   },
+   "ext": {
+    "x": 324,
+    "y": 856,
+    "w": 80,
+    "h": 38,
+    "right": 404
+   },
+   "tc": {
+    "x": 111,
+    "y": 935,
+    "w": 247,
+    "h": 16,
+    "right": 359
+   },
+   "help": {
+    "x": 94,
+    "y": 751,
+    "w": 303,
+    "h": 228,
+    "right": 397
+   },
+   "scrollW": 453,
+   "scrollH": 1294,
+   "btn": [
+    {
+     "t": "Not really, no",
+     "x": 128,
+     "y": 142,
+     "w": 140,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Yes",
+     "x": 288,
+     "y": 138,
+     "w": 140,
+     "h": 48,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(255, 0, 0)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "1",
+     "x": 27,
+     "y": 679,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(41, 197, 102)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "2",
+     "x": 123,
+     "y": 679,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(41, 197, 102)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "3",
+     "x": 219,
+     "y": 679,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(41, 197, 102)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "4",
+     "x": 315,
+     "y": 679,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(41, 197, 102)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "I do not accept the ",
+     "x": 111,
+     "y": 935,
+     "w": 247,
+     "h": 16,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "tag": "A",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Next",
+     "x": 64,
+     "y": 1005,
+     "w": 30,
+     "h": 16,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(181, 187, 192)",
+     "tag": "A",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Cancel",
+     "x": 125,
+     "y": 993,
+     "w": 186,
+     "h": 40,
+     "bg": "rgb(12, 88, 218)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Reset",
+     "x": 366,
+     "y": 1005,
+     "w": 38,
+     "h": 16,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(181, 187, 192)",
+     "tag": "A",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "",
+     "x": 341,
+     "y": 775,
+     "w": 24,
+     "h": 24,
+     "bg": "rgb(12, 88, 218)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Help",
+     "x": 126,
+     "y": 898,
+     "w": 26,
+     "h": 15,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "A",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Send to bottom",
+     "x": 268,
+     "y": 896,
+     "w": 97,
+     "h": 40,
+     "bg": "rgb(12, 88, 218)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    }
+   ]
+  },
+  "tabOrder": [
+   "BUTTON.pagination__button:1",
+   "BUTTON.pagination__button:2",
+   "BUTTON.pagination__button is-active:3",
+   "BUTTON.pagination__button:4",
+   "BUTTON.button button--solid button--b:Cancel",
+   "BUTTON.button button--solid button--b:",
+   "TEXTAREA.help-form__text-area:",
+   "BUTTON.button button--solid button--b:Send\nto bottom",
+   "BODY.:00:00:03\n1\t2\t3\t4\n1",
+   "BUTTON.pagination__button:1",
+   "BUTTON.pagination__button:2",
+   "BUTTON.pagination__button is-active:3",
+   "BUTTON.pagination__button:4",
+   "BUTTON.button button--solid button--b:Cancel"
+  ],
+  "emptyNext": {
+   "name": "j2-empty-next-390",
+   "mutationsIn300ms": 6,
+   "ms": 520
+  },
+  "afterEmptyNext": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "",
+    "emailDomain": "",
+    "emailExt": ""
+   },
+   "emailError": true,
+   "passwordError": true,
+   "tcError": true,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "Your email",
+    "Domain"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--blue",
+    "input input--blue input--blue"
+   ],
+   "tcChecked": true,
+   "extShown": "other",
+   "visibleErrorText": [
+    "Please do NOT forget to accept our terms and conditions"
+   ],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "afterFill": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "test",
+    "emailDomain": "example",
+    "emailExt": ".com"
+   },
+   "emailError": true,
+   "passwordError": true,
+   "tcError": true,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "test",
+    "example"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--blue",
+    "input input--blue input--blue"
+   ],
+   "tcChecked": true,
+   "extShown": ".com",
+   "visibleErrorText": [
+    "Please do NOT forget to accept our terms and conditions"
+   ],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "nextWithTcTicked": {
+   "name": "j2-next-tc-ticked-390",
+   "mutationsIn300ms": 3,
+   "ms": 484
+  },
+  "afterNextTcTicked": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "test",
+    "emailDomain": "example",
+    "emailExt": ".com"
+   },
+   "emailError": false,
+   "passwordError": true,
+   "tcError": true,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "test",
+    "example"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--gray",
+    "input input--blue input--gray"
+   ],
+   "tcChecked": true,
+   "extShown": ".com",
+   "visibleErrorText": [
+    "Please do NOT forget to accept our terms and conditions"
+   ],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "naiveDomainType": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "test",
+    "emailDomain": "exampexamplle",
+    "emailExt": ".com"
+   },
+   "emailError": false,
+   "passwordError": true,
+   "tcError": true,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "test",
+    "exampexamplele"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--gray",
+    "input input--blue input--gray"
+   ],
+   "tcChecked": true,
+   "extShown": ".com",
+   "visibleErrorText": [
+    "Please do NOT forget to accept our terms and conditions"
+   ],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "postel": {
+   "you": {
+    "shown": "Your email",
+    "stored": "",
+    "emailErrorAfterNext": true
+   },
+   "Your": {
+    "shown": "Your email",
+    "stored": "",
+    "emailErrorAfterNext": true
+   },
+   "y": {
+    "shown": "Your email",
+    "stored": "",
+    "emailErrorAfterNext": true
+   },
+   "  Test.User  ": {
+    "shown": "  Test.User  ",
+    "stored": "  Test.User  ",
+    "emailErrorAfterNext": false
+   },
+   "TEST": {
+    "shown": "TEST",
+    "stored": "TEST",
+    "emailErrorAfterNext": false
+   },
+   "test@example.com": {
+    "shown": "test@example.com",
+    "stored": "test@example.com",
+    "emailErrorAfterNext": false
+   },
+   "test+tag": {
+    "shown": "test+tag",
+    "stored": "test+tag",
+    "emailErrorAfterNext": false
+   },
+   "tëst": {
+    "shown": "tëst",
+    "stored": "tëst",
+    "emailErrorAfterNext": false
+   },
+   "😀": {
+    "shown": "😀",
+    "stored": "😀",
+    "emailErrorAfterNext": false
+   },
+   "a x80": {
+    "shown": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "stored": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "emailErrorAfterNext": false
+   }
+  },
+  "domainWithTldExtOther": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "test",
+    "emailDomain": "example.com",
+    "emailExt": ""
+   },
+   "emailError": true,
+   "passwordError": true,
+   "tcError": true,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "test",
+    "example.com"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--blue",
+    "input input--blue input--blue"
+   ],
+   "tcChecked": true,
+   "extShown": "other",
+   "visibleErrorText": [
+    "Please do NOT forget to accept our terms and conditions"
+   ],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "tcLinkTop": "self",
+  "tcLabelClick": {
+   "modal": true,
+   "tcChecked": true
+  },
+  "tcModal": {
+   "scrollH": 2459,
+   "clientH": 300,
+   "closeAffordance": false,
+   "acceptClass": "terms-and-conditions__accept-button-container disabled",
+   "cheat": "Using two fingers to scroll faster is cheating and not allowed.",
+   "placeholders": 15,
+   "words": 1791
+  },
+  "tcAcceptBeforeScroll": true,
+  "tcAfterEscAndBackdrop": true,
+  "tcScrollStart": {
+   "scrollTop": 0,
+   "transform": "none",
+   "inner": 202.75
+  },
+  "tcScrollAfter40Wheels": {
+   "scrollTop": 80,
+   "transform": "none",
+   "inner": 122.75,
+   "ms": 2699
+  },
+  "tcScrollAfter40AltWheels": {
+   "scrollTop": 2159,
+   "transform": "none",
+   "inner": -1956.25
+  },
+  "tcReachedBottom": true,
+  "tcReachedBottom2": true,
+  "tcAltWheelsToBottom": "reached",
+  "tcAfterAccept": {
+   "modal": false,
+   "tcChecked": true
+  },
+  "checkboxTop": "self",
+  "afterUntick": {
+   "loginData": {
+    "dontAcceptTermsConditions": false,
+    "password": "",
+    "emailName": "test",
+    "emailDomain": "example",
+    "emailExt": ".com"
+   },
+   "emailError": true,
+   "passwordError": true,
+   "tcError": true,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "test",
+    "example"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--blue",
+    "input input--blue input--blue"
+   ],
+   "tcChecked": false,
+   "extShown": ".com",
+   "visibleErrorText": [
+    "Please do NOT forget to accept our terms and conditions"
+   ],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "nextPwEmpty": {
+   "name": "j2-next-pw-empty-390",
+   "mutationsIn300ms": 8,
+   "ms": 484
+  },
+  "afterNextPwEmpty": {
+   "loginData": {
+    "dontAcceptTermsConditions": false,
+    "password": "",
+    "emailName": "test",
+    "emailDomain": "example",
+    "emailExt": ".com"
+   },
+   "emailError": false,
+   "passwordError": true,
+   "tcError": false,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "test",
+    "example"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--gray",
+    "input input--blue input--gray"
+   ],
+   "tcChecked": false,
+   "extShown": ".com",
+   "visibleErrorText": [],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "stillStep1": 0,
+  "doubleNext": {
+   "stepCompleteLogs": 0,
+   "page": 0
+  },
+  "reset": {
+   "name": "j2-reset-390",
+   "mutationsIn300ms": 6,
+   "ms": 475
+  },
+  "afterReset": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "",
+    "emailDomain": "",
+    "emailExt": ""
+   },
+   "emailError": false,
+   "passwordError": true,
+   "tcError": false,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "Your email",
+    "Domain"
+   ],
+   "inputClasses": [
+    "input input--blue input--blue",
+    "input input--blue input--gray",
+    "input input--blue input--gray"
+   ],
+   "tcChecked": false,
+   "extShown": "other",
+   "visibleErrorText": [],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "cancel": {
+   "name": "j2-cancel-modal-390",
+   "mutationsIn300ms": 2,
+   "ms": 485
+  },
+  "cancelModal": {
+   "text": "Are you sure you want to cancel? Yes Cancel ",
+   "btns": [
+    {
+     "t": "Yes",
+     "bg": "rgb(255, 0, 0)",
+     "href": "/index.html"
+    },
+    {
+     "t": "Cancel",
+     "bg": "rgb(41, 197, 102)",
+     "href": null
+    }
+   ]
+  },
+  "afterModalCancel": {
+   "modal": false,
+   "url": "https://userinyerface.com/game.html"
+  },
+  "afterModalYes": {
+   "url": "https://userinyerface.com/index.html",
+   "ms": 172
+  },
+  "obscured": [],
+  "console": [],
+  "nonStaticRequests": [
+   "GET https://www.google-analytics.com/analytics.js",
+   "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1764571172&t=pageview&_s=1&dl=https%3A%2F%2Fuserinyerface.com%2Fgame.html&ul=",
+   "POST https://region1.google-analytics.com/g/collect?v=2&tid=G-WV3V8CDC4C&gtm=45je6a60v9112305701za20gxf1&_p=1791410627008&gcd=13l3l3l2l2l1&npa=0&",
+   "FAIL https://region1.google-analytics.com/g/collect?v=2&tid=G-WV3V8CDC4C&gtm=45je6a60v9112305701za20gxf1&_p=1791410627008&gcd=13l3l3l2l2l1&npa=0&",
+   "GET https://www.google-analytics.com/analytics.js",
+   "POST https://www.google-analytics.com/j/collect?v=1&_v=j102&aip=1&a=1402037859&t=pageview&_s=1&dl=https%3A%2F%2Fuserinyerface.com%2Findex.html&ul"
+  ]
+ },
+ "1440": {
+  "atLoad": {
+   "loginData": {
+    "dontAcceptTermsConditions": true,
+    "password": "",
+    "emailName": "",
+    "emailDomain": "",
+    "emailExt": ""
+   },
+   "emailError": false,
+   "passwordError": false,
+   "tcError": false,
+   "fieldValues": [
+    "(pw field: shows 'Choose Password')",
+    "Your email",
+    "Domain"
+   ],
+   "inputClasses": [
+    "input input--blue input--gray",
+    "input input--blue input--gray",
+    "input input--blue input--gray"
+   ],
+   "tcChecked": true,
+   "extShown": "other",
+   "visibleErrorText": [],
+   "pwPanel": "Your password requires at least 10 characters. Your password should have at least 1 Capital letter. Your password must have at least 1 Numeral. Your password needs at least 1 letter of your email. Your password can have at least 1 cyrillic character."
+  },
+  "layout": {
+   "cookies": {
+    "x": 0,
+    "y": 0,
+    "w": 1440,
+    "h": 156,
+    "right": 1440
+   },
+   "card": {
+    "x": 502,
+    "y": 599,
+    "w": 436,
+    "h": 297,
+    "right": 938
+   },
+   "pw": {
+    "x": 534,
+    "y": 639,
+    "w": 372,
+    "h": 40,
+    "right": 906
+   },
+   "email": {
+    "x": 534,
+    "y": 687,
+    "w": 124,
+    "h": 40,
+    "right": 658
+   },
+   "domain": {
+    "x": 692,
+    "y": 687,
+    "w": 124,
+    "h": 40,
+    "right": 816
+   },
+   "ext": {
+    "x": 826,
+    "y": 688,
+    "w": 80,
+    "h": 38,
+    "right": 906
+   },
+   "tc": {
+    "x": 613,
+    "y": 767,
+    "w": 247,
+    "h": 16,
+    "right": 861
+   },
+   "help": {
+    "x": 1081,
+    "y": 672,
+    "w": 303,
+    "h": 228,
+    "right": 1384
+   },
+   "scrollW": 1440,
+   "scrollH": 1126,
+   "btn": [
+    {
+     "t": "Not really, no",
+     "x": 1097,
+     "y": 58,
+     "w": 143,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Yes",
+     "x": 1260,
+     "y": 54,
+     "w": 140,
+     "h": 48,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(255, 0, 0)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "1",
+     "x": 552,
+     "y": 511,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(41, 197, 102)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "2",
+     "x": 648,
+     "y": 511,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(41, 197, 102)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "3",
+     "x": 744,
+     "y": 511,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(41, 197, 102)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "4",
+     "x": 840,
+     "y": 511,
+     "w": 48,
+     "h": 48,
+     "bg": "rgb(41, 197, 102)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "I do not accept the ",
+     "x": 613,
+     "y": 767,
+     "w": 247,
+     "h": 16,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "tag": "A",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Next",
+     "x": 566,
+     "y": 837,
+     "w": 30,
+     "h": 16,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(181, 187, 192)",
+     "tag": "A",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Cancel",
+     "x": 627,
+     "y": 825,
+     "w": 186,
+     "h": 40,
+     "bg": "rgb(12, 88, 218)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Reset",
+     "x": 868,
+     "y": 837,
+     "w": 38,
+     "h": 16,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(181, 187, 192)",
+     "tag": "A",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "",
+     "x": 1328,
+     "y": 696,
+     "w": 24,
+     "h": 24,
+     "bg": "rgb(12, 88, 218)",
+     "color": "rgb(255, 255, 255)",
+     "tag": "BUTTON",
+     "href": null,
+     "tabIndex": 0
+    },
+    {
+     "t": "Help",
+     "x": 1113,
+     "y": 819,
+     "w": 26,
+     "h": 15,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 25
