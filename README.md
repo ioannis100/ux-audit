@@ -91,6 +91,10 @@ recommends; it never changes your code unless you ask.
   verdicts. Overall 7.1/10, with measured feedback timings and 6 verified accessibility
   issues. Screenshots and recordings stayed local, so evidence paths in it point to files
   not in this repo.
+- `ux-audits/2026-10-09-wolt-web/`: a second calibration run, on Wolt's website and its
+  Android app (guest only): Overall 5.8/10, Trust capped by two confirmed dark patterns, the
+  4-tier Recommendations with a verified Black tier, findings from 5 agents and 4 verifier
+  batches. Text only.
 - `ux-audits/2026-10-08-userinyerface/`: an early, partial test run on
   [userinyerface.com](https://userinyerface.com), a deliberately terrible UI, made with an
   older version of the skill. It shows the evidence trail, not the current report format.

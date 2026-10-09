@@ -106,6 +106,8 @@
     if (s.textTransform === 'uppercase' && (parseFloat(s.letterSpacing) || 0) <= 0 && txt(el).length > 2 && capsNoTrack.length < MAX)
       capsNoTrack.push({ el: sel(el), text: txt(el) });
 
+    // a labelled graphic (role="img" + aria-label, e.g. a €€€ price meter) carries its meaning in the label: not text to check
+    if (el.closest('[role="img"][aria-label]')) continue;
     const fill = parse(s.webkitTextFillColor || '');
     const fg = fill && fill.a === 0 ? null : fill || parse(s.color); // transparent fill = gradient text
     const bg = bgOf(el);

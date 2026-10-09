@@ -13,6 +13,10 @@
 //           record start <name> [--out dir]   mark <label>   record stop      (screenrecord, 180 s cap)
 //           dump [out.json]                   (uiautomator → JSON nodes with px + dp bounds)
 //           a11y-report [dump.json] [--out f] [--scope WebView] (live dump if no file; scope = subtree)
+// Haptics   vibrations [pkg] [--since HH:MM:SS]  (the system's recent-vibration log: what the app asked for,
+//           when, usage and reason; read it before and after an action instead of calling adb yourself)
+// Snapshot  snapshot save|load|list [name]   (save the device right after an owner-only setup such as accepting
+//           Terms, e.g. `snapshot save audit-ready`; agents and verifiers restore with `snapshot load audit-ready`)
 // Perf      jank <pkg> --do "swipe 540 1800 540 600 300" [--do …] [--out f]
 //           (gfxinfo for hwui-drawn UI + SurfaceFlinger timestats per layer for Chrome/WebView/SurfaceView)
 // Settings  settings show | font-scale <x> | reduce-motion on|off | dark on|off | reset
@@ -41,6 +45,18 @@ const MIN_DP = 48; // Android touch-target minimum (Material / Accessibility Sca
 const ENT = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'" };
 const unescape = (s) => s.replace(/&(#x?[0-9a-f]+|\w+);/gi, (m, e) =>
   e[0] === "#" ? String.fromCodePoint(e[1] === "x" ? parseInt(e.slice(2), 16) : +e.slice(1)) : ENT[e] ?? m);
+
+// "Recent vibrations:" lines of `dumpsys vibrator_manager` → [{at, ms, usage, pkg, reason, played}]
+export function parseVibrations(text, pkg) {
+  const sec = text.split(/Recent vibrations:/)[1]?.split(/\n\s*\n|Aggregated vibration history:/)[0] || "";
+  return sec.split("\n").map((l) => l.split("|").map((x) => x.trim())).filter((f) => f.length > 8 && /\d\d:\d\d:\d\d/.test(f[0]))
+    .map((f) => {
+      const get = (k) => (f.find((x) => x.startsWith(k + ":")) || "").slice(k.length + 1).trim();
+      const owner = f.find((x) => /\(uid=\d+/.test(x)) || "";
+      return { at: get("start") || f[0].split(" ").pop(), ms: parseInt(get("duration")) || 0, usage: get("usage"),
+        pkg: owner.split(" ")[0], reason: get("reason"), played: get("played") };
+    }).filter((v) => !pkg || v.pkg === pkg);
+}
 
 export function parseDump(xml, density) {
   const k = 160 / density, nodes = [], stack = [];
@@ -242,12 +258,20 @@ async function cmd(argv) {
   const { values: o, positionals: p } = parseArgs({ args: argv, allowPositionals: true, strict: false,
     options: { serial: { type: "string", short: "s" }, port: { type: "string" }, "read-only": { type: "boolean" }, window: { type: "boolean" },
       timeout: { type: "string" }, out: { type: "string" }, pkg: { type: "string" }, do: { type: "string", multiple: true },
-      scales: { type: "string" }, scope: { type: "string" }, name: { type: "string" } } });
+      scales: { type: "string" }, scope: { type: "string" }, name: { type: "string" }, since: { type: "string" } } });
   if (o.serial) SERIAL = o.serial;
   const [c, ...a] = p;
   const log = (x) => console.log(typeof x === "string" ? x : JSON.stringify(x, null, 1));
   switch (c) {
     case "devices": return log(adbRaw(["devices", "-l"]).trim());
+    case "vibrations": {
+      const v = parseVibrations(sh("dumpsys vibrator_manager"), a[0]).filter((x) => !o.since || x.at >= o.since);
+      return log(v.length ? v : `no vibrations${a[0] ? ` from ${a[0]}` : ""}${o.since ? ` since ${o.since}` : ""}`);
+    }
+    case "snapshot": {
+      if (!["save", "load", "list"].includes(a[0])) throw new Error("usage: snapshot save|load|list [name]");
+      return log(adb("emu", "avd", "snapshot", a[0], ...(a[0] === "list" ? [] : [a[1] || "audit-ready"])).trim());
+    }
     case "start": {
       const avd = a[0] || execFileSync(EMU, ["-list-avds"], { encoding: "utf8" }).trim().split("\n")[0];
       const port = o.port || "5554", args = ["-avd", avd, "-port", port, "-no-snapshot-save", "-no-boot-anim", "-no-audio"];
@@ -404,7 +428,10 @@ function selftest() {
   const big = parseDump(xml.replace("[10,210][500,260]", "[10,210][500,262]").replace('text="Add one"', 'text="Add o…"'), 420);
   const f = fontScaleDiff(n, big, 2400);
   assert(f.notGrown.some((x) => x.text === "Tom & Jerry") && f.vanished.some((x) => x.text === "Add one" ) === false && f.ellipsised.some((x) => x.text === "Add o…") && f.responded === 0, "font diff");
-  console.log("selftest PASS (tree, dp, labels, targets, duplicates, gfxinfo, surfaceflinger, font-scale diff)");
+  const vib = "  Recent vibrations:\n    Vibrations:\n      10-09 03:34:32.243 |   effect |             finished | duration:   124ms | start: 03:34:32.253 | end: 03:34:32.366 | scale:      NONE (1.00) | adaptiveScale=1.00 | flags:    0 | usage: TOUCH | com.wolt.android (uid=10233, deviceId=0) | reason: performHapticFeedback(constant=1): ViewRootImpl#performHapticFeedback | played: Prebaked=CLICK(MEDIUM, with fallback, startTime=-1) | original: null\n      10-09 02:43:02.478 |   effect |             finished | duration:   112ms | start: 02:43:02.479 | end: 02:43:02.589 | scale:      NONE (1.00) | adaptiveScale=1.00 | flags:    0 | usage: TOUCH | com.google.android.apps.nexuslauncher (uid=10190, deviceId=0) | reason: null | played: Primitive=CLICK(scale=0.70, pause=0ms) | original: null\n\n  Aggregated vibration history:\n";
+  const vs = parseVibrations(vib), vw = parseVibrations(vib, "com.wolt.android");
+  assert(vs.length === 2 && vw.length === 1 && vw[0].ms === 124 && vw[0].at === "03:34:32.253" && vw[0].usage === "TOUCH" && /constant=1/.test(vw[0].reason), "vibrations");
+  console.log("selftest PASS (tree, dp, labels, targets, duplicates, gfxinfo, surfaceflinger, font-scale diff, vibrations)");
 }
 
 if (process.argv[1] && fs.realpathSync(process.argv[1]) === fs.realpathSync(fileURLToPath(import.meta.url)))

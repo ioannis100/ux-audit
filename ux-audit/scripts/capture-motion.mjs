@@ -8,7 +8,7 @@
 //   import { recordOnPage } from "<skill>/scripts/capture-motion.mjs"  # record on a live page (deep states)
 // Change detection compares colour, not just brightness (a light-green-on-white state counts).
 //
-// spec.json: { "out": "evidence/motion", "viewport": {"width":390,"height":844}, "ua": "...",
+// spec.json: { "out": "evidence/motion", "viewport": {"width":390,"height":844}, "ua": "...", "theme": "light"|"dark",
 //   "cpu": 1, "alsoReduced": false, "captures": [ { "name": "home-to-menu", "url": "https://…",
 //   "setup": [steps], "action": step | [steps], "record": 2500 } ] }
 // A step is one of {goto:url} {click:css} {clickText:regex} {tap:[x,y]} {js:code} {key:"Escape"} {wait:ms}.
@@ -54,8 +54,9 @@ const LOGGER = `(() => { const seen = new WeakSet(); window.__mo = { raf: [], an
 
 async function locate(page, step) {
   const r = await page.evaluate((sel, re) => {
-    const el = sel ? document.querySelector(sel) : [...document.querySelectorAll("button,a,[role=button],[role=tab],[role=option],h2,h3,h4,label")]
-      .find((e) => new RegExp(re, "i").test((e.innerText || e.getAttribute("aria-label") || "").trim()));
+    const visible = (e) => { const b = e.getBoundingClientRect(); return b.width > 0 && b.height > 0 && getComputedStyle(e).visibility !== "hidden"; };
+    const el = sel ? [...document.querySelectorAll(sel)].find(visible) : [...document.querySelectorAll("button,a,[role=button],[role=tab],[role=option],h2,h3,h4,label")]
+      .find((e) => visible(e) && new RegExp(re, "i").test((e.innerText || e.getAttribute("aria-label") || "").trim()));
     if (!el) return null;
     el.scrollIntoView({ block: "center", behavior: "instant" });
     const b = el.getBoundingClientRect();
@@ -80,7 +81,8 @@ async function capture(browser, spec, c, reduced, out) {
   const page = await ctx.newPage();
   await page.setViewport({ ...vp, deviceScaleFactor: 2, isMobile: vp.width < 800, hasTouch: vp.width < 800 });
   await page.setUserAgent(spec.ua || (vp.width < 800 ? IPHONE : (await browser.userAgent()).replace("Headless", "")));
-  if (reduced) await page.emulateMediaFeatures([{ name: "prefers-reduced-motion", value: "reduce" }]);
+  await page.emulateMediaFeatures([{ name: "prefers-color-scheme", value: spec.theme || "light" }, // never inherit the Mac's theme
+    ...(reduced ? [{ name: "prefers-reduced-motion", value: "reduce" }] : [])]);
   await page.evaluateOnNewDocument(LOGGER);
   const cdp = await page.createCDPSession();
   if (spec.cpu > 1) await cdp.send("Emulation.setCPUThrottlingRate", { rate: spec.cpu });

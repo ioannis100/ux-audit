@@ -38,6 +38,7 @@
 <p class="tight">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 <div class="layered"><span class="fill"></span><span class="lbl">CHECK</span></div>
 <div class="pseudo">CONTINUE</div>
+<span role="img" aria-label="Cheap" class="meter"><span>€</span><span aria-hidden="true" style="color:rgba(32,33,37,.28)">€€</span></span>
 <pre id="out"></pre>
 <script>
 fetch('extract-design.js').then(r => r.text()).then(src => eval(src)).then(r => {
@@ -47,6 +48,7 @@ fetch('extract-design.js').then(r => r.text()).then(src => eval(src)).then(r => 
   ok(failEls.includes('p.lowc'), 'low contrast detected');
   ok(!failEls.includes('p.ok'), 'good contrast not flagged');
   ok(r.color.contrastExamples.some(e => e.el === 'span.lbl' && e.ratio < 2.2), 'fill on a child layer');
+  ok(!r.color.contrastExamples.some(e => /meter/.test(e.el) || e.text === '€€'), 'labelled graphic skipped');
   ok(r.color.contrastExamples.some(e => e.el === 'div.pseudo' && e.ratio < 2.2), 'fill on ::before');
   ok(r.typography.tinyTextUnder12px.some(t => t.el === 'span.tiny'), 'tiny text');
   ok(r.spacing.offGrid4.some(([v]) => +v === 13), 'off-grid spacing');

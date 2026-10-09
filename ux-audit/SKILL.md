@@ -94,7 +94,9 @@ Don't interrogate. If the user just pasted a URL, infer the rest and list assump
    - **Native or hybrid app:** one device per agent (`_contract-native.md`): an iOS clone
      (`native-ios.mjs clone <role>`) or Android instances with `--read-only` + `--port`.
      Put the bundle id or apk, the UDIDs or serials and the route to each deep state in
-     the brief.
+     the brief. After any setup only the owner can do (accepting Terms, signing in, a
+     guest session), save it: `native-android.mjs snapshot save audit-ready`, so agents and
+     verifiers can restore it.
    - **Websites get a real-mobile pass:** the core journey once in iOS Safari and once in
      Android Chrome (prompts, WebKit transitions, TalkBack labels desktop can't show). Ask
      the owner for real-phone recordings of the 2–3 key transitions.
@@ -105,8 +107,11 @@ Don't interrogate. If the user just pasted a URL, infer the rest and list assump
 4. Write `brief.md`: product, platform, URLs, test access, journeys, inventory, how it
    should feel + north-star apps + competitors, cadence, goal, real-user evidence, safety
    rules, and the tooling and quirks: state that leaks between tabs (pin it via URL
-   params), visibility, idle or first-visit behaviour, the load strategy, and how to
-   reach deep states.
+   params), visibility, idle or first-visit behaviour, the load strategy, how to
+   reach deep states, and the **local time** in the product's market. Products whose
+   content depends on opening hours (food, retail, bookings) run during those hours, or the
+   brief says what will be closed and agents label it [night]. Selectors in helpers target
+   **visible** elements (a 0×0 duplicate once sent real clicks to the logo).
 5. **Run every code snippet in the brief exactly as written** before dispatching.
    A paraphrased snippet sent five agents to the wrong screen once.
 

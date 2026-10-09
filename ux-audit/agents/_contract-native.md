@@ -66,7 +66,16 @@ installs nothing. Run it with no arguments for the command list.
   - `record start <name>` … `record stop`: mp4 + marks, and it prints the
     `capture-video-motion.mjs` command;
   - `jank <pkg> --do "swipe …" --do "wait 700"`: quote gfxinfo for native UI, and the
-    SurfaceFlinger `SurfaceView[…]` layer for Chrome, WebViews and games.
+    SurfaceFlinger `SurfaceView[…]` layer for Chrome, WebViews and games;
+  - `vibrations <pkg> [--since HH:MM:SS]`: the haptics the app requested (time, duration,
+    usage, `performHapticFeedback(constant=…)`), from the system's recent-vibration log. Note
+    the device time before an action and read it after; the emulator can't make you feel them.
+- **Use the script, not raw `adb`:** `adb` is usually not on your PATH; the script finds it in
+  the SDK. A shell `adb` that fails returns an empty log, which once read as "0 haptics".
+- **Owner-only setups** (Terms accepted, a guest session, a signed-in account): the
+  orchestrator saves them with `snapshot save audit-ready`. If the app loses that state (an
+  exit, a crash, a reset), restore with `snapshot load audit-ready` instead of asking the owner
+  again, and log what lost it (it can be a finding).
 - **Settings are shared device state:** change them only with `settings font-scale |
   reduce-motion | dark …` and always end with `settings reset`, even after an error. Also
   run `chrome-unsetup` if you ran `chrome-setup`.

@@ -88,6 +88,9 @@ simulator or emulator, or a real-mobile pass, also read `agents/_contract-native
   1024×768 viewport), not CSS px. Click with frame coordinates; measure with
   `javascript_tool` / `extract-design.js` (CSS px).
 - If `innerWidth` is 0, set a viewport and reload before measuring.
+- **Click what the user can see:** many products render hidden or 0×0 copies of a control
+  (sticky headers, collapsed bars). Before a real mouse click on a selector, pick the first
+  match with a non-zero `getBoundingClientRect()`; `capture-motion.mjs` already does.
 - Never close, navigate or resize other tabs. Close your own tab when done.
 
 ## Safety (non-negotiable)
