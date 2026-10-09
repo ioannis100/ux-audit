@@ -109,7 +109,9 @@ Group the raw list into features ("Book a Table", "Fresh Sashimi rail + View All
 2. **Implement the specs, don't describe them.** Durations, easing and springs from the
    redesign go into real CSS/WAAPI so the owner can feel them. Tag them [S]/[H] in the
    notes. Add `@media (prefers-reduced-motion: reduce)` fallbacks.
-   **Build the reward layer** for the screen's actions at their `reward.md` §3 tier:
+   **Build the Must-do and Good-to-have `D-xx` details** from `findings/interaction-detail.md`
+   on the screen (pressed, busy, success and error states, motion from its source, rolling
+   numbers), in the product's identity. **Build the reward layer** for the screen's actions at their `reward.md` §3 tier:
    press answers ≤ 85 ms, the earned step fills or springs, the number rolls, the next
    reward is named. Write the haptic and sound each beat would fire as a small caption in
    the notes ("CONFIRM / .success"), since a browser can't play them on iPhone. No win

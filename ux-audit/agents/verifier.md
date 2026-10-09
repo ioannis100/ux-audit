@@ -18,6 +18,10 @@ to *disprove* each finding you're given, not to agree with it.
      cold dev server isn't a production problem.)
    - Is it reproducible a second time?
    - "Not exposed / not announced": check the full accessibility tree (`interestingOnly: false`).
+   - Marketplace trust and provider findings: re-run the matching M-test (`marketplace.md` §4).
+   - "No pressed state": re-measure at a desktop viewport (`sample-motion.mjs … press:`); headless
+     Chrome skips `:active` for mouse presses under touch emulation, and pushes, shadows and
+     filters count as pressed states (`styleChanges`).
    - Timings: was the change detected by colour, not brightness alone? Was a sound credited to the
      action that caused it (`reward.md` §8)? Which theme was the screen in?
    - Is the severity honest — would a real user pay that cost, that often?

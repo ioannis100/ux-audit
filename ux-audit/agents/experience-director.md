@@ -53,7 +53,8 @@ the end, the return):
   - on native or with the source available, which haptic fires.
 - **Control states** of the primary controls: default, hover (fine pointer), pressed,
   focus, disabled, busy, success, error. Missing pressed or busy states are feel gaps;
-  missing focus is access-perf's. List the missing ones in the moment map.
+  missing focus is access-perf's. List the missing ones in the moment map; the full
+  component × state grid and its prescriptions are `interaction-detail`'s, so don't duplicate it.
 - **Result moments** (order placed, payout, score, match, recap, milestone): **receipt or
   gift?** Check anticipation, a reveal with weight, and afterglow
   (`engagement-retention.md` → Reward moments).

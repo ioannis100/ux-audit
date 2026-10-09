@@ -34,15 +34,18 @@ to choose (`references/black-ux.md`).
 | `agents/power-user.md` | Repeat-use persona: speed of the habitual task, workarounds, investment |
 | `agents/visual-craft.md` | Measured type, spacing, colour, consistency, direction score |
 | `agents/access-perf.md` | Keyboard, accessibility tree, contrast, targets, reflow, reduced motion, vitals |
+| `agents/interaction-detail.md` | **The small details:** every component × every state (pressed, busy, success, error, empty…), measured motion, gestures; prescribes what's missing (`D-xx`) from `references/micro-interactions.md`, in the product's identity |
 | `agents/verifier.md` | Adversarial re-check |
 | `agents/mockup-maker.md` | **Optional.** Interactive before/after mock-ups of the top redesigns in the product's **own identity** (logo, fonts, palette, shapes), on real content, with every live feature kept |
 | `references/benchmark-apps.md` | **The playbook:** 10 laws of pull, motion tokens, rules by moment type, recipes by app type, ethical line |
 | `references/reward.md` | **Reward layer** ("dopamine pass"): what the evidence says about small rewards, the five ingredients, the intensity ladder, web/native specs, and red-line tests R1–R12 borrowed from casino research |
+| `references/marketplace.md` | **Service marketplaces, both sides:** what the leaders do (TaskRabbit, Thumbtack, Airtasker, Fiverr, Upwork, Checkatrade…), the client moment recipe, the provider pass (money, leads, speed, ranking, due process), trust red-line tests M1–M12, pull per side |
 | `references/black-ux.md` | **Black UX:** the persuasion top apps use (loss framing, guilt, leagues, wagers, chance, social pressure), why each is contested, the 5-point gate for recommending it, and what is never recommended |
 | `references/app-mechanics.md` · `mockup-craft.md` | **Ideation:** mechanics of 22 widely used apps + the transplant method · the mock-up craft bar: execution within the product's identity + a 13-item checklist |
 | `references/*.md` | Standards: usability, visual-design, emotional, motion (incl. the transition audit), accessibility-performance, content-and-forms, landing-pages, engagement-retention |
 | `scripts/extract-design.js` | In-page measurement (type, contrast, spacing, motion timings, targets, forms, fold). Self-check: `scripts/selftest.html` |
 | `scripts/capture-motion.mjs` | Records a tap or screen change → filmstrip + JSON (first change, settled, hard cuts, blank gaps, easing, long frames); `--selftest` |
+| `scripts/sample-motion.mjs` | Measures one element exactly, every frame: declared CSS/WAAPI timing, measured duration, the curve (named if it's a platform token) or the spring (damping, bounce, response, SwiftUI/Compose code), and shadow/filter/colour changes; `--selftest` |
 | `scripts/render-mockup.mjs` | Renders a mock-up; checks errors, broken images, contrast, feature parity and identity (foreign fonts or colours, logo) |
 | `agents/_contract-native.md` · `scripts/native-ios.mjs` · `scripts/native-android.mjs` · `scripts/capture-video-motion.mjs` | Native and real-device work: iOS simulator / Android emulator per agent (open, tap, record with marks, accessibility tree, font scale, reduced motion, dark, jank) and motion analysis of **any** screen recording, including the owner's real phone |
 
@@ -52,7 +55,7 @@ Source research: `../research/` (teardowns of ~25 apps in `research/teardowns/`)
 
 | Target | Mode |
 |--------|------|
-| Screenshots, one screen or component, "what's wrong with this" | **Solo**: do it yourself with the `experience-director.md` checklist + `visual-craft.md` steps 1–4 + `access-perf.md` step 3. Short format: verdict, 3–5 M-xx, P0/P1. Head it "single-evaluator pass, expect ~1/3 coverage". |
+| Screenshots, one screen or component, "what's wrong with this" | **Solo**: do it yourself with the `experience-director.md` checklist + `interaction-detail.md` steps 2 and 6 + `visual-craft.md` steps 1–4 + `access-perf.md` step 3. Short format: verdict, 3–5 M-xx, P0/P1. Head it "single-evaluator pass, expect ~1/3 coverage". |
 | A real app or site with 2+ journeys | **Team** (default for "audit my app"). |
 | Huge product (10+ journeys) | **Team, scoped**: ask which area first. |
 | "Redo / make mock-ups" for an existing audit | **Mock-ups only**: reuse that audit's `report.md`, `findings/` and `evidence/`; install puppeteer-core (Phase 1 step 2), skip the agents of Phases 2–3, run Phase 4 steps 4–5 into `mockups/` (old files kept as `-v1`), then update the report's projected column. |
@@ -75,6 +78,12 @@ From the user, the repo or the product:
   none are named, infer from the app type (`benchmark-apps.md` §4) and say so.
 - **Cadence:** how often a happy user should come back (daily, weekly, per occasion).
   This sets the pull plan.
+- **Two-sided products** (marketplaces, booking platforms, gig apps): name both sides
+  (e.g. clients and providers) and give each its own core journeys, cadence (clients are
+  often occasional, providers daily) and access. The provider side usually needs a session
+  the owner signs in; without it, that half goes under "Not checked". Score and recommend
+  per side, then overall. Service marketplaces: every agent also loads
+  `references/marketplace.md`.
 - **Goal:** activation, conversion, repeat use, trust.
 - **Real user evidence:** funnels, drop-offs, reviews, support tickets, retention.
   SUS/UMUX-Lite if any.
@@ -99,7 +108,9 @@ Don't interrogate. If the user just pasted a URL, infer the rest and list assump
      verifiers can restore it.
    - **Websites get a real-mobile pass:** the core journey once in iOS Safari and once in
      Android Chrome (prompts, WebKit transitions, TalkBack labels desktop can't show). Ask
-     the owner for real-phone recordings of the 2–3 key transitions.
+     the owner for real-phone recordings of the 2–3 key transitions, and (optional) of the
+     same moments in a north-star app at 120 fps: measured benchmarks beat written specs
+     (`micro-interactions.md` §8–9).
 3. Build the **screen and moment inventory from the live product**, not from specs
    (they are "intended" only): screens, the moments of each core journey (launch,
    primary taps, screen changes, main list, waits, success, error, end), and the
@@ -128,8 +139,9 @@ Write your findings to <audit>/findings/<role>.md.
 <role-specific scoping>
 ```
 
-Roster: `experience-director` (lead, always), `first-timer`, `flow-breaker`,
-`visual-craft`, `access-perf`, and `power-user` **whenever the cadence is weekly or more**.
+Roster: `experience-director` (lead, always), `interaction-detail` (always), `first-timer`,
+`flow-breaker`, `visual-craft`, `access-perf`, and `power-user` **whenever the cadence is weekly
+or more**.
 
 Each agent gets its own tab or visible-Chrome context, so all run at once. While they
 run, walk the north-star benchmark app(s) through the same moments where reachable, and
@@ -139,8 +151,8 @@ note what they do that this product doesn't.
 
 Dispatch `verifier` agents (≤ 3, ~12 items each) on every **P0/P1**; on every P2 that
 cites WCAG A/AA, money, consent or a dark pattern (the **promotion scan**: those get
-raised); and on the **"Now" evidence of every redesign** shown in the report or a
-mock-up (the observation must be real; the redesign is a recommendation).
+raised); and on the **"Now" evidence of every redesign and Must-do `D-xx` detail** shown in
+the report or a mock-up (the observation must be real; the redesign is a recommendation).
 
 REJECTED → drop it and log it in the appendix. UNCERTAIN → keep it, labelled. Verifier
 severities win unless shown wrong. Other P2/P3s aren't verified; they go in the appendix
@@ -242,6 +254,8 @@ appendix one-liners (the rest: "see findings/"). A redesign that depends on a fi
 4d. **Reward layer:** reward density (beats per core-loop run, longest dead stretch),
    the top 3 missing micro-rewards with specs, and red-line results R1–R12
    (`reward.md`). Say "effects", never "dopamine hits".
+4e. **Interaction details:** the detail score /10, the component × state grid (missing states
+   only), and the `D-xx` prescriptions with specs; they also feed the Recommendation tiers.
 5. **Clarity map:** every place users don't know what to do, one line each, with
    screenshot paths.
 6. **Pull plan:** hook trace with the missing link; 3–5 mechanisms fitted to the

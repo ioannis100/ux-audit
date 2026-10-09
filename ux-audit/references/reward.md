@@ -194,6 +194,10 @@ nothing at stake (a streak "will reset" while a freeze is equipped) is a P2 cont
 night pushes and visible like counts **off by default**; no reward loops for time spent
 (EU DSA Art. 28 guidelines 2025, ICO std 5, NY SAFE for Kids, CA SB 976) [REG].
 
+**Marketplaces:** also run M1–M12 in `marketplace.md` §4 (fees, sponsored ranking, review
+provenance and gating, blind reveal, badges, guarantees, off-platform, scams, disputes, provider
+credits and pressure).
+
 **Legal-but-contested persuasion** (truthful loss framing, guilt-tinged mascot voice, wagers,
 leagues, free chance rewards) is not a red line: see `black-ux.md` for when to recommend it.
 

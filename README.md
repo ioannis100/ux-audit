@@ -15,6 +15,12 @@ tells you, with evidence:
   results, sensory specs, casino psychology, law), with 12 red-line tests that flag
   manipulation such as near-misses, losses celebrated as wins or paid randomness.
 - **Fix:** a short, verified list of what's broken (P0/P1 flows, accessibility, speed).
+- **Small details:** an agent that checks every component in every state (pressed, busy,
+  success, error, empty…), measures motion exactly (duration, curve or spring, shadows and
+  filters) and prescribes what's missing, in the product's own look.
+- **Two-sided marketplaces:** client and provider journeys audited separately, with a
+  research-based playbook (TaskRabbit, Thumbtack, Airtasker, Fiverr, Upwork…) and trust tests
+  for fees, reviews, ranking, badges, payments and provider credits.
 - **Recommendations in 4 tiers:** Must-do, Good to have, Useful (lower priority), and
   **Black (informed choice)**: the persuasion top apps use (loss-framed streaks, guilt,
   leagues, wagers, chance), explained with why some consider it unethical, the risk and how

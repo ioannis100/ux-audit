@@ -179,6 +179,8 @@ If not, it's manipulation. Flag any of these (Brignull / deceptive.design, FTC, 
 - **Fake progress** — endowed progress or progress bars not backed by real completed
   steps. Loss-framed dismiss copy ("I'll risk it") is confirmshaming.
 
+- **Marketplace trust** (drip fees, unlabelled paid ranking, review gating, badges that don't
+  mean what they say, provider credits that hide money): run M1–M12 in `marketplace.md` §4.
 - **Reward manipulation** — near-misses, losses celebrated as wins, celebrating
   spending, paid randomness, removed stopping cues, credits hiding money, speed-ups on
   money: run the R1–R12 tests in `reward.md` §7.
