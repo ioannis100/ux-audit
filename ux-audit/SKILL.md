@@ -39,7 +39,9 @@ to choose (`references/black-ux.md`).
 | `agents/mockup-maker.md` | **Optional.** Interactive before/after mock-ups of the top redesigns in the product's **own identity** (logo, fonts, palette, shapes), on real content, with every live feature kept |
 | `references/benchmark-apps.md` | **The playbook:** 10 laws of pull, motion tokens, rules by moment type, recipes by app type, ethical line |
 | `references/reward.md` | **Reward layer** ("dopamine pass"): what the evidence says about small rewards, the five ingredients, the intensity ladder, web/native specs, and red-line tests R1–R12 borrowed from casino research |
+| `references/app-types.md` | **Classify any app:** ~27 app types with how to recognise them, their category leaders and deciding moments; cross-category donors by moment; the creative method (same-category baseline + cross-category ideas, safe/adapted/bold) |
 | `references/marketplace.md` | **Service marketplaces, both sides:** what the leaders do (TaskRabbit, Thumbtack, Airtasker, Fiverr, Upwork, Checkatrade…), the client moment recipe, the provider pass (money, leads, speed, ranking, due process), trust red-line tests M1–M12, pull per side |
+| `references/classifieds.md` | **Classifieds** (goods, cars, property, jobs; buyers, private sellers, businesses): what the leaders do (Rightmove, AutoScout24, Leboncoin, Kleinanzeigen, Vinted, Indeed…), the buyer recipe, the seller and business pass (posting, VIP/TOP, wallet, feeds), red-line tests C1–C12 incl. scams and EU ad rules |
 | `references/black-ux.md` | **Black UX:** the persuasion top apps use (loss framing, guilt, leagues, wagers, chance, social pressure), why each is contested, the 5-point gate for recommending it, and what is never recommended |
 | `references/app-mechanics.md` · `mockup-craft.md` | **Ideation:** mechanics of 22 widely used apps + the transplant method · the mock-up craft bar: execution within the product's identity + a 13-item checklist |
 | `references/*.md` | Standards: usability, visual-design, emotional, motion (incl. the transition audit), accessibility-performance, content-and-forms, landing-pages, engagement-retention |
@@ -75,7 +77,7 @@ From the user, the repo or the product:
   flows go under "Not checked". Decide this here, never mid-run.
 - **How it should feel:** 3 adjectives, the **north-star apps** they admire, and **1–2
   direct competitors**. Every named app gets a "borrow & adapt" line in the report. If
-  none are named, infer from the app type (`benchmark-apps.md` §4) and say so.
+  none are named, infer them from the app type (`app-types.md` §2) and say so.
 - **Cadence:** how often a happy user should come back (daily, weekly, per occasion).
   This sets the pull plan.
 - **Two-sided products** (marketplaces, booking platforms, gig apps): name both sides
@@ -83,7 +85,8 @@ From the user, the repo or the product:
   often occasional, providers daily) and access. The provider side usually needs a session
   the owner signs in; without it, that half goes under "Not checked". Score and recommend
   per side, then overall. Service marketplaces: every agent also loads
-  `references/marketplace.md`.
+  `references/marketplace.md`; classifieds (three sides: buyers, private sellers,
+  businesses): `references/classifieds.md`.
 - **Goal:** activation, conversion, repeat use, trust.
 - **Real user evidence:** funnels, drop-offs, reviews, support tickets, retention.
   SUS/UMUX-Lite if any.
@@ -111,19 +114,22 @@ Don't interrogate. If the user just pasted a URL, infer the rest and list assump
      the owner for real-phone recordings of the 2–3 key transitions, and (optional) of the
      same moments in a north-star app at 120 fps: measured benchmarks beat written specs
      (`micro-interactions.md` §8–9).
-3. Build the **screen and moment inventory from the live product**, not from specs
+3. **Classify the product** (`app-types.md` §1): primary and secondary type, traits
+   (two-sided, money, habit, regulated, kids, B2B), 2–3 category leaders to compare with and
+   3–5 cross-category donors chosen by its deciding moments. It goes into the brief.
+4. Build the **screen and moment inventory from the live product**, not from specs
    (they are "intended" only): screens, the moments of each core journey (launch,
    primary taps, screen changes, main list, waits, success, error, end), and the
    elements each section's DOM actually contains.
-4. Write `brief.md`: product, platform, URLs, test access, journeys, inventory, how it
-   should feel + north-star apps + competitors, cadence, goal, real-user evidence, safety
-   rules, and the tooling and quirks: state that leaks between tabs (pin it via URL
+5. Write `brief.md`: product, platform, URLs, test access, journeys, the classification,
+   inventory, how it should feel + north-star apps + competitors, cadence, goal,
+   real-user evidence, safety rules, and the tooling and quirks: state that leaks between tabs (pin it via URL
    params), visibility, idle or first-visit behaviour, the load strategy, how to
    reach deep states, and the **local time** in the product's market. Products whose
    content depends on opening hours (food, retail, bookings) run during those hours, or the
    brief says what will be closed and agents label it [night]. Selectors in helpers target
    **visible** elements (a 0×0 duplicate once sent real clicks to the logo).
-5. **Run every code snippet in the brief exactly as written** before dispatching.
+6. **Run every code snippet in the brief exactly as written** before dispatching.
    A paraphrased snippet sent five agents to the wrong screen once.
 
 ## Phase 2: Dispatch (parallel, one message, background)
@@ -247,9 +253,11 @@ appendix one-liners (the rest: "see findings/"). A redesign that depends on a fi
    overview PNGs.
 4b. **Motion & transitions:** the transition-matrix headline (hard cuts, blank gaps,
    worst 3), the motion table, and the top transition enhancements with specs.
-4c. **Borrow & adapt:** for every app the owner named (plus the 2–3 most relevant): its
-   mechanics → fits as-is? → our version → don't copy. Then the top 5 ideas, scored
-   impact × ease. Invented names are marked as examples. The long version goes in
+4c. **Borrow & adapt:** for every app the owner named, the category leaders and the
+   cross-category donors (`app-types.md` §4): its mechanics → fits as-is? → our version →
+   don't copy. Then the top 5 ideas, scored impact × ease, each labelled **same-category**
+   (what users will expect) or **cross-category** (what would set it apart), with a safe,
+   adapted and bold version. Invented names are marked as examples. The long version goes in
    `<audit>/borrow-from-apps.md` (format: `app-mechanics.md` §2).
 4d. **Reward layer:** reward density (beats per core-loop run, longest dead stretch),
    the top 3 missing micro-rewards with specs, and red-line results R1–R12
@@ -262,7 +270,8 @@ appendix one-liners (the rest: "see findings/"). A redesign that depends on a fi
    product's cadence; the screenshot-worthy moment; ethics check per mechanism.
 7. **Emotional journey:** step → feeling; worst moment, peak, ending, and the redesign
    of each.
-8. **Benchmark gap:** where the north-star apps beat this product, concretely.
+8. **Benchmark gap:** where the category leaders and north-star apps beat this product,
+   concretely (category conventions users will expect are clarity gaps, Jakob's law).
 
 **Part 2: Fix** (short)
 

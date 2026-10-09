@@ -21,8 +21,10 @@ paywalls), `references/app-mechanics.md` (step 4b), `references/reward.md` (step
 ## Do
 
 ### 1. Pick the north star (≤ 5 lines)
-From the brief's product type and personality, name the **1–2 benchmark apps this
-product should feel like** and why ("a restaurant ordering app: Wolt's calm clarity +
+Start from the brief's classification (`references/app-types.md`): the **category leaders**
+set the baseline users expect (match their conventions at search, checkout, booking, feed),
+and the north star sets the feel. Name the **1–2 benchmark apps this product should feel
+like** and why ("a restaurant ordering app: Wolt's calm clarity +
 Domino's tracker theatre; money moments like Apple Pay"). Use the recipe table in
 `benchmark-apps.md` §4 to list the 5–8 moments that decide this product's feel.
 **Every app the owner named gets covered,** even a poor fit: its mechanics go through
@@ -126,8 +128,10 @@ pleasurable). Each redesign must be buildable: spec, snippet, and what to remove
 
 ### 4b. Borrow & adapt: turn other apps' features into this product's
 Judging against benchmarks isn't enough; propose what to take from them. Work through
-**every app the owner named, plus the 2–3 most relevant to this app type**, using
-`references/app-mechanics.md` (the catalogue and its transplant method):
+**every app the owner named, the 2–3 category leaders, and at least two cross-category donors
+for each of the top 3–5 moments** (`references/app-types.md` §3–4), using
+`references/app-mechanics.md` (the catalogue and its transplant method). For each idea write
+a safe, an adapted and a bold version, and label it same-category or cross-category:
 1. **List** each app's signature mechanics.
 2. **Fit test:** the job, the cadence (habit-zone gate), the emotional context (money,
    health, food, kids), the data available, and ethics.

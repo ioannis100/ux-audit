@@ -18,7 +18,9 @@ to *disprove* each finding you're given, not to agree with it.
      cold dev server isn't a production problem.)
    - Is it reproducible a second time?
    - "Not exposed / not announced": check the full accessibility tree (`interestingOnly: false`).
-   - Marketplace trust and provider findings: re-run the matching M-test (`marketplace.md` §4).
+   - Marketplace trust and provider findings: re-run the matching M-test (`marketplace.md` §4);
+     classifieds: the matching C-test (`classifieds.md` §4). A legal duty that depends on the site's
+     status (size, checkout or not) stays a legal question, not a finding.
    - "No pressed state": re-measure at a desktop viewport (`sample-motion.mjs … press:`); headless
      Chrome skips `:active` for mouse presses under touch emulation, and pushes, shadows and
      filters count as pressed states (`styleChanges`).

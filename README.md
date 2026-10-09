@@ -18,6 +18,11 @@ tells you, with evidence:
 - **Small details:** an agent that checks every component in every state (pressed, busy,
   success, error, empty…), measures motion exactly (duration, curve or spring, shadows and
   filters) and prescribes what's missing, in the product's own look.
+- **Any kind of app:** it first classifies the product (about 29 app types, from food delivery
+  to classifieds, health, dating or B2B dashboards), compares it with its category's leaders
+  (what users already expect), then borrows creatively from other categories, with a safe,
+  adapted and bold version of each idea. Researched playbooks for classifieds (Rightmove,
+  AutoScout24, Leboncoin, Kleinanzeigen, Vinted…) and service marketplaces.
 - **Two-sided marketplaces:** client and provider journeys audited separately, with a
   research-based playbook (TaskRabbit, Thumbtack, Airtasker, Fiverr, Upwork…) and trust tests
   for fees, reviews, ranking, badges, payments and provider credits.

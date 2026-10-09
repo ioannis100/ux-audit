@@ -58,7 +58,8 @@ engineering (R1), credits that hide money (R6), speed-ups on money decisions (R7
 cancellation (R9; FTC v Amazon $2.5B), forced games before the service (R10), hidden bonus
 conditions (R11), shaming the decline button, anything aimed at minors. Tests: `reward.md` §7.
 
-Marketplace-specific techniques and red lines (both sides): `marketplace.md` §6.
+Marketplace-specific techniques and red lines (both sides): `marketplace.md` §6; classifieds:
+`classifieds.md` §7.
 
 ## 5. When the audited product already uses one
 
