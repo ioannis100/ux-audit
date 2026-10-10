@@ -48,6 +48,7 @@ to choose (`references/black-ux.md`).
 | `scripts/extract-design.js` | In-page measurement (type, contrast, spacing, motion timings, targets, forms, fold). Self-check: `scripts/selftest.html` |
 | `scripts/capture-motion.mjs` | Records a tap or screen change → filmstrip + JSON (first change, settled, hard cuts, blank gaps, easing, long frames); `--selftest` |
 | `scripts/sample-motion.mjs` | Measures one element exactly, every frame: declared CSS/WAAPI timing, measured duration, the curve (named if it's a platform token) or the spring (damping, bounce, response, SwiftUI/Compose code), and shadow/filter/colour changes; `--selftest` |
+| `scripts/owner-session.mjs` | The owner signs in once in a separate Chrome profile; `export` saves the session for agents, `check` verifies it, `clean` deletes it |
 | `scripts/render-mockup.mjs` | Renders a mock-up; checks errors, broken images, contrast, feature parity and identity (foreign fonts or colours, logo) |
 | `agents/_contract-native.md` · `scripts/native-ios.mjs` · `scripts/native-android.mjs` · `scripts/capture-video-motion.mjs` | Native and real-device work: iOS simulator / Android emulator per agent (open, tap, record with marks, accessibility tree, font scale, reduced motion, dark, jank) and motion analysis of **any** screen recording, including the owner's real phone |
 
@@ -74,7 +75,10 @@ From the user, the repo or the product:
 - **Test access:** test data only, never real credentials or cards. **Agents never type
   passwords:** for signed-in flows the owner signs in once (simulator, emulator, or a
   browser saved as `storageState`) and agents reuse it, or the run is guest-only and those
-  flows go under "Not checked". Decide this here, never mid-run.
+  flows go under "Not checked". Decide this here, never mid-run. Web: `scripts/owner-session.mjs
+  open <audit> <login-url>` gives the owner a separate Chrome profile to sign in, `export` saves the
+  session (git-ignored), `check` confirms it, `clean` deletes it at the end. Ask what the account may
+  and may not do (e.g. "don't post anything") and write it into the brief.
 - **How it should feel:** 3 adjectives, the **north-star apps** they admire, and **1–2
   direct competitors**. Every named app gets a "borrow & adapt" line in the report. If
   none are named, infer them from the app type (`app-types.md` §2) and say so.
@@ -128,7 +132,11 @@ Don't interrogate. If the user just pasted a URL, infer the rest and list assump
    reach deep states, and the **local time** in the product's market. Products whose
    content depends on opening hours (food, retail, bookings) run during those hours, or the
    brief says what will be closed and agents label it [night]. Selectors in helpers target
-   **visible** elements (a 0×0 duplicate once sent real clicks to the logo).
+   **visible** elements (a 0×0 duplicate once sent real clicks to the logo). The helper also
+   presents phone runs **as a phone** (user agent: some sites serve a separate m. site), hides
+   late overlays (cookie dialogs in shadow roots, survey and chat widgets), and the brief sets a
+   **page-load budget per agent** (≈ 40–150) with the pacing rule in `_contract.md`; note any
+   public read-only API the pages use, for sampling.
 6. **Run every code snippet in the brief exactly as written** before dispatching.
    A paraphrased snippet sent five agents to the wrong screen once.
 
@@ -191,7 +199,9 @@ as one-liners.
 
    Link them from report §4 and `summary.md`.
 5. Clean up: `rm -rf <audit>/node_modules <audit>/package*.json`; keep the `.mjs`
-   scripts as reproduction steps.
+   scripts as reproduction steps. Owner session: `owner-session.mjs clean <audit>`, then scan the
+   audit for the owner's personal data outside `signed-in/`. Tell the owner every side effect the
+   agents logged (automatic requests, view counts, any tap that landed on an overlay).
 
 ## Scoring (calibrated, not kind)
 

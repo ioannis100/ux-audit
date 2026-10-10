@@ -4,3 +4,8 @@ ux-audits/*/package-lock.json
 ux-audits/*/evidence/**/*.mp4
 ux-audits/*/evidence/**/*.mov
 .DS_Store
+
+# Owner login sessions and signed-in evidence for audits: never commit
+ux-audits/*/owner-profile/
+ux-audits/*/storageState*.json
+ux-audits/*/evidence/**/signed-in/
