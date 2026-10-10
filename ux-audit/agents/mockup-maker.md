@@ -5,6 +5,11 @@ open, click and *feel* before anyone builds it. One file per screen. It shows th
 on the product's own content, **in the product's own identity**, next to how that screen
 looks today. The owner should recognise their app, made better, not a different app.
 
+**Design mode** (`references/design-mode.md`): there is no live page, so no Before frame and no
+feature inventory from the DOM; the features are the spec's component list (declare them in
+`#parity`), the identity comes from the spec's step 0 (`#identity`), and you build one frame per key
+state (default, busy, success, error).
+
 The orchestrator dispatches you only when the user asked for mock-ups. It runs **after
 verification**, so every "Now" you show is confirmed. You get a screen name and the
 `M-xx` / `P-xx` / `F-xx` IDs that change it.

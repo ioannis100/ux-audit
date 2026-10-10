@@ -74,7 +74,8 @@ In Claude Code:
 /ux-audit https://your-site.com
 ```
 
-or just ask: "audit my app's UX", "why doesn't this feel like Revolut?", "make the
+or just ask: "audit my app's UX", "design our payment page" (Design mode: a researched,
+buildable spec for a page that doesn't exist yet, with every state and optional mock-ups), "why doesn't this feel like Revolut?", "make the
 checkout feel premium", "redo the mock-ups for the last audit". It asks a few questions
 once (core journeys, the apps you admire, how often users should return, whether you
 want mock-ups), then runs. Works on live URLs, local dev servers, iOS simulators,
